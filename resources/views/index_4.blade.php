@@ -929,9 +929,9 @@
                         </div>
                         <div class="item">
                             <div class="gallery-one__card">
-                                <img src="assets\images\Projects\Project--8.jpeg" alt="">
+                                <img src="assets\images\Projects\Project--6.jpeg" alt="">
                                 <div class="gallery-one__card__hover">
-                                    <a href="assets\images\Projects\Project--8.jpeg" class="img-popup">
+                                    <a href="assets\images\Projects\Project--6.jpeg" class="img-popup">
                                         <span class="gallery-one__card__icon"></span>
                                     </a>
                                 </div><!-- /.gallery-one__card__hover -->
@@ -949,80 +949,106 @@
                     <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1500ms">
                         <div class="reliable-one__images">
                             <div class="reliable-one__image">
-                                <img src="assets/images/reliable/reliable-2-1.jpg" alt="reliable"
+                                <img src="assets/images/Projects/Progress-removebg-preview.png" alt="reliable"
                                     class="reliable-one__image__one">
-                                <div class="reliable-one__image__inner">
-                                    <img src="assets/images/reliable/reliable-2-2.jpg" alt="reliable"
-                                        class="reliable-one__image__two">
-                                    <img src="assets/images/reliable/reliable-2-3.png" alt="reliable"
-                                        class="reliable-one__image__three">
-                                </div><!-- /.reliable-one__image__inner -->
+
+                                {{-- <img src="assets/images/reliable/reliable-2-2.jpg" alt="reliable"
+                                        class="reliable-one__image__two"> --}}
+                                {{-- <img src="assets/images/reliable/reliable-2-3.png" alt="reliable"
+                                        class="reliable-one__image__three"> --}}
+
                                 <div class="experience reliable-one__experience">
                                     <div class="experience__inner">
                                         <h3 class="experience__year"
                                             style="background-image: url('assets/images/shapes/reliable-shape-1-1.png');">
                                             25
                                         </h3>
-                                        <!-- /.experience__year -->
                                         <p class="experience__text">years of <br> experience</p>
-                                        <!-- /.experience__text -->
-                                    </div><!-- /.experience__inner -->
-                                </div><!-- /.experience -->
-                            </div><!-- /.reliable-one__image -->
-                        </div><!-- /.reliable-one__images -->
-                    </div><!-- /.col-lg-6 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-lg-6">
                         <div class="reliable-one__content">
                             <div class="sec-title sec-title--border">
 
-                                <h6 class="sec-title__tagline">reliable</h6><!-- /.sec-title__tagline -->
+                                <h6 class="sec-title__tagline">victory</h6><!-- /.sec-title__tagline -->
 
-                                <h3 class="sec-title__title">We Provide Reliable Flooring Services</h3>
+                                <h3 class="sec-title__title">OUR ACHIEVEMENTS</h3>
                                 <!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
 
 
-                            <p class="reliable-one__text">Our vision is to provide innovative, independent flooring
-                                solutions
-                                that problems for homes, industries, and workspaces, as well as flooring we would like
-                                in
-                                our own residences, work spaces,</p><!-- /.reliable-one__text -->
+                            <p class="reliable-one__text">At Mohit Marble And Granite, our journey has been marked by
+                                remarkable achievements and milestones that reflect our unwavering commitment to
+                                excellence in the marble and granite industry. We take immense pride in these
+                                accomplishments, which serve as a testament to our dedication, craftsmanship, and the
+                                trust placed in us by our valued customers.</p>
                             <div class="row align-items-center gutter-y-30">
                                 <div class="col-lg-6 col-md-4 col-sm-6">
                                     <div class="reliable-one__info">
                                         <div class="reliable-one__info__icon">
                                             <span class="icon-smiley"></span>
-                                        </div><!-- /.reliable-one__info__icon -->
+                                        </div>
                                         <div class="reliable-one__info__text">
                                             <h4 class="reliable-one__info__title">Happy clients</h4>
-                                            <!-- /.reliable-one__info__title -->
-                                            <h5 class="reliable-one__info__total">2.5M+</h5>
-                                            <!-- /.reliable-one__info__total -->
-                                        </div><!-- /.reliable-one__info__text -->
-                                    </div><!-- /.reliable-one__info -->
-                                </div><!-- /.col-lg-6 col-md-4 col-sm-6 -->
+                                            <h5 class="reliable-one__info__total">1151</h5>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="col-lg-6 col-md-4 col-sm-6">
                                     <div class="reliable-one__ratings">
                                         <h4 class="reliable-one__ratings__title">clients rating:</h4>
-                                        <!-- /.reliable-one__ratings__title -->
                                         <div class="floens-ratings @@extraClassName">
                                             <span class="icon-star"></span>
                                             <span class="icon-star"></span>
                                             <span class="icon-star"></span>
                                             <span class="icon-star"></span>
                                             <span class="icon-star"></span>
-                                        </div><!-- /.product-ratings -->
-                                    </div><!-- /.eliable-one__ratings -->
-                                </div><!-- /.col-lg-6 col-md-4 col-sm-6 -->
-                            </div><!-- /.row -->
-                        </div><!-- /.reliable-one__content -->
-                    </div><!-- /.col-lg-6 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </section><!-- /.reliable-one section-space-bottom -->
-        <!-- reliable end -->
-
-        <!-- contact end -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-4 col-sm-6">
+                                    <div class="reliable-one__info">
+                                        <div class="reliable-one__info__icon">
+                                            <span class="icon-smiley"></span>
+                                        </div>
+                                        <div class="reliable-one__info__text">
+                                            <h4 class="reliable-one__info__title">Projects</h4>
+                                            <h5 class="reliable-one__info__total">255</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-4 col-sm-6">
+                                    <div class="reliable-one__info">
+                                        <div class="reliable-one__info__icon">
+                                            <span class="icon-smiley"></span>
+                                        </div>
+                                        <div class="reliable-one__info__text">
+                                            <h4 class="reliable-one__info__title">Marble Varieties</h4>
+                                            <h5 class="reliable-one__info__total">200</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-4 col-sm-6">
+                                    <div class="reliable-one__info">
+                                        <div class="reliable-one__info__icon">
+                                            <span class="icon-smiley"></span>
+                                        </div>
+                                        <div class="reliable-one__info__text">
+                                            <h4 class="reliable-one__info__title" style="white-space: nowrap">Export
+                                                in 11+ countries</h4>
+                                            <h5 class="reliable-one__info__total">11</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="contact-one section-space">
             <div class="contact-one__bg" style="background-image: url('assets/images/backgrounds/contact-bg-1.png');">
             </div><!-- /.contact-one__bg -->
