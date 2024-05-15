@@ -373,21 +373,20 @@
                                 designers dedicated to transforming your vision into reality. Our commitment to
                                 exquisite craftsmanship ensures that every project is meticulously executed, resulting
                                 in breathtaking installations that stand the test of time.
+                            </p>
                                 <br>
-                                <br>
-                                <i style="color:#ffc451;" class="ri-check-double-line"></i>Premium Selection of
-                                Materials.
-                                <br>
-                                <i class="ri-check-double-line"></i>Competitive Pricing without Compromising Quality.
-                                <br>
-                                <i class="ri-check-double-line"></i>Timely Delivery for Your Convenience.
-                                <br>
-                                <br>
+                                <ul>
+                                    <li style="list-style-type: none"><i class="fas fa-check-double" style="color: #f7c566"></i> Premium Selection of Materials.</li>
+                                    <li style="list-style-type: none"><i class="fas fa-check-double" style="color: #f7c566"></i> Competitive Pricing without Compromising Quality.</li>
+                                    <li style="list-style-type: none"><i class="fas fa-check-double" style="color: #f7c566"></i> Timely Delivery for Your Convenience.</li>
+                                </ul>
+                            <p>
                                 <b>Peace of Mind with Our Warranty and Support:</b> We stand behind the quality of our
                                 workmanship and materials. With our comprehensive warranty and reliable after-sales
                                 support, you can rest assured that your investment is protected long after the project
                                 is completed.
                             </p>
+                            
                             <div class="about-three__progress">
                                 <div class="progress-box">
                                     <h4 class="progress-box__title">Marbles and Granites</h4>

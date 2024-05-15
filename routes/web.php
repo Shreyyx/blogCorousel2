@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -78,3 +79,20 @@ Route::get('gallery_carousel',[HomeController::class,'gallery_carousel'])->name(
 Route::get('gallery_filter',[HomeController::class,'gallery_filter'])->name('gallery_filter');
 Route::get('gallery_grid',[HomeController::class,'gallery_grid'])->name('gallery_grid');
 Route::get('gallery_grid',[HomeController::class,'gallery_grid'])->name('gallery_grid');
+Auth::routes();
+
+Route::get('/home', [AdminController::class, 'index'])->name('home');
+
+Route::get('/manage-query', [AdminController::class, 'manage_query'])->name('manage-query');
+Route::post('/save-query', [AdminController::class, 'save_query'])->name('save-query');
+Route::get('/delete-query', [AdminController::class, 'delete_query'])->name('delete-query');
+
+Route::get('/manage-teams', [AdminController::class, 'manage_teams'])->name('manage-teams');
+Route::post('/save-teams', [AdminController::class, 'save_teams'])->name('save-teams');
+Route::post('/update-teams/{id}', [AdminController::class, 'update_teams'])->name('update-teams');
+Route::get('/delete-teams', [AdminController::class, 'delete_teams'])->name('delete-teams');
+
+Route::get('/manage-gallery', [AdminController::class, 'manage_gallery'])->name('manage-gallery');
+Route::post('/save-gallery', [AdminController::class, 'save_gallery'])->name('save-gallery');
+Route::post('/update-gallery/{id}', [AdminController::class, 'update_gallery'])->name('update-gallery');
+Route::get('/delete-gallery', [AdminController::class, 'delete_gallery'])->name('delete-gallery');

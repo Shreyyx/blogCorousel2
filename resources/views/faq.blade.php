@@ -27,31 +27,6 @@
                 </div><!-- /.container -->
             </section><!-- /.page-header -->
 
-            <section class="faq-page-search">
-                <div class="container">
-                    <div class="faq-page-search__inner wow fadeInUp" data-wow-duration="1500ms">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="sec-title sec-title--center">
-
-                                    <h3 class="sec-title__title">Search Your Questions Queries Here</h3>
-                                    <!-- /.sec-title__title -->
-                                </div><!-- /.sec-title -->
-
-
-                                <form action="#" class="faq-page-search__form">
-                                    <input type="text" id="error-search" placeholder="Search Here..." />
-                                    <button type="submit" class="faq-page-search__form__btn" aria-label="search submit">
-                                        <span class="icon-search"></span>
-                                    </button>
-                                </form><!-- /.faq-page-search__form -->
-                            </div><!-- /.col-lg-12 -->
-                        </div><!-- /.row -->
-                    </div><!-- /.faq-page-search__inner -->
-                </div><!-- /.container -->
-            </section><!-- /.faq-page-search -->
-
-
             <section class="faq-page section-space">
                 <div class="container">
                     <div class="row gutter-y-60">
@@ -65,45 +40,44 @@
                                 <div class="accordion">
                                     <div class="accordion-title">
                                         <h4>
-                                            Do you offer a warranty for your work?
+                                            What are the different types of marble available?
                                             <span class="accordion-title__icon"></span><!-- /.accordion-title__icon -->
                                         </h4>
                                     </div><!-- /.accordian-title -->
                                     <div class="accordion-content">
                                         <div class="inner">
-                                            <p>Bring to the table win-win survival strategies to ensure proactive
-                                                domination. At the end of the day, going forward, a new normal that has
-                                                evolved from generation X is on the</p>
+                                            <p>Customers often want to know about the variety of marble options to choose
+                                                from, including colors, patterns, and finishes.</p>
                                         </div><!-- /.accordian-content -->
                                     </div>
                                 </div><!-- /.accordian-item -->
                                 <div class="accordion">
                                     <div class="accordion-title">
                                         <h4>
-                                            Can you help with tile selection and design?
+                                            How do I care for and maintain my marble surfaces?
                                             <span class="accordion-title__icon"></span><!-- /.accordion-title__icon -->
                                         </h4>
                                     </div><!-- /.accordian-title -->
                                     <div class="accordion-content">
                                         <div class="inner">
-                                            <p>Bring to the table win-win survival strategies to ensure proactive
-                                                domination. At the end of the day, going forward, a new normal that has
-                                                evolved from generation X is on the</p>
+                                            <p>This question addresses concerns about maintaining the beauty and longevity
+                                                of marble countertops, floors, and other installations.</p>
                                         </div><!-- /.accordian-content -->
                                     </div>
                                 </div><!-- /.accordian-item -->
                                 <div class="accordion active">
                                     <div class="accordion-title">
                                         <h4>
-                                            What types of tiles are available from a tiles company?
+                                            What is the difference between marble and other stone materials like granite or
+                                            quartz?
                                             <span class="accordion-title__icon"></span><!-- /.accordion-title__icon -->
                                         </h4>
                                     </div><!-- /.accordian-title -->
                                     <div class="accordion-content">
                                         <div class="inner">
-                                            <p>Bring to the table win-win survival strategies to ensure proactive
-                                                domination. At the end of the day, going forward, a new normal that has
-                                                evolved from generation X is on the</p>
+                                            <p>Comparing marble with other popular stone materials helps customers make
+                                                informed decisions based on factors like durability, aesthetics, and
+                                                maintenance requirements.</p>
                                         </div><!-- /.accordian-content -->
                                     </div>
                                 </div><!-- /.accordian-item -->
@@ -111,31 +85,31 @@
                                     <div class="accordion-title">
 
                                         <h4>
-                                            How do I choose the right tiles for my project?
+                                            What is the pricing structure for marble products?
                                             <span class="accordion-title__icon"></span><!-- /.accordion-title__icon -->
 
                                         </h4>
                                     </div><!-- /.accordian-title -->
                                     <div class="accordion-content">
                                         <div class="inner">
-                                            <p>Bring to the table win-win survival strategies to ensure proactive
-                                                domination. At the end of the day, going forward, a new normal that has
-                                                evolved from generation X is on the</p>
+                                            <p>Cost is a significant consideration for customers, so they often inquire
+                                                about pricing details, including factors that influence costs such as type
+                                                of marble, size of the project, and installation complexity.</p>
                                         </div><!-- /.accordian-content -->
                                     </div>
                                 </div><!-- /.accordian-item -->
                                 <div class="accordion">
                                     <div class="accordion-title">
                                         <h4>
-                                            Are there eco-friendly tile options available?
+                                            Can marble be used in outdoor applications?
                                             <span class="accordion-title__icon"></span><!-- /.accordion-title__icon -->
                                         </h4>
                                     </div><!-- /.accordian-title -->
                                     <div class="accordion-content">
                                         <div class="inner">
-                                            <p>Bring to the table win-win survival strategies to ensure proactive
-                                                domination. At the end of the day, going forward, a new normal that has
-                                                evolved from generation X is on the</p>
+                                            <p>Many customers wonder about the suitability of marble for outdoor projects
+                                                like patios, pool decks, and facades, as well as the maintenance
+                                                requirements for such installations.</p>
                                         </div><!-- /.accordian-content -->
                                     </div>
                                 </div><!-- /.accordian-item -->

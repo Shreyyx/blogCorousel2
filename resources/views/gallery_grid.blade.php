@@ -29,98 +29,23 @@
 
             <section class="gallery-one section-space">
                 <div class="container-fluid">
+
                     <div class="row">
+                        @foreach($data as $gallery)
                         <div class="col-xl-4 col-lg-4 col-sm-6">
                             <div class="gallery-one__card">
-                                <img src="assets/images/gallery/gallery-1-1.jpg" alt="gallery">
+                                <img src="{{asset ('GalleryImages/' . $gallery->image)}}"
+                                alt="">
                                 <div class="gallery-one__card__hover">
-                                    <a href="assets/images/gallery/gallery-1-1.jpg" class="img-popup">
+                                    <a href="{{asset ('GalleryImages/' . $gallery->image)}}" class="img-popup">
                                         <span class="gallery-one__card__icon"></span>
                                     </a>
                                 </div><!-- /.gallery-one__card__hover -->
                             </div><!-- /.gallery-one__card -->
-                        </div><!-- /.col-xl-4 col-lg-4 col-sm-6 -->
-                        <div class="col-xl-4 col-lg-4 col-sm-6">
-                            <div class="gallery-one__card">
-                                <img src="assets/images/gallery/gallery-1-8.jpg" alt="gallery">
-                                <div class="gallery-one__card__hover">
-                                    <a href="assets/images/gallery/gallery-1-8.jpg" class="img-popup">
-                                        <span class="gallery-one__card__icon"></span>
-                                    </a>
-                                </div><!-- /.gallery-one__card__hover -->
-                            </div><!-- /.gallery-one__card -->
-                        </div><!-- /.col-xl-4 col-lg-4 col-sm-6 -->
-                        <div class="col-xl-4 col-lg-4 col-sm-6">
-                            <div class="gallery-one__card">
-                                <img src="assets/images/gallery/gallery-1-9.jpg" alt="gallery">
-                                <div class="gallery-one__card__hover">
-                                    <a href="assets/images/gallery/gallery-1-9.jpg" class="img-popup">
-                                        <span class="gallery-one__card__icon"></span>
-                                    </a>
-                                </div><!-- /.gallery-one__card__hover -->
-                            </div><!-- /.gallery-one__card -->
-                        </div><!-- /.col-xl-4 col-lg-4 col-sm-6 -->
-                        <div class="col-xl-4 col-lg-4 col-sm-6">
-                            <div class="gallery-one__card">
-                                <img src="assets/images/gallery/gallery-1-4.jpg" alt="gallery">
-                                <div class="gallery-one__card__hover">
-                                    <a href="assets/images/gallery/gallery-1-4.jpg" class="img-popup">
-                                        <span class="gallery-one__card__icon"></span>
-                                    </a>
-                                </div><!-- /.gallery-one__card__hover -->
-                            </div><!-- /.gallery-one__card -->
-                        </div><!-- /.col-xl-4 col-lg-4 col-sm-6 -->
-                        <div class="col-xl-4 col-lg-4 col-sm-6">
-                            <div class="gallery-one__card">
-                                <img src="assets/images/gallery/gallery-1-10.jpg" alt="gallery">
-                                <div class="gallery-one__card__hover">
-                                    <a href="assets/images/gallery/gallery-1-10.jpg" class="img-popup">
-                                        <span class="gallery-one__card__icon"></span>
-                                    </a>
-                                </div><!-- /.gallery-one__card__hover -->
-                            </div><!-- /.gallery-one__card -->
-                        </div><!-- /.col-xl-4 col-lg-4 col-sm-6 -->
-                        <div class="col-xl-4 col-lg-4 col-sm-6">
-                            <div class="gallery-one__card">
-                                <img src="assets/images/gallery/gallery-1-11.jpg" alt="gallery">
-                                <div class="gallery-one__card__hover">
-                                    <a href="assets/images/gallery/gallery-1-11.jpg" class="img-popup">
-                                        <span class="gallery-one__card__icon"></span>
-                                    </a>
-                                </div><!-- /.gallery-one__card__hover -->
-                            </div><!-- /.gallery-one__card -->
-                        </div><!-- /.col-xl-4 col-lg-4 col-sm-6 -->
-                        <div class="col-xl-4 col-lg-4 col-sm-6">
-                            <div class="gallery-one__card">
-                                <img src="assets/images/gallery/gallery-1-7.jpg" alt="gallery">
-                                <div class="gallery-one__card__hover">
-                                    <a href="assets/images/gallery/gallery-1-7.jpg" class="img-popup">
-                                        <span class="gallery-one__card__icon"></span>
-                                    </a>
-                                </div><!-- /.gallery-one__card__hover -->
-                            </div><!-- /.gallery-one__card -->
-                        </div><!-- /.col-xl-4 col-lg-4 col-sm-6 -->
-                        <div class="col-xl-4 col-lg-4 col-sm-6">
-                            <div class="gallery-one__card">
-                                <img src="assets/images/gallery/gallery-1-12.jpg" alt="gallery">
-                                <div class="gallery-one__card__hover">
-                                    <a href="assets/images/gallery/gallery-1-12.jpg" class="img-popup">
-                                        <span class="gallery-one__card__icon"></span>
-                                    </a>
-                                </div><!-- /.gallery-one__card__hover -->
-                            </div><!-- /.gallery-one__card -->
-                        </div><!-- /.col-xl-4 col-lg-4 col-sm-6 -->
-                        <div class="col-xl-4 col-lg-4 col-sm-6">
-                            <div class="gallery-one__card">
-                                <img src="assets/images/gallery/gallery-1-13.jpg" alt="gallery">
-                                <div class="gallery-one__card__hover">
-                                    <a href="assets/images/gallery/gallery-1-13.jpg" class="img-popup">
-                                        <span class="gallery-one__card__icon"></span>
-                                    </a>
-                                </div><!-- /.gallery-one__card__hover -->
-                            </div><!-- /.gallery-one__card -->
-                        </div><!-- /.col-xl-4 col-lg-4 col-sm-6 -->
-                    </div><!-- /.row -->
+                        </div>
+                        @endforeach
+                    </div>
+
                 </div><!-- /.container-fluid -->
             </section><!-- /.gallery-one section-space -->
         </div><!-- /.page-wrapper -->

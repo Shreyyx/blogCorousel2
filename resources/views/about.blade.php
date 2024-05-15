@@ -66,22 +66,43 @@
 
                                     <h6 class="sec-title__tagline">about us</h6><!-- /.sec-title__tagline -->
 
-                                    <h3 class="sec-title__title">Explore Modern Tiles Stone & Agency</h3>
+                                    <h3 class="sec-title__title">Your Source for Fine Marble Solutions</h3>
                                     <!-- /.sec-title__title -->
                                 </div><!-- /.sec-title -->
 
 
                                 <div class="about-one__content__text wow fadeInUp" data-wow-duration="1500ms"
                                     data-wow-delay="00ms">
-                                    <h5 class="about-one__text-title">We’re providing the best quality tiles in town.</h5>
+                                    <h5 class="about-one__text-title">Why choose us??</h5>
                                     <!-- /.about-one__text-title -->
-                                    <p class="about-one__text">Tiles company, also known as a tile manufacturer or
-                                        distributor,
-                                        specializes in the production and distribution of various types of tiles used for a
-                                        wide
-                                        range of applications. These companies play a crucial role in the construn and
-                                        interior
-                                        design industries by providing tiles for residential.</p><!-- /.about-one__text -->
+                                    <p class="about-one__text">Exquisite Craftsmanship and Unmatched Experience: With over
+                                        three decades of experience in the marble and granite industry, Elegant Stones
+                                        boasts a team of highly skilled artisans and designers dedicated to transforming
+                                        your vision into reality. Our commitment to exquisite craftsmanship ensures that
+                                        every project is meticulously executed, resulting in breathtaking installations that
+                                        stand the test of time.</p><!-- /.about-one__text -->
+                                    <br>
+                                    <ul>
+                                        <li style="list-style-type: none"><i class="fas fa-check-double"
+                                                style="color: #f7c566"></i>
+                                            Premium Selection of Materials.
+                                        </li>
+                                        <li style="list-style-type: none"><i class="fas fa-check-double"
+                                                style="color: #f7c566"></i>
+                                            Competitive Pricing without Compromising Quality.
+                                        </li>
+
+                                        <li style="list-style-type: none"><i class="fas fa-check-double"
+                                                style="color: #f7c566"></i>
+                                            Timely Delivery for Your Convenience.
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        Peace of Mind with Our Warranty and Support: We stand behind the quality of our
+                                        workmanship and materials. With our comprehensive warranty and reliable after-sales
+                                        support, you can rest assured that your investment is protected long after the
+                                        project is completed.
+                                    </p>
                                 </div><!-- /.about-one__content__text -->
                                 <div class="row about-one__inner-row gutter-y-40">
                                     <div class="col-xl-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
@@ -212,8 +233,8 @@
 
             <section class="reliable-one @@extraClassName section-space-bottom">
                 <div class="container">
-                    <div class="row gutter-y-60">
-                        <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1500ms">
+                    <div class="row gutter-y-60 align-items-center">
+                        <div class="col-lg-6">
                             <div class="reliable-one__images">
                                 <div class="reliable-one__image">
                                     <img src="assets/images/reliable/reliable-2-1.jpg" alt="reliable"
@@ -228,8 +249,7 @@
                                         <div class="experience__inner">
                                             <h3 class="experience__year"
                                                 style="background-image: url('assets/images/shapes/reliable-shape-1-1.png');">
-                                                25
-                                            </h3>
+                                                25</h3>
                                             <!-- /.experience__year -->
                                             <p class="experience__text">years of <br> experience</p>
                                             <!-- /.experience__text -->
@@ -241,52 +261,42 @@
                         <div class="col-lg-6">
                             <div class="reliable-one__content">
                                 <div class="sec-title sec-title--border">
-
                                     <h6 class="sec-title__tagline">reliable</h6><!-- /.sec-title__tagline -->
-
-                                    <h3 class="sec-title__title">We Provide Reliable Flooring Services</h3>
+                                    <h3 class="sec-title__title">Our Journey in Marble Mastery</h3>
                                     <!-- /.sec-title__title -->
                                 </div><!-- /.sec-title -->
-
-
-                                <p class="reliable-one__text">Our vision is to provide innovative, independent flooring
-                                    solutions
-                                    that problems for homes, industries, and workspaces, as well as flooring we would like
-                                    in
-                                    our own residences, work spaces,</p><!-- /.reliable-one__text -->
-                                <div class="row align-items-center gutter-y-30">
-                                    <div class="col-lg-6 col-md-4 col-sm-6">
-                                        <div class="reliable-one__info">
-                                            <div class="reliable-one__info__icon">
-                                                <span class="icon-smiley"></span>
-                                            </div><!-- /.reliable-one__info__icon -->
-                                            <div class="reliable-one__info__text">
-                                                <h4 class="reliable-one__info__title">Happy clients</h4>
-                                                <!-- /.reliable-one__info__title -->
-                                                <h5 class="reliable-one__info__total">2.5M+</h5>
-                                                <!-- /.reliable-one__info__total -->
-                                            </div><!-- /.reliable-one__info__text -->
-                                        </div><!-- /.reliable-one__info -->
-                                    </div><!-- /.col-lg-6 col-md-4 col-sm-6 -->
-                                    <div class="col-lg-6 col-md-4 col-sm-6">
-                                        <div class="reliable-one__ratings">
-                                            <h4 class="reliable-one__ratings__title">clients rating:</h4>
-                                            <!-- /.reliable-one__ratings__title -->
-                                            <div class="floens-ratings @@extraClassName">
-                                                <span class="icon-star"></span>
-                                                <span class="icon-star"></span>
-                                                <span class="icon-star"></span>
-                                                <span class="icon-star"></span>
-                                                <span class="icon-star"></span>
-                                            </div><!-- /.product-ratings -->
-                                        </div><!-- /.eliable-one__ratings -->
-                                    </div><!-- /.col-lg-6 col-md-4 col-sm-6 -->
-                                </div><!-- /.row -->
+                                <ul>
+                                    <li style="list-style-type: none">
+                                        <h3><i class="fas fa-check-double" style="color: #f7c566"></i>
+                                            &nbsp;&nbsp;Experience and Expertise:</h3>
+                                        <p>
+                                            Mohit Marble And Granite is one of India’s premier Exporter, Importer,
+                                            Manufacturer and Dealer of Indian and imported Marble and Granite. We have
+                                            ventured into catering to the needs of high-end, luxury projects through ‘MOHIT
+                                            MARBLE AND GRANITES’ which holds a selection of Luxury Marble and Stone. Our
+                                            skilled and experienced team of executives, supervisors and engineers work
+                                            towards offering you a wholesome shopping experience.
+                                        </p>
+                                    </li>
+                                    <li style="list-style-type: none">
+                                        <h3><i class="fas fa-check-double" style="color: #f7c566"></i> &nbsp;&nbsp;
+                                            High-Quality Materials:</h3>
+                                        <p>
+                                            At Mohit Marble And Granite, we pride ourselves on providing the finest
+                                            selection
+                                            of marble and granite materials available in the industry. We understand that
+                                            the foundation of any remarkable project lies in the quality of materials used,
+                                            which is why we go above and beyond to ensure that our customers receive nothing
+                                            less than the best.
+                                        </p>
+                                    </li>
+                                </ul>
                             </div><!-- /.reliable-one__content -->
                         </div><!-- /.col-lg-6 -->
                     </div><!-- /.row -->
                 </div><!-- /.container -->
-            </section><!-- /.reliable-one section-space-bottom -->
+            </section>
+
 
             <section class="team-one team-one--about section-space-two" id="team">
                 <div class="team-one__bg" style="background-image: url('assets/images/backgrounds/team-bg-1-1.png');">
@@ -299,7 +309,7 @@
 
                                     <h6 class="sec-title__tagline">our team</h6><!-- /.sec-title__tagline -->
 
-                                    <h3 class="sec-title__title">Meet our Best Team <br> Members</h3>
+                                    <h3 class="sec-title__title">Meet &nbsp; our <br>Board &nbsp; Members</h3>
                                     <!-- /.sec-title__title -->
                                 </div><!-- /.sec-title -->
 
@@ -307,9 +317,9 @@
                             </div><!-- /.col-lg-6 -->
                             <div class="col-lg-6">
                                 <div class="team-one__top__right">
-                                    <p class="team-one__top__text">Luctus enim vehicula nec. Ut auctor lobortis sapien et
+                                    {{-- <p class="team-one__top__text">Luctus enim vehicula nec. Ut auctor lobortis sapien et
                                         eleifend. Integer ac orci vitae neque porttitor efficitur ac vestibulum orci. Sed
-                                        tincidunt magna sed leo luctus,</p><!-- /.team-one__top__text -->
+                                        tincidunt magna sed leo luctus,</p><!-- /.team-one__top__text --> --}}
                                 </div><!-- /.team-one__top__right -->
                             </div><!-- /.col-lg-6 -->
                         </div><!-- /.row -->
@@ -468,9 +478,9 @@
                 <div class="container">
                     <div class="sec-title sec-title--center">
 
-                        <h6 class="sec-title__tagline">testimonial</h6><!-- /.sec-title__tagline -->
+                        <h6 class="sec-title__tagline">Testimonial</h6><!-- /.sec-title__tagline -->
 
-                        <h3 class="sec-title__title">What People are Talking <br> About Floens</h3>
+                        <h3 class="sec-title__title">What People are Talking <br> About &nbsp; MMG</h3>
                         <!-- /.sec-title__title -->
                     </div><!-- /.sec-title -->
 
@@ -526,11 +536,13 @@
                                         <span class="icon-star"></span>
                                         <span class="icon-star"></span>
                                     </div><!-- /.product-ratings -->
-                                    <a href="https://www.youtube.com/watch?v=h9MbznbxlLc"
+
+                                    {{-- <a href="https://www.youtube.com/watch?v=h9MbznbxlLc"
                                         class="testimonials-card__video video-button video-popup">
                                         <span class="icon-play"></span>
                                         <i class="video-button__ripple"></i>
-                                    </a><!-- /.testimonials-card__video -->
+                                    </a><!-- /.testimonials-card__video --> --}}
+
                                 </div><!-- /.testimonials-card__top -->
                                 <div class="testimonials-card__content">
                                     <div class="testimonials-card__content__inner">
@@ -583,11 +595,13 @@
                                         <span class="icon-star"></span>
                                         <span class="icon-star"></span>
                                     </div><!-- /.product-ratings -->
-                                    <a href="https://www.youtube.com/watch?v=h9MbznbxlLc"
+
+                                    {{-- <a href="https://www.youtube.com/watch?v=h9MbznbxlLc"
                                         class="testimonials-card__video video-button video-popup">
                                         <span class="icon-play"></span>
                                         <i class="video-button__ripple"></i>
-                                    </a><!-- /.testimonials-card__video -->
+                                    </a><!-- /.testimonials-card__video --> --}}
+
                                 </div><!-- /.testimonials-card__top -->
                                 <div class="testimonials-card__content">
                                     <div class="testimonials-card__content__inner">
