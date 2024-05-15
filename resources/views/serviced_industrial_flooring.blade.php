@@ -3,6 +3,14 @@
 @endsection
 @section('content')
 
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+    </head>
+
     <body class="custom-cursor">
 
         <div class="custom-cursor__cursor"></div>
@@ -97,6 +105,94 @@
                                 <div class="service-details__inner-two">
                                     <h3 class="service-details__sub-title">WE HAVE DIFFERENT VARITIES OF INDIAN MARBLE</h3>
                                 </div>
+
+                                <style>
+                                    <style>.card {
+                                        height: 100%;
+                                    }
+
+                                    .card-img-top {
+                                        height: 200px;
+                                        /* Set a fixed height for the images */
+                                        object-fit: cover;
+                                        /* Ensure the images cover the whole space */
+                                    }
+
+                                    .card-title {
+                                        font-size: 1.25rem;
+                                        /* Set a consistent font size for the titles */
+                                    }
+
+                                    .card-body {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: space-between;
+                                    }
+
+                                    .card-body p {
+                                        margin-bottom: 0;
+                                        /* Remove default margin for paragraphs */
+                                    }
+                                </style>
+
+
+
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col">
+                                        <div class="card">
+                                            <img src="assets\images\Projects\Indian-Marble1.png" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Aagariya White Marble</h5>
+                                                <a href="{{ Route('contact') }}" style="text-decoration: none;">
+                                                    <p>Contact us for more information</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card">
+                                            <img src="assets\images\Projects\Indian-Marble2.png" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Onyx Green Marble</h5>
+                                                <a href="{{ Route('contact') }}" style="text-decoration: none;">
+                                                    <p>Contact us for more information</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card">
+                                            <img src="assets\images\Projects\Indian-Marble3.png" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Indo Italian Marble</h5>
+                                                <a href="{{ Route('contact') }}" style="text-decoration: none;">
+                                                    <p>Contact us for more information</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card">
+                                            <img src="assets\images\Projects\Indian-Marble4.png" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Wonder White Marble</h5>
+                                                <a href="{{ Route('contact') }}" style="text-decoration: none;">
+                                                    <p>Contact us for more information</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
                             </div>
                         </div>
                     </div>

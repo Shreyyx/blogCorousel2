@@ -253,7 +253,9 @@
                             </ul>
                         </li>
 
-
+                        <li class="dropdown megamenu">
+                            <a href="{{ Route('index_4') }}">Home</a>
+                        </li>
                         <li class="dropdown">
                             <a href="{{ Route('about') }}">About</a>
                             <ul>

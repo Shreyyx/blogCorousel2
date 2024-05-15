@@ -4728,7 +4728,7 @@ body.megamenu-popup-active .mobile-nav__content {
     }
 }
 .footer-widget--contact {
-    padding-left: 56px;
+    padding-left: 40px;
 }
 @media (max-width: 1199px) {
     .footer-widget--contact {
@@ -12795,7 +12795,6 @@ li:hover .sidebar__comments__icon::after {
 }
 .reliable-one__experience {
     left: -61px;
-    bottom: 29px;
 }
 @media (max-width: 1399px) {
     .reliable-one__experience {

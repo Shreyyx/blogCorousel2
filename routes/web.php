@@ -96,3 +96,6 @@ Route::get('/manage-gallery', [AdminController::class, 'manage_gallery'])->name(
 Route::post('/save-gallery', [AdminController::class, 'save_gallery'])->name('save-gallery');
 Route::post('/update-gallery/{id}', [AdminController::class, 'update_gallery'])->name('update-gallery');
 Route::get('/delete-gallery', [AdminController::class, 'delete_gallery'])->name('delete-gallery');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

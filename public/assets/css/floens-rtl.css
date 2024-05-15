@@ -4729,7 +4729,7 @@ body.megamenu-popup-active .mobile-nav__content {
     }
 }
 .footer-widget--contact {
-    padding-right: 56px;
+    padding-right: 45px;
 }
 @media (max-width: 1199px) {
     .footer-widget--contact {

@@ -374,19 +374,23 @@
                                 exquisite craftsmanship ensures that every project is meticulously executed, resulting
                                 in breathtaking installations that stand the test of time.
                             </p>
-                                <br>
-                                <ul>
-                                    <li style="list-style-type: none"><i class="fas fa-check-double" style="color: #f7c566"></i> Premium Selection of Materials.</li>
-                                    <li style="list-style-type: none"><i class="fas fa-check-double" style="color: #f7c566"></i> Competitive Pricing without Compromising Quality.</li>
-                                    <li style="list-style-type: none"><i class="fas fa-check-double" style="color: #f7c566"></i> Timely Delivery for Your Convenience.</li>
-                                </ul>
+                            <br>
+                            <ul>
+                                <li style="list-style-type: none"><i class="fas fa-check-double"
+                                        style="color: #f7c566"></i> Premium Selection of Materials.</li>
+                                <li style="list-style-type: none"><i class="fas fa-check-double"
+                                        style="color: #f7c566"></i> Competitive Pricing without Compromising Quality.
+                                </li>
+                                <li style="list-style-type: none"><i class="fas fa-check-double"
+                                        style="color: #f7c566"></i> Timely Delivery for Your Convenience.</li>
+                            </ul>
                             <p>
                                 <b>Peace of Mind with Our Warranty and Support:</b> We stand behind the quality of our
                                 workmanship and materials. With our comprehensive warranty and reliable after-sales
                                 support, you can rest assured that your investment is protected long after the project
                                 is completed.
                             </p>
-                            
+
                             <div class="about-three__progress">
                                 <div class="progress-box">
                                     <h4 class="progress-box__title">Marbles and Granites</h4>
@@ -1020,12 +1024,6 @@
 
                         <img src="assets\images\about\progress-graph-removebg-preview.png" alt="reliable"
                             class="reliable-one__image__one">
-
-                        {{-- <img src="assets/images/reliable/reliable-2-2.jpg" alt="reliable"
-                                        class="reliable-one__image__two"> --}}
-                        {{-- <img src="assets/images/reliable/reliable-2-3.png" alt="reliable"
-                                        class="reliable-one__image__three"> --}}
-
                         <div class="experience reliable-one__experience">
                             <div class="experience__inner">
                                 <h3 class="experience__year"
@@ -1042,11 +1040,10 @@
                         <div class="reliable-one__content">
                             <div class="sec-title sec-title--border">
 
-                                <h6 class="sec-title__tagline">victory</h6><!-- /.sec-title__tagline -->
+                                <h6 class="sec-title__tagline">victory</h6>
 
                                 <h3 class="sec-title__title">OUR ACHIEVEMENTS</h3>
-                                <!-- /.sec-title__title -->
-                            </div><!-- /.sec-title -->
+                            </div>
 
 
                             <p class="reliable-one__text">At Mohit Marble And Granite, our journey has been marked by
@@ -1904,15 +1901,14 @@
     <footer class="main-footer">
         <div class="main-footer__bg" style="background-image: url(assets/images/shapes/footer-bg-1-1.png);">
         </div>
-        <!-- /.main-footer__bg -->
         <div class="main-footer__top">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-4 col-lg-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
                         <div class="footer-widget footer-widget--about">
-                            <a href="{{ Route('index_2') }}" class="footer-widget__logo">
-                                <img src="assets\images\about\marble-logo.PNG" width="200px" height="auto"
-                                    alt="Floens HTML Template">
+                            <a href="{{ Route('index_4') }}" class="footer-widget__logo">
+                                <img src="assets/images/Projects/Screenshot_2024-05-15_181714-removebg-preview.png"
+                                    width="200px" height="auto" alt="Floens HTML Template">
                             </a>
                             <p class="footer-widget__about-text">Our commitment to exquisite craftsmanship ensures
                                 that every project is meticulously executed, resulting in breathtaking installations
@@ -1951,12 +1947,12 @@
                                 <h2 class="footer-widget__title">Services</h2><!-- /.footer-widget__title -->
                             </div><!-- /.footer-widget__top -->
                             <ul class="list-unstyled footer-widget__links">
-                                <li><a href="{{ Route('services') }}">Indian Marble</a></li>
-                                <li><a href="{{ Route('services') }}">Granite</a></li>
-                                <li><a href="{{ Route('services') }}">Itailian Marble</a></li>
-                                <li><a href="{{ Route('services') }}">Elevation</a></li>
-                                <li><a href="{{ Route('services') }}">Sand Stone</a></li>
-                                <li><a href="{{ Route('services') }}">Export Services</a></li>
+                                <li><a href="{{ Route('serviced_industrial_flooring') }}">Indian Marble</a></li>
+                                <li><a href="{{ Route('serviced_tiling_concrete') }}">Granite</a></li>
+                                <li><a href="{{ Route('serviced_carpets_rugs') }}">Itailian Marble</a></li>
+                                <li><a href="{{ Route('serviced_oak_flooring') }}">Elevation</a></li>
+                                <li><a href="{{ Route('serviced_vinyl_plank') }}">Sand Stone</a></li>
+                                <li><a href="{{ Route('serviced_vein_patterns') }}">Export Services</a></li>
                             </ul><!-- /.list-unstyled footer-widget__links -->
                         </div><!-- /.footer-widget -->
                     </div><!-- /.col-xl-3 col-lg-3 col-md-4 col-sm-6 -->
@@ -1968,15 +1964,16 @@
                                 <h2 class="footer-widget__title">Get inTouch</h2><!-- /.footer-widget__title -->
                             </div><!-- /.footer-widget__top -->
                             <ul class="list-unstyled footer-widget__info">
-                                <li><a href="https://www.google.com/maps">Rico industrial area , kishangarh 305801</a>
+                                <li><span class="icon-location"></span><a href="https://www.google.com/maps">Rico
+                                        industrial area, kishangarh 305801</a>
                                 </li>
-                                <li><span class="icon-paper-plane"></span> <a href="mailto:needhelp@company.com"
-                                        style="white-space: pre;">mohitmarbleandgranites<p>@gmail.com</p></a></li>
+                                <li><span class="icon-paper-plane"></span> <a href="mailto:needhelp@company.com">mohitmarbleandgranites@gmail.com</a>
+                                </li>
                                 <li><span class="icon-phone-call"></span> <a
                                         href="tel:+9156980036420">9145814566<br>
                                         7425824566</a></li>
-                            </ul><!-- /.list-unstyled -->
-                        </div><!-- /.footer-widget -->
+                            </ul>
+                        </div>
                     </div><!-- /.col-xl-3 col-lg-6 col-md-5 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
@@ -2016,7 +2013,7 @@
                 </div><!-- /.main-footer__inner -->
             </div><!-- /.container -->
         </div><!-- /.main-footer__bottom -->
-    </footer><!-- /.main-footer -->
+    </footer>
 
     </div><!-- /.page-wrapper -->
 
