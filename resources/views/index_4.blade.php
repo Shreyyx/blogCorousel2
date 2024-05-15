@@ -45,6 +45,26 @@
 
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/floens.css" />
+    <style>
+        .fixed-textarea {
+            width: 300px;
+            /* Set the desired width */
+            min-height: 150px;
+            /* Set the minimum height */
+            max-height: 300px;
+            /* Set the maximum height */
+            height: auto;
+            /* Allow automatic height adjustment based on content */
+            resize: none;
+            /* Disable resizing */
+            overflow-y: auto;
+            /* Add vertical scrollbar if content exceeds max-height */
+        }
+
+        .side-by-side {
+            display: inline-block;
+        }
+    </style>
 </head>
 
 <body class="custom-cursor">
@@ -1066,7 +1086,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 col-md-4 col-sm-6">
+                                {{-- <div class="col-lg-6 col-md-4 col-sm-6">
                                     <div class="reliable-one__ratings">
                                         <h4 class="reliable-one__ratings__title">clients rating:</h4>
                                         <div class="floens-ratings @@extraClassName">
@@ -1077,11 +1097,11 @@
                                             <span class="icon-star"></span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
                                 <div class="col-lg-6 col-md-4 col-sm-6">
                                     <div class="reliable-one__info">
                                         <div class="reliable-one__info__icon">
-                                            <span class="icon-smiley"></span>
+                                            <span class="icon-project"></span>
                                         </div>
                                         <div class="reliable-one__info__text">
                                             <h4 class="reliable-one__info__title">Projects</h4>
@@ -1092,7 +1112,7 @@
                                 <div class="col-lg-6 col-md-4 col-sm-6">
                                     <div class="reliable-one__info">
                                         <div class="reliable-one__info__icon">
-                                            <span class="icon-smiley"></span>
+                                            <span class="icon-marble"></span>
                                         </div>
                                         <div class="reliable-one__info__text">
                                             <h4 class="reliable-one__info__title">Marble Varieties</h4>
@@ -1103,7 +1123,7 @@
                                 <div class="col-lg-6 col-md-4 col-sm-6">
                                     <div class="reliable-one__info">
                                         <div class="reliable-one__info__icon">
-                                            <span class="icon-smiley"></span>
+                                            <span class="icon-country"></span>
                                         </div>
                                         <div class="reliable-one__info__text">
                                             <h4 class="reliable-one__info__title" style="white-space: nowrap">Export
@@ -1142,40 +1162,46 @@
                                 data-wow-delay="00ms">
                                 <div class="contact-one__info__bg"
                                     style="background-image: url('assets/images/shapes/contact-info-bg.png');"></div>
-                                <div class="contact-one__info__content">
-                                    <div class="contact-one__info__item">
-                                        <div class="contact-one__info__item__inner">
-                                            <div class="contact-one__info__icon">
-                                                <span class="icon-phone-call"></span>
+                                    <div class="contact-one__info__content">
+                                        <div class="contact-one__info__item side-by-side">
+                                            <div class="contact-one__info__item__inner">
+                                                <div class="contact-one__info__icon">
+                                                    <span class="icon-phone-call"></span>
+                                                </div>
+                                                <p class="contact-one__info__text"><a
+                                                        href="tel:+919145814566">9145814566</a></p>
                                             </div>
-                                            <p class="contact-one__info__text"><a href="tel:+9100305640669">+91
-                                                    9145814566, 7425824566</a></p>
+                                        </div>
+                                        &nbsp; &nbsp; &nbsp; &nbsp;
+                                        <div class="contact-one__info__item side-by-side">
+                                            <div class="contact-one__info__item__inner">
+                                                <div class="contact-one__info__icon">
+                                                    <span class="icon-phone-call"></span>
+                                                </div>
+                                                <p class="contact-one__info__text"><a
+                                                        href="tel:+917425824566">7425824566</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="contact-one__info__item">
+                                            <div class="contact-one__info__item__inner">
+                                                <div class="contact-one__info__icon">
+                                                    <span class="icon-paper-plane"></span>
+                                                </div>
+                                                <p class="contact-one__info__text"><a
+                                                        href="mailto:mohitmarbleandgranites@gmail.com">mohitmarbleandgranites@gmail.com</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="contact-one__info__item">
+                                            <div class="contact-one__info__item__inner">
+                                                <div class="contact-one__info__icon">
+                                                    <span class="icon-location"></span>
+                                                </div>
+                                                <address class="contact-one__info__text">Rico
+                                                        industrial area , kishangarh 305801</address>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="contact-one__info__item">
-                                        <div class="contact-one__info__item__inner">
-                                            <div class="contact-one__info__icon">
-                                                <span class="icon-paper-plane"></span>
-                                            </div><!-- /.contact-one__info__icon -->
-                                            <p class="contact-one__info__text"><a
-                                                    href="mailto:needhelp@company.com">mohitmarbleandgranites@gmail.com</a>
-                                            </p>
-                                            <!-- /.contact-one__info__text -->
-                                        </div><!-- /.contact-one__info__item__inner -->
-                                    </div><!-- /.contact-one__info__item -->
-                                    <div class="contact-one__info__item">
-                                        <div class="contact-one__info__item__inner">
-                                            <div class="contact-one__info__icon">
-                                                <span class="icon-location"></span>
-                                            </div><!-- /.contact-one__info__icon -->
-                                            <address class="contact-one__info__text"><a
-                                                    href="https://www.google.com/maps/@23.506657,90.3443647,7z?entry=ttu">Makrana
-                                                    Highway RIICO Industrial Area Kishangarh,305801 India.</a>
-                                            </address>
-                                            <!-- /.contact-one__info__text -->
-                                        </div><!-- /.contact-one__info__item__inner -->
-                                    </div><!-- /.contact-one__info__item -->
-                                </div><!-- /.contact-one__info__content -->
                                 <img src="assets/images/shapes/contact-shape-1-1.png" alt="contact image"
                                     class="contact-one__info__image">
                             </div><!-- /.contact-one__info -->
@@ -1183,44 +1209,46 @@
                     </div><!-- /.col-xl-6 -->
                     <div class="col-lg-6">
                         <form class="contact-one__form contact-form-validated form-one wow fadeInUp"
-                            data-wow-duration="1500ms" data-wow-delay="200ms"
-                            action="https://bracketweb.com/floens-html/inc/sendemail.php">
-                            <div class="contact-one__form__bg"
-                                style="background-image: url('assets/images/shapes/contact-info-form-bg.png');"></div>
-                            <!-- /.contact-one__form__bg -->
-                            <div class="contact-one__form__top">
-                                <h2 class="contact-one__form__title">Get In Touch With Us And Enjoy <br>
-                                    Top-Notch Support</h2><!-- /.contact-one__form__title -->
-                            </div><!-- /.contact-one__form__top -->
-                            <div class="form-one__group form-one__group--grid">
-                                <div class="form-one__control form-one__control--input form-one__control--full">
-                                    <input type="text" name="name" placeholder="Your name">
-                                </div><!-- /.form-one__control form-one__control--full -->
-                                <div class="form-one__control form-one__control--full">
-                                    <input type="email" name="email" placeholder="your email">
-                                </div><!-- /.form-one__control form-one__control--full -->
-                                <div class="form-one__control form-one__control--full">
-                                    <select class="selectpicker" aria-label="Choose service">
-                                        <option selected>Choose service</option>
-                                        <option value="1">Tiling & concrete</option>
-                                        <option value="2">Industrial Flooring</option>
-                                        <option value="3">Vinyl Plank</option>
-                                        <option value="4">Carpets & rugs</option>
-                                        <option value="5">Oak Flooring</option>
-                                        <option value="6">Vein Patterns</option>
-                                    </select>
-                                </div><!-- /.form-one__control form-one__control--full -->
-                                <div class="form-one__control form-one__control--mesgae form-one__control--full">
-                                    <textarea name="message" placeholder="Write message"></textarea><!-- /# -->
-                                </div><!-- /.form-one__control -->
-                                <div class="form-one__control form-one__control--full">
-                                    <button type="submit" class="floens-btn">
-                                        <span>send message</span>
-                                        <i class="icon-right-arrow"></i>
-                                    </button>
-                                </div><!-- /.form-one__control -->
-                            </div><!-- /.form-one__group -->
-                        </form>
+                        data-wow-duration="1500ms" data-wow-delay="200ms" action="{{ Route('save-query') }}"
+                        id="contact-form" method="POST">
+                        @csrf
+                        <div class="contact-one__form__bg"
+                            style="background-image: url('assets/images/shapes/contact-info-form-bg.png');"></div>
+                        <!-- /.contact-one__form__bg -->
+                        <div class="contact-one__form__top">
+                            <h2 class="contact-one__form__title">Get In Touch With Us And Enjoy <br>
+                                Top-Notch Support</h2><!-- /.contact-one__form__title -->
+                        </div><!-- /.contact-one__form__top -->
+                        <div class="form-one__group form-one__group--grid">
+
+                            <div class="form-one__control form-one__control--input form-one__control--full">
+                                <input type="text" id="name" name="name" placeholder="Your name">
+                            </div><!-- /.form-one__control form-one__control--full -->
+
+                            <div class="form-one__control form-one__control--full">
+                                <input type="email" id="email" name="email" placeholder="your email">
+                            </div><!-- /.form-one__control form-one__control--full -->
+
+                            <div class="form-one__control form-one__control--full">
+                                <input type="text" id="phone" name="phone" placeholder="your phone">
+                            </div><!-- /.form-one__control form-one__control--full -->
+
+                            <div class="form-one__control form-one__control--full">
+                                <input type="text" id="subject" name="subject" placeholder="subject">
+                            </div><!-- /.form-one__control form-one__control--full -->
+
+                            <div class="form-one__control form-one__control--mesgae form-one__control--full">
+                                <textarea id="message" name="message" placeholder="Write message" class="fixed-textarea"></textarea><!-- /# -->
+                            </div><!-- /.form-one__control -->
+
+                            <div class="form-one__control form-one__control--full">
+                                <button type="submit" class="floens-btn">
+                                    <span>send message</span>
+                                    <i class="icon-right-arrow"></i>
+                                </button>
+                            </div><!-- /.form-one__control -->
+                        </div><!-- /.form-one__group -->
+                    </form>
                     </div><!-- /.col-xl-6 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
@@ -1759,81 +1787,27 @@
 
 
             <div class="row gutter-y-30">
+                @foreach($data as $blogs)
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-card blog-card--three wow fadeInUp" data-wow-duration='1500ms'
                         data-wow-delay='000ms'>
                         <div class="blog-card__image">
-                            <img src="assets/images/blog/blog-3-1.jpg"
-                                alt="Talk About the Three Major Types of Floor Tiles">
+                            <img src="{{asset ('BlogImages/' . $blogs->image)}}" alt="">
                             <a href="{{ Route('blog_detailsright') }}" class="blog-card__image__link"><span
-                                    class="sr-only">Talk About the Three Major Types of Floor Tiles</span>
+                                    class="sr-only">{{$blogs->title}}</span>
                                 <!-- /.sr-only --></a>
                         </div><!-- /.blog-card__image -->
                         <div class="blog-card__date">
-                            <span class="blog-card__date__day">20</span>
-                            <span class="blog-card__date__month">june</span>
+                            <span class="blog-card__date__day">{{$blogs->date}}</span>
+                            <span class="blog-card__date__month">{{$blogs->month}}</span>
                         </div><!-- /.blog-card__date -->
                         <div class="blog-card__content">
-                            <h3 class="blog-card__title"><a href="{{ Route('blog_detailsright') }}">Talk About
-                                    the Three
-                                    Major Types of Floor Tiles</a></h3><!-- /.blog-card__title -->
-                            <ul class="list-unstyled blog-card__meta">
-                                <li><a href="#"><i class="icon-user"></i> by Admin</a></li>
-                                <li><a href="#"><i class="icon-comment"></i> 2 Comments</a></li>
-                            </ul><!-- /.list-unstyled blog-card__meta -->
+                            <h3 class="blog-card__title"><a href="{{ Route('blog_detailsright') }}">{{$blogs->title}}</a></h3><!-- /.blog-card__title -->
+                            
                         </div><!-- /.blog-card__content -->
                     </div><!-- /.blog-card -->
-                </div><!-- /.col-lg-4 col-md-6 -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-card blog-card--three wow fadeInUp" data-wow-duration='1500ms'
-                        data-wow-delay='200ms'>
-                        <div class="blog-card__image">
-                            <img src="assets/images/blog/blog-3-2.jpg"
-                                alt="Talk About the Three Major Types of Floor Tiles">
-                            <a href="{{ Route('blog_detailsright') }}" class="blog-card__image__link"><span
-                                    class="sr-only">Talk About the Three Major Types of Floor Tiles</span>
-                                <!-- /.sr-only --></a>
-                        </div><!-- /.blog-card__image -->
-                        <div class="blog-card__date">
-                            <span class="blog-card__date__day">27</span>
-                            <span class="blog-card__date__month">june</span>
-                        </div><!-- /.blog-card__date -->
-                        <div class="blog-card__content">
-                            <h3 class="blog-card__title"><a href="{{ Route('blog_detailsright') }}">Talk About
-                                    the Three
-                                    Major Types of Floor Tiles</a></h3><!-- /.blog-card__title -->
-                            <ul class="list-unstyled blog-card__meta">
-                                <li><a href="#"><i class="icon-user"></i> by Admin</a></li>
-                                <li><a href="#"><i class="icon-comment"></i> 2 Comments</a></li>
-                            </ul><!-- /.list-unstyled blog-card__meta -->
-                        </div><!-- /.blog-card__content -->
-                    </div><!-- /.blog-card -->
-                </div><!-- /.col-lg-4 col-md-6 -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-card blog-card--three wow fadeInUp" data-wow-duration='1500ms'
-                        data-wow-delay='400ms'>
-                        <div class="blog-card__image">
-                            <img src="assets/images/blog/blog-3-3.jpg"
-                                alt="Talk About the Three Major Types of Floor Tiles">
-                            <a href="{{ Route('blog_detailsright') }}" class="blog-card__image__link"><span
-                                    class="sr-only">Talk About the Three Major Types of Floor Tiles</span>
-                                <!-- /.sr-only --></a>
-                        </div><!-- /.blog-card__image -->
-                        <div class="blog-card__date">
-                            <span class="blog-card__date__day">30</span>
-                            <span class="blog-card__date__month">june</span>
-                        </div><!-- /.blog-card__date -->
-                        <div class="blog-card__content">
-                            <h3 class="blog-card__title"><a href="{{ Route('blog_detailsright') }}">Talk About
-                                    the Three
-                                    Major Types of Floor Tiles</a></h3><!-- /.blog-card__title -->
-                            <ul class="list-unstyled blog-card__meta">
-                                <li><a href="#"><i class="icon-user"></i> by Admin</a></li>
-                                <li><a href="#"><i class="icon-comment"></i> 2 Comments</a></li>
-                            </ul><!-- /.list-unstyled blog-card__meta -->
-                        </div><!-- /.blog-card__content -->
-                    </div><!-- /.blog-card -->
-                </div><!-- /.col-lg-4 col-md-6 -->
+                </div>
+                @endforeach
             </div><!-- /.row -->
         </div><!-- /.container -->
     </section><!-- /.blog-three section-space-two -->

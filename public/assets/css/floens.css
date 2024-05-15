@@ -422,8 +422,8 @@ p {
 }
 
 .section-space-two {
-    padding-top: 111px;
-    padding-bottom: var(--section-space, 120px);
+    padding-top: 80px;
+    padding-bottom: var(--section-space, 100px);
 }
 @media (max-width: 767px) {
     .section-space-two {

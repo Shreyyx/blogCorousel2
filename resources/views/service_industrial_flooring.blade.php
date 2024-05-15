@@ -45,6 +45,26 @@
 
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/floens.css" />
+    <style>
+        .fixed-textarea {
+            width: 300px;
+            /* Set the desired width */
+            min-height: 150px;
+            /* Set the minimum height */
+            max-height: 300px;
+            /* Set the maximum height */
+            height: auto;
+            /* Allow automatic height adjustment based on content */
+            resize: none;
+            /* Disable resizing */
+            overflow-y: auto;
+            /* Add vertical scrollbar if content exceeds max-height */
+        }
+
+        .side-by-side {
+            display: inline-block;
+        }
+    </style>
 </head>
 
 <body class="custom-cursor">

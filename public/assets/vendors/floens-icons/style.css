@@ -136,6 +136,19 @@
 .icon-smiley:before {
   content: "\e919";
 }
+
+.icon-project:before {
+  content: "\e91a"; /* Placeholder Unicode character for project icon */
+}
+
+.icon-country:before {
+  content: "\e91b"; /* Placeholder Unicode character for country icon */
+}
+
+.icon-marble:before {
+  content: "\e91c"; /* Placeholder Unicode character for marble icon */
+}
+
 .icon-speech-bubble:before {
   content: "\e91a";
 }

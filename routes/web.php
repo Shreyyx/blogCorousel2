@@ -96,3 +96,13 @@ Route::get('/manage-gallery', [AdminController::class, 'manage_gallery'])->name(
 Route::post('/save-gallery', [AdminController::class, 'save_gallery'])->name('save-gallery');
 Route::post('/update-gallery/{id}', [AdminController::class, 'update_gallery'])->name('update-gallery');
 Route::get('/delete-gallery', [AdminController::class, 'delete_gallery'])->name('delete-gallery');
+
+Route::get('/manage-projects', [AdminController::class, 'manage_projects'])->name('manage-projects');
+Route::post('/save-projects', [AdminController::class, 'save_projects'])->name('save-projects');
+Route::post('/update-projects/{id}', [AdminController::class, 'update_projects'])->name('update-projects');
+Route::get('/delete-projects', [AdminController::class, 'delete_projects'])->name('delete-projects');
+
+Route::get('/manage-blogs', [AdminController::class, 'manage_blogs'])->name('manage-blogs');
+Route::post('/save-blogs', [AdminController::class, 'save_blogs'])->name('save-blogs');
+Route::post('/update-blogs/{id}', [AdminController::class, 'update_blogs'])->name('update-blogs');
+Route::get('/delete-blogs', [AdminController::class, 'delete_blogs'])->name('delete-blogs');

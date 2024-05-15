@@ -262,7 +262,6 @@
                                     <a href="{{ Route('gallery_grid') }}">Gallery</a>
                                 </li>
                                 <li><a href="{{ Route('faq') }}">FAQS</a></li>
-                                <li><a href="{{ Route('login') }}">Login</a></li>
                             </ul>
                         </li>
 
@@ -327,7 +326,7 @@
                 <div class="col-xl-4 col-lg-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
                     <div class="footer-widget footer-widget--about">
                         <a href="{{ Route('index_2') }}" class="footer-widget__logo">
-                            <img src="assets/images/logo-light.png" width="123" alt="Floens HTML Template">
+                            <img src="assets/images/about/marble-logo.png" width="123" alt="Floens HTML Template">
                         </a>
                         <p class="footer-widget__about-text">Tiles company, also known as a tile manufacturer
                             or distributor, specializes in the production and distri</p>
@@ -420,7 +419,7 @@
                     <div class="col-md-7 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
                         <div class="main-footer__bottom__copyright">
                             <p class="main-footer__copyright">
-                                &copy; Made with ❤️ by<span class="dynamic-year"></span> <span> <a href="https://www.intouchsoftware.co.in/" target="_blank">InTouch Software Solutions</a></span>All rights reserved.
+                                &copy; Made with ❤️ by<span class="dynamic-year"></span> <span> <a href="https://www.intouchsoftware.co.in/" target="_blank">InTouch Software Solutions</a></span> &nbsp;&nbsp; All rights reserved.
                             </p>
                         </div><!-- /.main-footer__bottom__copyright -->
                     </div><!-- /.col-md-7 -->
