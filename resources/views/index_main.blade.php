@@ -9,9 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us || Floens || HTML Template For Tiling & Flooring</title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/about/favicon-logo.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/about/favicon-logo.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/about/favicon-logo.png" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
     <meta name="description"
         content="Floens is a modern HTML Template for Beauty, Spa Centers, Hair, Nail, Spa Salons & Cosmetic shops. The template perfectly fits Beauty Spa, Salon, and Wellness Treatments websites and businesses." />
@@ -53,15 +53,15 @@
             <ul class="list-unstyled topbar-one__info">
                 <li class="topbar-one__info__item">
                     <span class="icon-paper-plane"></span>
-                    <a href="mailto:needhelp@company.com">needhelp@company.com</a>
+                    <a href="mailto:needhelp@company.com">mohitmarbleandgranites@gmail.com</a>
                 </li>
                 <li class="topbar-one__info__item">
                     <span class="icon-phone-call"></span>
-                    <a href="tel:+9156980036420">+91 5698 0036 420</a>
+                    <a href="tel:+9156980036420">9145814566, 7425824566</a>
                 </li>
                 <li class="topbar-one__info__item">
                     <span class="icon-location"></span>
-                    <address>85 Ketch Harbour Road Bensal, PA 19020</address>
+                    <address>Rico industrial area , kishangarh 305801</address>
                 </li>
             </ul><!-- /.list-unstyled topbar-one__info -->
             <div class="topbar-one__right">
@@ -93,7 +93,7 @@
             <div class="main-header__left">
                 <div class="main-header__logo">
                     <a href="{{ Route('index_2') }}">
-                        <img src="assets/images/logo-dark.png" alt="Floens HTML" width="125">
+                        <img src="assets/images/about/marble-logo.png" alt="Floens HTML" width="125">
                     </a>
                 </div><!-- /.main-header__logo -->
                 <nav class="main-header__nav main-menu">
@@ -254,8 +254,16 @@
                         </li>
 
 
-                        <li>
+                        <li class="dropdown">
                             <a href="{{ Route('about') }}">About</a>
+                            <ul>
+                                <li><a href="{{ Route('team') }}">Our Team</a></li>
+                                <li>
+                                    <a href="{{ Route('gallery_grid') }}">Gallery</a>
+                                </li>
+                                <li><a href="{{ Route('faq') }}">FAQS</a></li>
+                                <li><a href="{{ Route('login') }}">Login</a></li>
+                            </ul>
                         </li>
 
                         <li class="dropdown">
@@ -272,17 +280,7 @@
                             </ul>
                         </li>
 
-                        <li class="dropdown">
-                            <a href="#">More</a>
-                            <ul>
-                                <li><a href="{{ Route('team') }}">Our Team</a></li>
-                                <li>
-                                    <a href="{{ Route('gallery_grid') }}">Gallery</a>
-                                </li>
-                                <li><a href="{{ Route('faq') }}">FAQS</a></li>
-                                <li><a href="{{ Route('login') }}">Login</a></li>
-                            </ul>
-                        </li>
+
                         <li class="dropdown megamenu">
                             <a href="{{ Route('work') }}">Our Projects</a>
                         </li>
@@ -299,11 +297,11 @@
                     <span></span>
                 </div><!-- /.mobile-nav__toggler -->
                 <a href="{{ Route('cart') }}" class="main-header__cart">
-                    <i class="icon-cart" aria-hidden="true"></i>
+                    {{-- <i class="icon-cart" aria-hidden="true"></i> --}}
                     <span class="sr-only">Cart</span>
                 </a><!-- /.shopping card -->
                 <a href="#" class="search-toggler main-header__search">
-                    <i class="icon-search" aria-hidden="true"></i>
+                    {{-- <i class="icon-search" aria-hidden="true"></i> --}}
                     <span class="sr-only">Search</span>
                 </a><!-- /.search-toggler -->
                 <a href="{{ Route('contact') }}" class="floens-btn main-header__btn">
@@ -496,25 +494,26 @@
     <div class="sidebar-one__content">
         <span class="sidebar-one__close sidebar-btn__toggler"><i class="fa fa-times"></i></span>
         <div class="sidebar-one__logo sidebar-one__item">
-            <a href="{{ Route('index_2') }}" aria-label="logo image"><img src="assets/images/logo-light.png"
+            <a href="{{ Route('index_2') }}" aria-label="logo image"><img src="assets/images/about/marble-logo.png"
                     width="123" alt="logo-dark" /></a>
         </div><!-- /.sidebar-one__logo -->
         <div class="sidebar-one__about sidebar-one__item">
-            <p class="sidebar-one__about__text">Tiles company, also known as a tile manufacturer or distributor,
-                specializes in the production and distri</p>
+            <p class="sidebar-one__about__text">Turn your vision
+                into reality with the exquisite beauty of our premium marble and granite offerings</p>
         </div><!-- /.sidebar-one__about -->
         <div class="sidebar-one__info sidebar-one__item">
+            <br>
             <h4 class="sidebar-one__title">Information</h4>
             <ul class="sidebar-one__info__list">
                 <li><span class="icon-location-2"></span>
-                    <address>85 Ketch Harbour Road Bensal PA 19020</address>
+                    <address>Rico industrial area , kishangarh 305801</address>
                 </li>
                 <li><span class="icon-paper-plane"></span> <a
-                        href="mailto:needhelp@company.com">needhelp@company.com</a></li>
-                <li><span class="icon-phone-call"></span> <a href="tel:+9156980036420">+91 5698 0036 420</a></li>
+                        href="mailto:needhelp@company.com">mohitmarbleandgranites@gmail.com</a></li>
+                <li><span class="icon-phone-call"></span> <a href="tel:+9156980036420">914581456, 7425824566</a></li>
             </ul><!-- /.sidebar-one__info__list -->
         </div><!-- /.sidebar-one__info -->
-        <div class="sidebar-one__social floens-social sidebar-one__item">
+        {{-- <div class="sidebar-one__social floens-social sidebar-one__item">
             <a href="https://facebook.com/">
                 <i class="icon-facebook" aria-hidden="true"></i>
                 <span class="sr-only">Facebook</span>
@@ -531,7 +530,8 @@
                 <i class="icon-youtube" aria-hidden="true"></i>
                 <span class="sr-only">Youtube</span>
             </a>
-        </div><!-- /sidebar-one__social -->
+        </div> --}}
+        <br>
         <div class="sidebar-one__newsletter sidebar-one__item">
             <label class="sidebar-one__title" for="sidebar-email">Newsletter Subscribe</label>
             <form action="#" class="sidebar-one__newsletter__inner mc-form" data-url="MAILCHIMP_FORM_URL">

@@ -13,20 +13,19 @@
         </div>
         <!-- /.preloader -->
         <div class="page-wrapper">
-
             <section class="page-header">
                 <div class="page-header__bg"
                     style="background-image: url('assets/images/backgrounds/page-header-bg-1-1.png');"></div>
                 <!-- /.page-header__bg -->
                 <div class="container">
-                    <h2 class="page-header__title">Vein Patterns</h2>
+                    <h2 class="page-header__title">Export Service</h2>
                     <ul class="floens-breadcrumb list-unstyled">
                         <li><i class="icon-home"></i> <a href="{{ Route('index_2') }}">Home</a></li>
                         <li><span>services</span></li>
-                        <li><span>Vein Patterns</span></li>
-                    </ul><!-- /.thm-breadcrumb list-unstyled -->
-                </div><!-- /.container -->
-            </section><!-- /.page-header -->
+                        <li><span>Export Service </span></li>
+                    </ul>
+                </div>
+            </section>
 
             <section class="service-details section-space">
                 <div class="container">
@@ -36,13 +35,13 @@
                                 <div class="service-sidebar__info service-sidebar__single">
                                     <ul class="list-unstyled service-sidebar__nav wow fadeInLeft"
                                         data-wow-duration="1500ms">
-                                        <li><a href="{{ Route('serviced_industrial_flooring') }}">industrial flooring</a>
+                                        <li><a href="{{ Route('serviced_industrial_flooring') }}">Indian Marble</a>
                                         </li>
-                                        <li><a href="{{ Route('serviced_tiling_concrete') }}">Tiling & concrete</a></li>
-                                        <li><a href="{{ Route('serviced_carpets_rugs') }}">Carpets & rugs</a></li>
-                                        <li><a href="{{ Route('serviced_oak_flooring') }}">Oak Flooring</a></li>
-                                        <li><a href="{{ Route('serviced_vinyl_plank') }}">Vinyl Plank</a></li>
-                                        <li><a href="{{ Route('serviced_vein_patterns') }}">Vein Patterns</a></li>
+                                        <li><a href="{{ Route('serviced_tiling_concrete') }}">Granite</a></li>
+                                        <li><a href="{{ Route('serviced_carpets_rugs') }}">Italian Marble</a></li>
+                                        <li><a href="{{ Route('serviced_oak_flooring') }}">Elevation</a></li>
+                                        <li><a href="{{ Route('serviced_vinyl_plank') }}">Sand Stone</a></li>
+                                        <li><a href="{{ Route('serviced_vein_patterns') }}">Export Service</a></li>
                                     </ul><!-- /.list-unstyled service-sidebar__nav -->
                                     <div class="service-sidebar__contact wow fadeInLeft" data-wow-duration="1500ms"
                                         data-wow-delay="100ms"
@@ -57,10 +56,10 @@
                                                 <span class="icon-telephone"></span>
                                             </div><!-- /.service-sidebar__contact__icon -->
                                             <div class="service-sidebar__contact__content">
-                                                <h4 class="service-sidebar__contact__time">MON-SAT 8:00-9:00</h4>
+                                                {{-- <h4 class="service-sidebar__contact__time">MON-SAT 8:00-9:00</h4> --}}
                                                 <!-- /.service-sidebar__contact__time -->
                                                 <h4 class="service-sidebar__contact__number">
-                                                    <a href="tel:+915698036420">+91 569 803 6420</a>
+                                                    <a href="tel:+915698036420">+9145814566</a>
                                                 </h4><!-- /.service-sidebar__contact__number -->
                                             </div><!-- /.service-sidebar__contact__content -->
                                         </div><!-- /.service-sidebar__contact__inner -->
@@ -90,130 +89,65 @@
                                 <div class="service-details__inner">
                                     <div class="service-details__thumbnail wow fadeInUp" data-wow-duration="1500ms"
                                         data-wow-delay="00ms">
-                                        <img src="assets/images/services/service-d-1.jpg" alt="Vein Patterns">
+                                        {{-- <img src="assets/images/services/service-d-1.jpg" alt="Tiling & concrete"> --}}
                                     </div><!-- /.service-details__thumbnail -->
-                                    <h3 class="service-details__title">Vein Patterns</h3><!-- /.service-details__title -->
-                                    <p class="service-details__text wow fadeInUp" data-wow-duration="1500ms"
-                                        data-wow-delay="00ms">There are many variations of passages of Lorem Ipsum
-                                        available, but the majority have suffered alteration in some form, by injected
-                                        humour, or randomised words which don't look even slightly believable. If you are
-                                        going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
-                                        embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
-                                        Internet tend to repeat predefined chunks as necessary, making this the first true
-                                        generator on the Internet. It uses a dictionary of over 200 Latin words,</p>
-                                    <!-- /.service-details__text -->
-                                </div><!-- /.service-details__inner -->
+                                    <h3 class="service-details__title">EXPORT SERVICE</h3>
+                                    <hr>
+                                </div>
                                 <div class="service-details__inner-two">
-                                    <h3 class="service-details__sub-title">Where can I get some?</h3>
-                                    <!-- /.service-details__sub-title -->
-                                    <p class="service-details__text wow fadeInUp" data-wow-duration="1500ms"
-                                        data-wow-delay="00ms">mistaken idea of denouncing pleasure and praising pain was
-                                        born and I will give you a complete account of the system, and expound the actual
-                                        teachings of the great explorer of the truth, the master-builder of human happiness.
-                                        No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but
-                                        because those who do not know how to pursue pleasure rationally encounter
-                                        consequences that are extremely painful.</p><!-- /.service-details__text -->
-                                </div><!-- /.service-details__inner-two -->
-                                <div class="service-details__info wow fadeInUp" data-wow-duration="1500ms"
-                                    data-wow-delay="00ms">
-                                    <ul class="list-unstyled service-details__list">
-                                        <li>
-                                            <span class="icon-check"></span>
-                                            Instant Business Growth
+                                    <h3 class="service-details__sub-title"></h3>
+                                    <p>
+                                        For the past three decades, Mohit Marble and Granite has been a trusted provider of
+                                        top-quality marble, granite, and other natural stones, making us the preferred
+                                        choice for architects and designers worldwide. Our exported materials are perfect
+                                        for a wide range of projects across the globe. Our dedication, experience, and
+                                        expertise have enabled us to export the finest natural stones to over 50 major
+                                        countries, establishing Mohit Marble and Granite as a well-known name in the
+                                        international stone market.
+                                    </p>
+                                    <ul>
+                                        <li style="list-style-type: none; padding: 10px;"><i class="fas fa-check-double"
+                                                style="color: #f7c566"></i>
+                                            We export various types of stones in the form of slabs, shapes, and cut pieces,
+                                            making us a leading marble exporter in India.
                                         </li>
-                                        <li>
-                                            <span class="icon-check"></span>
-                                            24/7 Quality Service
+                                        <li style="list-style-type: none; padding: 10px;"><i class="fas fa-check-double"
+                                                style="color: #f7c566"></i>
+                                            We value our professional responsibilities and prioritize staying in touch with
+                                            our customers to understand their unique needs. This approach allows us to
+                                            provide personalized solutions tailored to their requirements.
                                         </li>
-                                        <li>
-                                            <span class="icon-check"></span>
-                                            Easy Customer Service
+                                        <li style="list-style-type: none; padding: 10px;"><i class="fas fa-check-double"
+                                                style="color: #f7c566"></i>
+                                            In addition to our excellent products, we offer guidance on natural stones to
+                                            help our clients plan their projects more effectively. Our goal is to provide
+                                            the best possible service to our clients, which is why we gladly accept special
+                                            orders that involve various customizations to meet specific project demands.
                                         </li>
-                                        <li>
-                                            <span class="icon-check"></span>
-                                            Quality Cost Service
+                                        <li style="list-style-type: none; padding: 10px;"><i class="fas fa-check-double"
+                                                style="color: #f7c566"></i>
+                                            At Mohit Marble and Granite, we are committed to maintaining our reputation as a
+                                            reliable supplier of premium natural stones, ensuring that our customers receive
+                                            the highest level of satisfaction in every aspect of our business.
                                         </li>
-                                    </ul><!-- /.list-unstyled team-details__list -->
-                                    <img src="assets/images/services/service-d-list-1.jpg" alt="service-d-list"
-                                        class="service-details__info__image">
-                                </div><!-- /.service-details__info -->
-                                <p class="service-details__text-two wow fadeInUp" data-wow-duration="1500ms"
-                                    data-wow-delay="00ms">Continually myocardinate holistic mindshare with client-based web
-                                    services. Assertively e-enable catalysts for change before tested markets.
-                                    Phosfluorescently maintain wireless scenarios after intermandated applications.
-                                    Conveniently predominate revolutionary quality vectors through future-proof manufactured
-                                    products. Enthusiastically transform distinctive collaboration.</p>
-                                <!-- /.service-details__text-two -->
-                                <div class="service-details__faq">
-                                    <h3 class="service-details__faq__title service-details__sub-title">Where can I get
-                                        some?</h3><!-- /.service-details__sub-title -->
-                                    <div class="faq-accordion floens-accordion" data-grp-name="floens-accordion">
-                                        <div class="accordion active">
-                                            <div class="accordion-title">
-                                                <h4>
-                                                    What services does your construction company offer?
-                                                    <span
-                                                        class="accordion-title__icon"></span><!-- /.accordion-title__icon -->
-                                                </h4>
-                                            </div><!-- /.accordian-title -->
-                                            <div class="accordion-content">
-                                                <div class="inner">
-                                                    <p>Bring to the table win-win survival strategies to ensure proactive
-                                                        domination. At the end of the day, going forward, a new normal that
-                                                        has evolved from generation X is on the</p>
-                                                </div><!-- /.accordian-content -->
-                                            </div>
-                                        </div><!-- /.accordian-item -->
-                                        <div class="accordion">
-                                            <div class="accordion-title">
-                                                <h4>
-                                                    How do I request a quote for my construction project?
-                                                    <span
-                                                        class="accordion-title__icon"></span><!-- /.accordion-title__icon -->
-                                                </h4>
-                                            </div><!-- /.accordian-title -->
-                                            <div class="accordion-content">
-                                                <div class="inner">
-                                                    <p>Bring to the table win-win survival strategies to ensure proactive
-                                                        domination. At the end of the day, going forward, a new normal that
-                                                        has evolved from generation X is on the</p>
-                                                </div><!-- /.accordian-content -->
-                                            </div>
-                                        </div><!-- /.accordian-item -->
-                                        <div class="accordion">
-                                            <div class="accordion-title">
-                                                <h4>
-                                                    What is the timeline for a construction project?
-                                                    <span
-                                                        class="accordion-title__icon"></span><!-- /.accordion-title__icon -->
-                                                </h4>
-                                            </div><!-- /.accordian-title -->
-                                            <div class="accordion-content">
-                                                <div class="inner">
-                                                    <p>Bring to the table win-win survival strategies to ensure proactive
-                                                        domination. At the end of the day, going forward, a new normal that
-                                                        has evolved from generation X is on the</p>
-                                                </div><!-- /.accordian-content -->
-                                            </div>
-                                        </div><!-- /.accordian-item -->
-                                    </div>
-                                </div><!-- /.service-details__faq -->
-                            </div><!-- /.service-details__content -->
-                        </div><!-- /.col-md-12 col-lg-8 -->
-                    </div><!-- /.row -->
-                </div><!-- /.container -->
-            </section><!-- /.service-details section-space -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <section class="contact-one section-space">
                 <div class="contact-one__bg" style="background-image: url('assets/images/backgrounds/contact-bg-1.png');">
-                </div><!-- /.contact-one__bg -->
+                </div>
                 <div class="container">
                     <div class="row gutter-y-40">
                         <div class="col-lg-6">
                             <div class="contact-one__content">
                                 <div class="sec-title sec-title--border">
 
-                                    <h6 class="sec-title__tagline">contact</h6><!-- /.sec-title__tagline -->
+                                    <h6 class="sec-title__tagline">contact</h6>
 
                                     <h3 class="sec-title__title">Reach out & <br> Connect with Us</h3>
                                     <!-- /.sec-title__title -->
@@ -222,7 +156,7 @@
 
                                 <p class="contact-one__text">Our vision is to provide innovative, independent flooring
                                     solutions that solve problems for homes, industries, and workspaces, as well as flooring
-                                    we would like in our own residences, work spaces,</p><!-- /.contact-one__text -->
+                                    we would like in our own residences, work spaces,</p>
                                 <div class="contact-one__info wow fadeInUp" data-wow-duration="1500ms"
                                     data-wow-delay="00ms">
                                     <div class="contact-one__info__bg"
@@ -313,7 +247,6 @@
                 <img src="assets/images/contact/contact-1-2.jpg" alt="contact image"
                     class="contact-one__image-two wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="00ms">
             </section><!-- /.contact-one section-space -->
-
         </div><!-- /.page-wrapper -->
     @endsection
     @section('jscontent')
