@@ -420,7 +420,7 @@
                     <div class="col-md-7 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
                         <div class="main-footer__bottom__copyright">
                             <p class="main-footer__copyright">
-                                &copy; Copyright <span class="dynamic-year"></span> by Floens HTML Template.
+                                &copy; Made with ❤️ by<span class="dynamic-year"></span> <span> <a href="https://www.intouchsoftware.co.in/" target="_blank">InTouch Software Solutions</a></span>All rights reserved.
                             </p>
                         </div><!-- /.main-footer__bottom__copyright -->
                     </div><!-- /.col-md-7 -->

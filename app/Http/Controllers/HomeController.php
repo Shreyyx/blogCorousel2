@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Gallery;
+use App\Models\Team;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -165,7 +167,8 @@ class HomeController extends Controller
 
     public function team()
     {
-        return view ('team');
+        $data = Team::all();
+        return view('team', compact('data'));
     }
 
     public function team_carousel()
@@ -300,6 +303,7 @@ class HomeController extends Controller
 
     public function gallery_grid()
     {
-        return view ('gallery_grid');
+        $data = Gallery::all();
+        return view('gallery_grid', compact('data'));
     }
 }
