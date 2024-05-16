@@ -360,7 +360,7 @@ h6 {
 
 p {
     font-family: var(--floens-font, "DM Sans", sans-serif);
-    font-size: 16px;
+    font-size: 15px;
     color: var(--floens-text, #7a736a);
     font-weight: 500;
     line-height: 1.75;
@@ -6897,7 +6897,7 @@ body.megamenu-popup-active .mobile-nav__content {
     color: var(--floens-base2, #8a5133);
 }
 .about-three__text {
-    margin-bottom: 29px;
+    margin-bottom: 13px;
 }
 .about-three__progress {
     margin-bottom: 40px;
