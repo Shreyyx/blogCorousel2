@@ -1,7 +1,13 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\Elevation;
+use App\Models\Export;
+use App\Models\Granite;
+use App\Models\Indian;
+use App\Models\Italian;
 use App\Models\Query;
+use App\Models\Sand;
 use App\Models\Team;
 use App\Models\Blog;
 use App\Models\Gallery;
@@ -413,5 +419,510 @@ class AdminController extends Controller
            return response()->json(['success', true]);
        }
 
+
+
+       public function manage_indian(Request $request)
+       {
+           $data = Indian::all();
+           // Log::info($data);
+           if($request->ajax()){
+               return Datatables::of($data)
+               ->addIndexColumn()
+               ->addColumn('image', function($row){
+                   $image = '<img src="' . asset("IndianImages/" . $row->image) . '" width="80px">';
+                   return $image;
+               } )
+               ->addColumn('action', function($row){
+                   $btn = ' <a data-bs-toggle="modal" href="#editModal' . $row->id . '">✏️</a>';
+                   $btn = $btn . '<a href="javascript:void(0);" id="' . $row->id . '" class="delete btn ml-3 btn">🗑️</a>';
+                   return $btn;
+               })
+               ->rawColumns(['action', 'image'])
+               ->make(true);
+           }
+           return view('admin.manage-indian', compact('data'));
+          
+       }
+   
+       public function save_indian(Request $request) 
+       {
+           // dd($request->all());// Validate the incoming request data
+           $request->validate([
+               'name' => 'required',
+               'image' => 'required',
+           ]);
+   
+           // Create a new gallery instance and fill it with the validated data
+           $indians = new Indian();
+           $indians->name =  $request->input('name');
+           if ($request->hasFile('image')) {
+               $file1 = $request->file('image');
+               $ext1 = $file1->getClientOriginalExtension();
+               $filename1 = time() . '.' . $ext1;
+               $file1->move('IndianImages/', $filename1);
+               $indians->image = $filename1;
+            
+             }
+
+            $indians->save();
+   
+           
+           return redirect()->back()->with('success', 'created successfully.');
+   
+       }
+   
+       public function update_indian(Request $request ,$id)
+       {
+           //dd($request->all());
+           $request->validate([
+               'name' => 'required',
+               'image' => 'required',
+           ]);
+   
+           // Create a new gallery instance and fill it with the validated data
+           $indians = Indian::find($id);
+           $indians->name = $request->input('name');
+           if ($request->hasFile('image')) {
+               $file1 = $request->file('image');
+               $ext1 = $file1->getClientOriginalExtension();
+               $filename1 = time() . '.' . $ext1;
+               $file1->move('IndianImages/', $filename1);
+               $indians->image = $filename1;
+            
+             }
+   
+            $indians->save();
+   
+           
+           return redirect()->back()->with('success', 'updated successfully.');
+   
+       }
+   
+       public function delete_indian(Request $request)
+       {
+           $indians = Indian::find($request->id);
+           $indians->delete();
+           return response()->json(['success', true]);
+       }
+
+
+       
+       public function manage_italian(Request $request)
+       {
+           $data = Italian::all();
+           // Log::info($data);
+           if($request->ajax()){
+               return Datatables::of($data)
+               ->addIndexColumn()
+               ->addColumn('image', function($row){
+                   $image = '<img src="' . asset("ItalianImages/" . $row->image) . '" width="80px">';
+                   return $image;
+               } )
+               ->addColumn('action', function($row){
+                   $btn = ' <a data-bs-toggle="modal" href="#editModal' . $row->id . '">✏️</a>';
+                   $btn = $btn . '<a href="javascript:void(0);" id="' . $row->id . '" class="delete btn ml-3 btn">🗑️</a>';
+                   return $btn;
+               })
+               ->rawColumns(['action', 'image'])
+               ->make(true);
+           }
+           return view('admin.manage-italian', compact('data'));
+          
+       }
+   
+       public function save_italian(Request $request) 
+       {
+           // dd($request->all());// Validate the incoming request data
+           $request->validate([
+               'name' => 'required',
+               'image' => 'required',
+           ]);
+   
+           // Create a new gallery instance and fill it with the validated data
+           $italians = new Italian();
+           $italians->name =  $request->input('name');
+           if ($request->hasFile('image')) {
+               $file1 = $request->file('image');
+               $ext1 = $file1->getClientOriginalExtension();
+               $filename1 = time() . '.' . $ext1;
+               $file1->move('ItalianImages/', $filename1);
+               $italians->image = $filename1;
+            
+             }
+
+            $italians->save();
+   
+           
+           return redirect()->back()->with('success', 'created successfully.');
+   
+       }
+   
+       public function update_italian(Request $request ,$id)
+       {
+           //dd($request->all());
+           $request->validate([
+               'name' => 'required',
+               'image' => 'required',
+           ]);
+   
+           // Create a new gallery instance and fill it with the validated data
+           $italians = Italian::find($id);
+           $italians->name = $request->input('name');
+           if ($request->hasFile('image')) {
+               $file1 = $request->file('image');
+               $ext1 = $file1->getClientOriginalExtension();
+               $filename1 = time() . '.' . $ext1;
+               $file1->move('ItalianImages/', $filename1);
+               $italians->image = $filename1;
+            
+             }
+   
+            $italians->save();
+   
+           
+           return redirect()->back()->with('success', 'updated successfully.');
+   
+       }
+   
+       public function delete_italian(Request $request)
+       {
+           $italians = Italian::find($request->id);
+           $italians->delete();
+           return response()->json(['success', true]);
+       }
+
+       public function manage_granite(Request $request)
+       {
+           $data = Granite::all();
+           // Log::info($data);
+           if($request->ajax()){
+               return Datatables::of($data)
+               ->addIndexColumn()
+               ->addColumn('image', function($row){
+                   $image = '<img src="' . asset("GraniteImages/" . $row->image) . '" width="80px">';
+                   return $image;
+               } )
+               ->addColumn('action', function($row){
+                   $btn = ' <a data-bs-toggle="modal" href="#editModal' . $row->id . '">✏️</a>';
+                   $btn = $btn . '<a href="javascript:void(0);" id="' . $row->id . '" class="delete btn ml-3 btn">🗑️</a>';
+                   return $btn;
+               })
+               ->rawColumns(['action', 'image'])
+               ->make(true);
+           }
+           return view('admin.manage-granite', compact('data'));
+          
+       }
+       public function save_granite(Request $request) 
+       {
+           // dd($request->all());// Validate the incoming request data
+           $request->validate([
+               'name' => 'required',
+               'image' => 'required',
+           ]);
+   
+           // Create a new gallery instance and fill it with the validated data
+           $granites = new Granite();
+           $granites->name =  $request->input('name');
+           if ($request->hasFile('image')) {
+               $file1 = $request->file('image');
+               $ext1 = $file1->getClientOriginalExtension();
+               $filename1 = time() . '.' . $ext1;
+               $file1->move('GraniteImages/', $filename1);
+               $granites->image = $filename1;
+            
+             }
+
+            $granites->save();
+   
+           return redirect()->back()->with('success', 'created successfully.');
+   
+       }
+   
+       public function update_granite(Request $request ,$id)
+       {
+           //dd($request->all());
+           $request->validate([
+               'name' => 'required',
+               'image' => 'required',
+           ]);
+   
+           // Create a new gallery instance and fill it with the validated data
+           $granites = Granite::find($id);
+           $granites->name = $request->input('name');
+           if ($request->hasFile('image')) {
+               $file1 = $request->file('image');
+               $ext1 = $file1->getClientOriginalExtension();
+               $filename1 = time() . '.' . $ext1;
+               $file1->move('GraniteImages/', $filename1);
+               $granites->image = $filename1;
+            
+             }
+   
+            $granites->save();
+   
+           
+           return redirect()->back()->with('success', 'updated successfully.');
+   
+       }
+   
+       public function delete_granite(Request $request)
+       {
+           $granites = Granite::find($request->id);
+           $granites->delete();
+           return response()->json(['success', true]);
+       }
+
+       public function manage_elevation(Request $request)
+       {
+           $data = Elevation::all();
+           // Log::info($data);
+           if($request->ajax()){
+               return Datatables::of($data)
+               ->addIndexColumn()
+               ->addColumn('image', function($row){
+                   $image = '<img src="' . asset("ElevationImages/" . $row->image) . '" width="80px">';
+                   return $image;
+               } )
+               ->addColumn('action', function($row){
+                   $btn = ' <a data-bs-toggle="modal" href="#editModal' . $row->id . '">✏️</a>';
+                   $btn = $btn . '<a href="javascript:void(0);" id="' . $row->id . '" class="delete btn ml-3 btn">🗑️</a>';
+                   return $btn;
+               })
+               ->rawColumns(['action', 'image'])
+               ->make(true);
+           }
+           return view('admin.manage-elevation', compact('data'));
+          
+       }
+   
+       public function save_elevation(Request $request) 
+       {
+           // dd($request->all());// Validate the incoming request data
+           $request->validate([
+               'name' => 'required',
+               'image' => 'required',
+           ]);
+   
+           // Create a new gallery instance and fill it with the validated data
+           $elevations = new Elevation();
+           $elevations->name =  $request->input('name');
+           if ($request->hasFile('image')) {
+               $file1 = $request->file('image');
+               $ext1 = $file1->getClientOriginalExtension();
+               $filename1 = time() . '.' . $ext1;
+               $file1->move('ElevationImages/', $filename1);
+               $elevations->image = $filename1;
+            
+             }
+
+            $elevations->save();
+   
+           
+           return redirect()->back()->with('success', 'created successfully.');
+   
+       }
+   
+       public function update_elevation(Request $request ,$id)
+       {
+           //dd($request->all());
+           $request->validate([
+               'name' => 'required',
+               'image' => 'required',
+           ]);
+   
+           // Create a new gallery instance and fill it with the validated data
+           $elevations = Elevation::find($id);
+           $elevations->name = $request->input('name');
+           if ($request->hasFile('image')) {
+               $file1 = $request->file('image');
+               $ext1 = $file1->getClientOriginalExtension();
+               $filename1 = time() . '.' . $ext1;
+               $file1->move('ElevationImages/', $filename1);
+               $elevations->image = $filename1;
+            
+             }
+   
+            $elevations->save();
+   
+           
+           return redirect()->back()->with('success', 'updated successfully.');
+   
+       }
+   
+       public function delete_elevation(Request $request)
+       {
+           $elevations = Elevation::find($request->id);
+           $elevations->delete();
+           return response()->json(['success', true]);
+       }
+
+       public function manage_sand(Request $request)
+       {
+           $data = Sand::all();
+           // Log::info($data);
+           if($request->ajax()){
+               return Datatables::of($data)
+               ->addIndexColumn()
+               ->addColumn('image', function($row){
+                   $image = '<img src="' . asset("SandImages/" . $row->image) . '" width="80px">';
+                   return $image;
+               } )
+               ->addColumn('action', function($row){
+                   $btn = ' <a data-bs-toggle="modal" href="#editModal' . $row->id . '">✏️</a>';
+                   $btn = $btn . '<a href="javascript:void(0);" id="' . $row->id . '" class="delete btn ml-3 btn">🗑️</a>';
+                   return $btn;
+               })
+               ->rawColumns(['action', 'image'])
+               ->make(true);
+           }
+           return view('admin.manage-sand', compact('data'));
+          
+       }
+   
+       public function save_sand(Request $request) 
+       {
+           // dd($request->all());// Validate the incoming request data
+           $request->validate([
+               'name' => 'required',
+               'image' => 'required',
+           ]);
+   
+           // Create a new gallery instance and fill it with the validated data
+           $sands = new Sand();
+           $sands->name =  $request->input('name');
+           if ($request->hasFile('image')) {
+               $file1 = $request->file('image');
+               $ext1 = $file1->getClientOriginalExtension();
+               $filename1 = time() . '.' . $ext1;
+               $file1->move('SandImages/', $filename1);
+               $sands->image = $filename1;
+            
+             }
+
+            $sands->save();
+   
+           
+           return redirect()->back()->with('success', 'created successfully.');
+   
+       }
+   
+       public function update_sands(Request $request ,$id)
+       {
+           //dd($request->all());
+           $request->validate([
+               'name' => 'required',
+               'image' => 'required',
+           ]);
+   
+           // Create a new gallery instance and fill it with the validated data
+           $sands = Sand::find($id);
+           $sands->name = $request->input('name');
+           if ($request->hasFile('image')) {
+               $file1 = $request->file('image');
+               $ext1 = $file1->getClientOriginalExtension();
+               $filename1 = time() . '.' . $ext1;
+               $file1->move('SandImages/', $filename1);
+               $sands->image = $filename1;
+            
+             }
+   
+            $sands->save();
+   
+           
+           return redirect()->back()->with('success', 'updated successfully.');
+   
+       }
+   
+       public function delete_sands(Request $request)
+       {
+           $sands = Sand::find($request->id);
+           $sands->delete();
+           return response()->json(['success', true]);
+       }
+ 
+       public function manage_export(Request $request)
+       {
+           $data = Export::all();
+           // Log::info($data);
+           if($request->ajax()){
+               return Datatables::of($data)
+               ->addIndexColumn()
+               ->addColumn('image', function($row){
+                   $image = '<img src="' . asset("ExportImages/" . $row->image) . '" width="80px">';
+                   return $image;
+               } )
+               ->addColumn('action', function($row){
+                   $btn = ' <a data-bs-toggle="modal" href="#editModal' . $row->id . '">✏️</a>';
+                   $btn = $btn . '<a href="javascript:void(0);" id="' . $row->id . '" class="delete btn ml-3 btn">🗑️</a>';
+                   return $btn;
+               })
+               ->rawColumns(['action', 'image'])
+               ->make(true);
+           }
+           return view('admin.manage-export', compact('data'));
+          
+       }
+   
+       public function save_export(Request $request) 
+       {
+           // dd($request->all());// Validate the incoming request data
+           $request->validate([
+               'name' => 'required',
+               'image' => 'required',
+           ]);
+   
+           // Create a new gallery instance and fill it with the validated data
+           $exports = new Export();
+           $exports->name =  $request->input('name');
+           if ($request->hasFile('image')) {
+               $file1 = $request->file('image');
+               $ext1 = $file1->getClientOriginalExtension();
+               $filename1 = time() . '.' . $ext1;
+               $file1->move('ExportImages/', $filename1);
+               $exports->image = $filename1;
+            
+             }
+
+            $exports->save();
+   
+           
+           return redirect()->back()->with('success', 'created successfully.');
+   
+       }
+   
+       public function update_export(Request $request ,$id)
+       {
+           //dd($request->all());
+           $request->validate([
+               'name' => 'required',
+               'image' => 'required',
+           ]);
+   
+           // Create a new gallery instance and fill it with the validated data
+           $exports = Export::find($id);
+           $exports->name = $request->input('name');
+           if ($request->hasFile('image')) {
+               $file1 = $request->file('image');
+               $ext1 = $file1->getClientOriginalExtension();
+               $filename1 = time() . '.' . $ext1;
+               $file1->move('ExportImages/', $filename1);
+               $exports->image = $filename1;
+            
+             }
+   
+            $exports->save();
+   
+           
+           return redirect()->back()->with('success', 'updated successfully.');
+   
+       }
+   
+       public function delete_export(Request $request)
+       {
+           $exports = Export::find($request->id);
+           $exports->delete();
+           return response()->json(['success', true]);
+       }
 
 }

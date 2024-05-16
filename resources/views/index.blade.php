@@ -280,7 +280,7 @@
                                             <ul class="sub-menu">
                                                 <li><a href="{{ Route('blog_details') }}">No sidebar</a></li>
                                                 <li><a href="{{ Route('blog_detailsleft') }}">Left sidebar</a></li>
-                                                <li><a href="{{ Route('blog_detailsright') }}">Right sidebar</a></li>
+                                                <li><a href="#">Right sidebar</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -1915,7 +1915,7 @@
                             <div class="blog-card__image">
                                 <img src="assets/images/blog/blog-1-1.jpg"
                                     alt="Talk About the Three Major Types of Floor Tiles">
-                                <a href="{{ Route('blog_detailsright') }}" class="blog-card__image__link"><span
+                                <a href="#" class="blog-card__image__link"><span
                                         class="sr-only">Talk About the Three Major Types of Floor Tiles</span>
                                     <!-- /.sr-only --></a>
                             </div><!-- /.blog-card__image -->
@@ -1924,7 +1924,7 @@
                                 <span class="blog-card__date__month">june</span>
                             </div><!-- /.blog-card__date -->
                             <div class="blog-card__content">
-                                <h3 class="blog-card__title"><a href="{{ Route('blog_detailsright') }}">Talk About
+                                <h3 class="blog-card__title"><a href="#">Talk About
                                         the Three
                                         Major Types of Floor Tiles</a></h3><!-- /.blog-card__title -->
                                 <p class="blog-card__text">Tiles company, also known as a tile manufacturer or
@@ -1941,7 +1941,7 @@
                             <div class="blog-card__image">
                                 <img src="assets/images/blog/blog-1-2.jpg"
                                     alt="Talk About the Three Major Types of Floor Tiles">
-                                <a href="{{ Route('blog_detailsright') }}" class="blog-card__image__link"><span
+                                <a href="#" class="blog-card__image__link"><span
                                         class="sr-only">Talk About the Three Major Types of Floor Tiles</span>
                                     <!-- /.sr-only --></a>
                             </div><!-- /.blog-card__image -->
@@ -1950,7 +1950,7 @@
                                 <span class="blog-card__date__month">june</span>
                             </div><!-- /.blog-card__date -->
                             <div class="blog-card__content">
-                                <h3 class="blog-card__title"><a href="{{ Route('blog_detailsright') }}">Talk About
+                                <h3 class="blog-card__title"><a href="#">Talk About
                                         the Three
                                         Major Types of Floor Tiles</a></h3><!-- /.blog-card__title -->
                                 <p class="blog-card__text">Tiles company, also known as a tile manufacturer or
@@ -1967,7 +1967,7 @@
                             <div class="blog-card__image">
                                 <img src="assets/images/blog/blog-1-3.jpg"
                                     alt="Talk About the Three Major Types of Floor Tiles">
-                                <a href="{{ Route('blog_detailsright') }}" class="blog-card__image__link"><span
+                                <a href="#" class="blog-card__image__link"><span
                                         class="sr-only">Talk About the Three Major Types of Floor Tiles</span>
                                     <!-- /.sr-only --></a>
                             </div><!-- /.blog-card__image -->
@@ -1976,7 +1976,7 @@
                                 <span class="blog-card__date__month">june</span>
                             </div><!-- /.blog-card__date -->
                             <div class="blog-card__content">
-                                <h3 class="blog-card__title"><a href="{{ Route('blog_detailsright') }}">Talk About
+                                <h3 class="blog-card__title"><a href="#">Talk About
                                         the Three
                                         Major Types of Floor Tiles</a></h3><!-- /.blog-card__title -->
                                 <p class="blog-card__text">Tiles company, also known as a tile manufacturer or

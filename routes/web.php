@@ -106,3 +106,33 @@ Route::get('/manage-blogs', [AdminController::class, 'manage_blogs'])->name('man
 Route::post('/save-blogs', [AdminController::class, 'save_blogs'])->name('save-blogs');
 Route::post('/update-blogs/{id}', [AdminController::class, 'update_blogs'])->name('update-blogs');
 Route::get('/delete-blogs', [AdminController::class, 'delete_blogs'])->name('delete-blogs');
+
+Route::get('/manage-indian', [AdminController::class, 'manage_indian'])->name('manage-indian');
+Route::post('/save-indian', [AdminController::class, 'save_indian'])->name('save-indian');
+Route::post('/update-indian/{id}', [AdminController::class, 'update_indian'])->name('update-indian');
+Route::get('/delete-indian', [AdminController::class, 'delete_indian'])->name('delete-indian');
+
+Route::get('/manage-italian', [AdminController::class, 'manage_italian'])->name('manage-italian');
+Route::post('/save-italian', [AdminController::class, 'save_italian'])->name('save-italian');
+Route::post('/update-italian/{id}', [AdminController::class, 'update_italian'])->name('update-italian');
+Route::get('/delete-italian', [AdminController::class, 'delete_italian'])->name('delete-italian');
+
+Route::get('/manage-granite', [AdminController::class, 'manage_granite'])->name('manage-granite');
+Route::post('/save-granite', [AdminController::class, 'save_granite'])->name('save-granite');
+Route::post('/update-granite/{id}', [AdminController::class, 'update_granite'])->name('update-granite');
+Route::get('/delete-granite', [AdminController::class, 'delete_granite'])->name('delete-granite');
+
+Route::get('/manage-elevation', [AdminController::class, 'manage_elevation'])->name('manage-elevation');
+Route::post('/save-elevation', [AdminController::class, 'save_elevation'])->name('save-elevation');
+Route::post('/update-elevation/{id}', [AdminController::class, 'update_elevation'])->name('update-elevation');
+Route::get('/delete-elevation', [AdminController::class, 'delete_elevation'])->name('delete-elevation');
+
+Route::get('/manage-sand', [AdminController::class, 'manage_sand'])->name('manage-sand');
+Route::post('/save-sand', [AdminController::class, 'save_sand'])->name('save-sand');
+Route::post('/update-sand/{id}', [AdminController::class, 'update_sand'])->name('update-sand');
+Route::get('/delete-sand', [AdminController::class, 'delete_sand'])->name('delete-sand');
+
+Route::get('/manage-export', [AdminController::class, 'manage_export'])->name('manage-export');
+Route::post('/save-export', [AdminController::class, 'save_export'])->name('save-export');
+Route::post('/update-export/{id}', [AdminController::class, 'update_export'])->name('update-export');
+Route::get('/delete-export', [AdminController::class, 'delete_export'])->name('delete-export');

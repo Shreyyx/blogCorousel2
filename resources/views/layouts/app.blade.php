@@ -89,6 +89,24 @@
                                     <a class="dropdown-item" href="{{ Route('manage-blogs') }}">
                                         Manage Blogs
                                     </a>
+                                    <a class="dropdown-item" href="{{ Route('manage-indian') }}">
+                                        Manage Indian Marble
+                                    </a>
+                                    <a class="dropdown-item" href="{{ Route('manage-italian') }}">
+                                        Manage Italian Marble
+                                    </a>
+                                    <a class="dropdown-item" href="{{ Route('manage-granite') }}">
+                                        Manage Granite
+                                    </a>
+                                    <a class="dropdown-item" href="{{ Route('manage-sand') }}">
+                                        Manage Sandstone
+                                    </a>
+                                    <a class="dropdown-item" href="{{ Route('manage-elevation') }}">
+                                        Manage Elevation
+                                    </a>
+                                    <a class="dropdown-item" href="{{ Route('manage-export') }}">
+                                        Manage Exports
+                                    </a>
                                 </div>
                             </li>
                         @endguest
@@ -96,7 +114,6 @@
                 </div>
             </div>
         </nav>
-
         <main class="py-4">
             @yield('content')
         </main>

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Blog;
 use App\Models\Gallery;
+use App\Models\Indian;
 use App\Models\Project;
 use App\Models\Team;
 use Illuminate\Http\Request;
@@ -94,7 +95,8 @@ class HomeController extends Controller
 
     public function serviced_industrial_flooring()
     {
-        return view ('serviced_industrial_flooring');
+        $data = Indian::all();
+        return view('serviced_industrial_flooring', compact('data'));
     }
 
     public function serviced_oak_flooring()
