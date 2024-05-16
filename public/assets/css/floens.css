@@ -360,7 +360,7 @@ h6 {
 
 p {
     font-family: var(--floens-font, "DM Sans", sans-serif);
-    font-size: 16px;
+    font-size: 15px;
     color: var(--floens-text, #7a736a);
     font-weight: 500;
     line-height: 1.75;

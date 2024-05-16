@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home One || Floens || HTML Template For Tiling & Flooring</title>
+    <title>Home</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -280,7 +280,7 @@
                                             <ul class="sub-menu">
                                                 <li><a href="{{ Route('blog_details') }}">No sidebar</a></li>
                                                 <li><a href="{{ Route('blog_detailsleft') }}">Left sidebar</a></li>
-                                                <li><a href="{{ Route('blog_detailsright') }}">Right sidebar</a></li>
+                                                <li><a href="#">Right sidebar</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -1915,8 +1915,8 @@
                             <div class="blog-card__image">
                                 <img src="assets/images/blog/blog-1-1.jpg"
                                     alt="Talk About the Three Major Types of Floor Tiles">
-                                <a href="{{ Route('blog_detailsright') }}" class="blog-card__image__link"><span
-                                        class="sr-only">Talk About the Three Major Types of Floor Tiles</span>
+                                <a href="#" class="blog-card__image__link"><span class="sr-only">Talk About
+                                        the Three Major Types of Floor Tiles</span>
                                     <!-- /.sr-only --></a>
                             </div><!-- /.blog-card__image -->
                             <div class="blog-card__date">
@@ -1924,7 +1924,7 @@
                                 <span class="blog-card__date__month">june</span>
                             </div><!-- /.blog-card__date -->
                             <div class="blog-card__content">
-                                <h3 class="blog-card__title"><a href="{{ Route('blog_detailsright') }}">Talk About
+                                <h3 class="blog-card__title"><a href="#">Talk About
                                         the Three
                                         Major Types of Floor Tiles</a></h3><!-- /.blog-card__title -->
                                 <p class="blog-card__text">Tiles company, also known as a tile manufacturer or
@@ -1941,8 +1941,8 @@
                             <div class="blog-card__image">
                                 <img src="assets/images/blog/blog-1-2.jpg"
                                     alt="Talk About the Three Major Types of Floor Tiles">
-                                <a href="{{ Route('blog_detailsright') }}" class="blog-card__image__link"><span
-                                        class="sr-only">Talk About the Three Major Types of Floor Tiles</span>
+                                <a href="#" class="blog-card__image__link"><span class="sr-only">Talk About
+                                        the Three Major Types of Floor Tiles</span>
                                     <!-- /.sr-only --></a>
                             </div><!-- /.blog-card__image -->
                             <div class="blog-card__date">
@@ -1950,7 +1950,7 @@
                                 <span class="blog-card__date__month">june</span>
                             </div><!-- /.blog-card__date -->
                             <div class="blog-card__content">
-                                <h3 class="blog-card__title"><a href="{{ Route('blog_detailsright') }}">Talk About
+                                <h3 class="blog-card__title"><a href="#">Talk About
                                         the Three
                                         Major Types of Floor Tiles</a></h3><!-- /.blog-card__title -->
                                 <p class="blog-card__text">Tiles company, also known as a tile manufacturer or
@@ -1967,8 +1967,8 @@
                             <div class="blog-card__image">
                                 <img src="assets/images/blog/blog-1-3.jpg"
                                     alt="Talk About the Three Major Types of Floor Tiles">
-                                <a href="{{ Route('blog_detailsright') }}" class="blog-card__image__link"><span
-                                        class="sr-only">Talk About the Three Major Types of Floor Tiles</span>
+                                <a href="#" class="blog-card__image__link"><span class="sr-only">Talk About
+                                        the Three Major Types of Floor Tiles</span>
                                     <!-- /.sr-only --></a>
                             </div><!-- /.blog-card__image -->
                             <div class="blog-card__date">
@@ -1976,7 +1976,7 @@
                                 <span class="blog-card__date__month">june</span>
                             </div><!-- /.blog-card__date -->
                             <div class="blog-card__content">
-                                <h3 class="blog-card__title"><a href="{{ Route('blog_detailsright') }}">Talk About
+                                <h3 class="blog-card__title"><a href="#">Talk About
                                         the Three
                                         Major Types of Floor Tiles</a></h3><!-- /.blog-card__title -->
                                 <p class="blog-card__text">Tiles company, also known as a tile manufacturer or
@@ -2066,7 +2066,7 @@
                             data-wow-delay="00ms">
                             <div class="footer-widget footer-widget--about">
                                 <a href="{{ Route('index_2') }}" class="footer-widget__logo">
-                                    <img src="assets/images/logo-light.png" width="123"
+                                    <img src="assets/images/about/marble-logo.png" width="123"
                                         alt="Floens HTML Template">
                                 </a>
                                 <p class="footer-widget__about-text">Tiles company, also known as a tile manufacturer
@@ -2123,7 +2123,8 @@
                                 </div><!-- /.footer-widget__top -->
                                 <ul class="list-unstyled footer-widget__info">
                                     <li><a href="https://www.google.com/maps">85 Ketch Harbour Road Bensal PA
-                                            19020</a></li>
+                                            19020</a>
+                                    </li>
                                     <li><span class="icon-paper-plane"></span> <a
                                             href="mailto:needhelp@company.com">needhelp@company.com</a></li>
                                     <li><span class="icon-phone-call"></span> <a href="tel:+9156980036420">+91 5698
@@ -2161,7 +2162,9 @@
                             <div class="col-md-7 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
                                 <div class="main-footer__bottom__copyright">
                                     <p class="main-footer__copyright">
-                                        &copy; Copyright <span class="dynamic-year"></span> by Floens HTML Template.
+                                        &copy; Made with ❤️ by<span class="dynamic-year"></span> <span> <a
+                                                href="https://www.intouchsoftware.co.in/" target="_blank">InTouch
+                                                Software Solutions</a></span> &nbsp;&nbsp; All rights reserved.
                                     </p>
                                 </div><!-- /.main-footer__bottom__copyright -->
                             </div><!-- /.col-md-7 -->
@@ -2169,10 +2172,8 @@
                     </div><!-- /.main-footer__inner -->
                 </div><!-- /.container -->
             </div><!-- /.main-footer__bottom -->
-        </footer><!-- /.main-footer -->
-
-    </div><!-- /.page-wrapper -->
-
+        </footer>
+    </div>
     <div class="mobile-nav__wrapper">
         <div class="mobile-nav__overlay mobile-nav__toggler"></div>
         <!-- /.mobile-nav__overlay -->
@@ -2218,7 +2219,6 @@
         </div>
         <!-- /.mobile-nav__content -->
     </div>
-    <!-- /.mobile-nav__wrapper -->
     <div class="search-popup">
         <div class="search-popup__overlay search-toggler"></div>
         <!-- /.search-popup__overlay -->
@@ -2232,49 +2232,50 @@
         </div>
         <!-- /.search-popup__content -->
     </div>
-    <!-- /.search-popup -->
     <aside class="sidebar-one">
         <div class="sidebar-one__overlay sidebar-btn__toggler"></div><!-- /.siderbar-ovarlay -->
         <div class="sidebar-one__content">
             <span class="sidebar-one__close sidebar-btn__toggler"><i class="fa fa-times"></i></span>
             <div class="sidebar-one__logo sidebar-one__item">
-                <a href="{{ Route('index_2') }}" aria-label="logo image"><img src="assets/images/logo-light.png"
-                        width="123" alt="logo-dark" /></a>
+                <a href="{{ Route('index_2') }}" aria-label="logo image"><img
+                        src="assets/images/about/marble-logo.png" width="123" alt="logo-dark" /></a>
             </div><!-- /.sidebar-one__logo -->
             <div class="sidebar-one__about sidebar-one__item">
-                <p class="sidebar-one__about__text">Tiles company, also known as a tile manufacturer or distributor,
-                    specializes in the production and distri</p>
+                <p class="sidebar-one__about__text">Turn your vision
+                    into reality with the exquisite beauty of our premium marble and granite offerings</p>
             </div><!-- /.sidebar-one__about -->
             <div class="sidebar-one__info sidebar-one__item">
+                <br>
                 <h4 class="sidebar-one__title">Information</h4>
                 <ul class="sidebar-one__info__list">
                     <li><span class="icon-location-2"></span>
-                        <address>85 Ketch Harbour Road Bensal PA 19020</address>
+                        <address>Rico industrial area , kishangarh 305801</address>
                     </li>
                     <li><span class="icon-paper-plane"></span> <a
-                            href="mailto:needhelp@company.com">needhelp@company.com</a></li>
-                    <li><span class="icon-phone-call"></span> <a href="tel:+9156980036420">+91 5698 0036 420</a>
+                            href="mailto:needhelp@company.com">mohitmarbleandgranites@gmail.com</a></li>
+                    <li><span class="icon-phone-call"></span> <a href="tel:+9156980036420">914581456, 7425824566</a>
                     </li>
                 </ul><!-- /.sidebar-one__info__list -->
             </div><!-- /.sidebar-one__info -->
-            <div class="sidebar-one__social floens-social sidebar-one__item">
-                <a href="https://facebook.com/">
-                    <i class="icon-facebook" aria-hidden="true"></i>
-                    <span class="sr-only">Facebook</span>
-                </a>
-                <a href="https://twitter.com/">
-                    <i class="icon-twitter" aria-hidden="true"></i>
-                    <span class="sr-only">Twitter</span>
-                </a>
-                <a href="https://instagram.com/">
-                    <i class="icon-instagram" aria-hidden="true"></i>
-                    <span class="sr-only">Instagram</span>
-                </a>
-                <a href="https://youtube.com/">
-                    <i class="icon-youtube" aria-hidden="true"></i>
-                    <span class="sr-only">Youtube</span>
-                </a>
-            </div><!-- /sidebar-one__social -->
+            {{-- <div class="sidebar-one__social floens-social sidebar-one__item">
+                    <a href="https://facebook.com/">
+                        <i class="icon-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                    <a href="https://twitter.com/">
+                        <i class="icon-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                    <a href="https://instagram.com/">
+                        <i class="icon-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                    <a href="https://youtube.com/">
+                        <i class="icon-youtube" aria-hidden="true"></i>
+                        <span class="sr-only">Youtube</span>
+                    </a>
+                </div> --}}
+            <br>
             <div class="sidebar-one__newsletter sidebar-one__item">
                 <label class="sidebar-one__title" for="sidebar-email">Newsletter Subscribe</label>
                 <form action="#" class="sidebar-one__newsletter__inner mc-form" data-url="MAILCHIMP_FORM_URL">
@@ -2286,8 +2287,7 @@
                 <div class="mc-form__response"></div><!-- /.mc-form__response -->
             </div><!-- /.sidebar-one__form -->
         </div><!-- /.sidebar__content -->
-    </aside><!-- /.sidebar-one -->
-
+    </aside>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
         <span class="scroll-to-top__text">back top</span>
         <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>

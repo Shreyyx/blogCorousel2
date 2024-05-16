@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index_4');
+    return view('index');
 });
 
 Route::get('index_2',[HomeController::class,'index_2'])->name('index_2');

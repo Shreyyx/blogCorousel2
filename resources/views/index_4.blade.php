@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Three || Floens || HTML Template For Tiling & Flooring</title>
+    <title>Home</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/about/favicon-logo.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/about/favicon-logo.png" />
@@ -77,15 +77,55 @@
     </div>
     <!-- /.preloader -->
     <div class="page-wrapper">
+        {{-- <div class="topbar-one">
+            <div class="container-fluid">
+                <div class="topbar-one__inner">
+                    <ul class="list-unstyled topbar-one__info">
+                        <li class="topbar-one__info__item">
+                            <span class="icon-paper-plane"></span>
+                            <a href="mailto:needhelp@company.com">mohitmarbleandgranites@gmail.com</a>
+                        </li>
+                        <li class="topbar-one__info__item">
+                            <span class="icon-phone-call"></span>
+                            <a href="tel:+9156980036420">9145814566, 7425824566</a>
+                        </li>
+                        <li class="topbar-one__info__item">
+                            <span class="icon-location"></span>
+                            <address>Rico industrial area , kishangarh 305801</address>
+                        </li>
+                    </ul><!-- /.list-unstyled topbar-one__info -->
+                    <div class="topbar-one__right">
+                        <div class="topbar-one__social">
+                            <a href="https://facebook.com/">
+                                <i class="icon-facebook" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                            <a href="https://twitter.com/">
+                                <i class="icon-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                            <a href="https://instagram.com/">
+                                <i class="icon-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                            <a href="https://youtube.com/">
+                                <i class="icon-youtube" aria-hidden="true"></i>
+                                <span class="sr-only">Youtube</span>
+                            </a>
+                        </div><!-- /.topbar-one__social -->
+                    </div><!-- /.topbar-one__right -->
+                </div><!-- /.topbar-one__inner -->
+            </div><!-- /.container-fluid -->
+        </div> --}}
         <header class="main-header main-header--three sticky-header sticky-header--normal">
             <div class="container-fluid">
                 <div class="main-header__inner">
                     <div class="main-header__logo">
-                        <a href="{{ Route('index_2') }}">
-                            <img src="assets/images/about/marble-logo.PNG" alt="Floens HTML" width="125"
-                                class="main-header__logo__one">
-                            <img src="assets/images/about/marble-logo.PNG" alt="Floens HTML" width="125"
-                                class="main-header__logo__two">
+                        <a href="{{ Route('index_4') }}">
+                            <img src="assets/images/Projects/Screenshot_2024-05-15_181714-removebg-preview.png"
+                                alt="logo" width="180" class="main-header__logo__one">
+                            <img src="assets/images/Projects/Screenshot_2024-05-15_181714-removebg-preview.png"
+                                alt="logo" width="180" class="main-header__logo__two">
                         </a>
                     </div>
                     <div class="main-header__right">
@@ -112,7 +152,8 @@
                                 <li class="dropdown">
                                     <a href="{{ Route('services_grid') }}">Services</a>
                                     <ul>
-                                        <li><a href="{{ Route('serviced_industrial_flooring') }}">Indian Marble</a></li>
+                                        <li><a href="{{ Route('serviced_industrial_flooring') }}">Indian Marble</a>
+                                        </li>
                                         <li><a href="{{ Route('serviced_tiling_concrete') }}">Granite</a>
                                         </li>
                                         <li><a href="{{ Route('serviced_carpets_rugs') }}">Italian Marble</a></li>
@@ -1158,46 +1199,46 @@
                                 data-wow-delay="00ms">
                                 <div class="contact-one__info__bg"
                                     style="background-image: url('assets/images/shapes/contact-info-bg.png');"></div>
-                                    <div class="contact-one__info__content">
-                                        <div class="contact-one__info__item side-by-side">
-                                            <div class="contact-one__info__item__inner">
-                                                <div class="contact-one__info__icon">
-                                                    <span class="icon-phone-call"></span>
-                                                </div>
-                                                <p class="contact-one__info__text"><a
-                                                        href="tel:+919145814566">9145814566</a></p>
+                                <div class="contact-one__info__content">
+                                    <div class="contact-one__info__item side-by-side">
+                                        <div class="contact-one__info__item__inner">
+                                            <div class="contact-one__info__icon">
+                                                <span class="icon-phone-call"></span>
                                             </div>
-                                        </div>
-                                        &nbsp; &nbsp; &nbsp; &nbsp;
-                                        <div class="contact-one__info__item side-by-side">
-                                            <div class="contact-one__info__item__inner">
-                                                <div class="contact-one__info__icon">
-                                                    <span class="icon-phone-call"></span>
-                                                </div>
-                                                <p class="contact-one__info__text"><a
-                                                        href="tel:+917425824566">7425824566</a></p>
-                                            </div>
-                                        </div>
-                                        <div class="contact-one__info__item">
-                                            <div class="contact-one__info__item__inner">
-                                                <div class="contact-one__info__icon">
-                                                    <span class="icon-paper-plane"></span>
-                                                </div>
-                                                <p class="contact-one__info__text"><a
-                                                        href="mailto:mohitmarbleandgranites@gmail.com">mohitmarbleandgranites@gmail.com</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="contact-one__info__item">
-                                            <div class="contact-one__info__item__inner">
-                                                <div class="contact-one__info__icon">
-                                                    <span class="icon-location"></span>
-                                                </div>
-                                                <address class="contact-one__info__text">Rico
-                                                        industrial area , kishangarh 305801</address>
-                                            </div>
+                                            <p class="contact-one__info__text"><a
+                                                    href="tel:+919145814566">9145814566</a></p>
                                         </div>
                                     </div>
+                                    &nbsp; &nbsp; &nbsp; &nbsp;
+                                    <div class="contact-one__info__item side-by-side">
+                                        <div class="contact-one__info__item__inner">
+                                            <div class="contact-one__info__icon">
+                                                <span class="icon-phone-call"></span>
+                                            </div>
+                                            <p class="contact-one__info__text"><a
+                                                    href="tel:+917425824566">7425824566</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="contact-one__info__item">
+                                        <div class="contact-one__info__item__inner">
+                                            <div class="contact-one__info__icon">
+                                                <span class="icon-paper-plane"></span>
+                                            </div>
+                                            <p class="contact-one__info__text"><a
+                                                    href="mailto:mohitmarbleandgranites@gmail.com">mohitmarbleandgranites@gmail.com</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="contact-one__info__item">
+                                        <div class="contact-one__info__item__inner">
+                                            <div class="contact-one__info__icon">
+                                                <span class="icon-location"></span>
+                                            </div>
+                                            <address class="contact-one__info__text">Rico
+                                                industrial area , kishangarh 305801</address>
+                                        </div>
+                                    </div>
+                                </div>
                                 <img src="assets/images/shapes/contact-shape-1-1.png" alt="contact image"
                                     class="contact-one__info__image">
                             </div><!-- /.contact-one__info -->
@@ -1205,46 +1246,46 @@
                     </div><!-- /.col-xl-6 -->
                     <div class="col-lg-6">
                         <form class="contact-one__form contact-form-validated form-one wow fadeInUp"
-                        data-wow-duration="1500ms" data-wow-delay="200ms" action="{{ Route('save-query') }}"
-                        id="contact-form" method="POST">
-                        @csrf
-                        <div class="contact-one__form__bg"
-                            style="background-image: url('assets/images/shapes/contact-info-form-bg.png');"></div>
-                        <!-- /.contact-one__form__bg -->
-                        <div class="contact-one__form__top">
-                            <h2 class="contact-one__form__title">Get In Touch With Us And Enjoy <br>
-                                Top-Notch Support</h2><!-- /.contact-one__form__title -->
-                        </div><!-- /.contact-one__form__top -->
-                        <div class="form-one__group form-one__group--grid">
+                            data-wow-duration="1500ms" data-wow-delay="200ms" action="{{ Route('save-query') }}"
+                            id="contact-form" method="POST">
+                            @csrf
+                            <div class="contact-one__form__bg"
+                                style="background-image: url('assets/images/shapes/contact-info-form-bg.png');"></div>
+                            <!-- /.contact-one__form__bg -->
+                            <div class="contact-one__form__top">
+                                <h2 class="contact-one__form__title">Get In Touch With Us And Enjoy <br>
+                                    Top-Notch Support</h2><!-- /.contact-one__form__title -->
+                            </div><!-- /.contact-one__form__top -->
+                            <div class="form-one__group form-one__group--grid">
 
-                            <div class="form-one__control form-one__control--input form-one__control--full">
-                                <input type="text" id="name" name="name" placeholder="Your name">
-                            </div><!-- /.form-one__control form-one__control--full -->
+                                <div class="form-one__control form-one__control--input form-one__control--full">
+                                    <input type="text" id="name" name="name" placeholder="Your name">
+                                </div><!-- /.form-one__control form-one__control--full -->
 
-                            <div class="form-one__control form-one__control--full">
-                                <input type="email" id="email" name="email" placeholder="your email">
-                            </div><!-- /.form-one__control form-one__control--full -->
+                                <div class="form-one__control form-one__control--full">
+                                    <input type="email" id="email" name="email" placeholder="your email">
+                                </div><!-- /.form-one__control form-one__control--full -->
 
-                            <div class="form-one__control form-one__control--full">
-                                <input type="text" id="phone" name="phone" placeholder="your phone">
-                            </div><!-- /.form-one__control form-one__control--full -->
+                                <div class="form-one__control form-one__control--full">
+                                    <input type="text" id="phone" name="phone" placeholder="your phone">
+                                </div><!-- /.form-one__control form-one__control--full -->
 
-                            <div class="form-one__control form-one__control--full">
-                                <input type="text" id="subject" name="subject" placeholder="subject">
-                            </div><!-- /.form-one__control form-one__control--full -->
+                                <div class="form-one__control form-one__control--full">
+                                    <input type="text" id="subject" name="subject" placeholder="subject">
+                                </div><!-- /.form-one__control form-one__control--full -->
 
-                            <div class="form-one__control form-one__control--mesgae form-one__control--full">
-                                <textarea id="message" name="message" placeholder="Write message" class="fixed-textarea"></textarea><!-- /# -->
-                            </div><!-- /.form-one__control -->
+                                <div class="form-one__control form-one__control--mesgae form-one__control--full">
+                                    <textarea id="message" name="message" placeholder="Write message" class="fixed-textarea"></textarea><!-- /# -->
+                                </div><!-- /.form-one__control -->
 
-                            <div class="form-one__control form-one__control--full">
-                                <button type="submit" class="floens-btn">
-                                    <span>send message</span>
-                                    <i class="icon-right-arrow"></i>
-                                </button>
-                            </div><!-- /.form-one__control -->
-                        </div><!-- /.form-one__group -->
-                    </form>
+                                <div class="form-one__control form-one__control--full">
+                                    <button type="submit" class="floens-btn">
+                                        <span>send message</span>
+                                        <i class="icon-right-arrow"></i>
+                                    </button>
+                                </div><!-- /.form-one__control -->
+                            </div><!-- /.form-one__group -->
+                        </form>
                     </div><!-- /.col-xl-6 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
@@ -1782,26 +1823,28 @@
 
 
             <div class="row gutter-y-30">
-                @foreach($data as $blogs)
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-card blog-card--three wow fadeInUp" data-wow-duration='1500ms'
-                        data-wow-delay='000ms'>
-                        <div class="blog-card__image">
-                            <img src="{{asset ('BlogImages/' . $blogs->image)}}" alt="">
-                            <a href="{{ Route('blog_detailsright',['id'=>$blogs->id])}}" class="blog-card__image__link"><span
-                                    class="sr-only">{{$blogs->title}}</span>
-                                <!-- /.sr-only --></a>
-                        </div><!-- /.blog-card__image -->
-                        <div class="blog-card__date">
-                            <span class="blog-card__date__day">{{$blogs->date}}</span>
-                            <span class="blog-card__date__month">{{$blogs->month}}</span>
-                        </div><!-- /.blog-card__date -->
-                        <div class="blog-card__content">
-                            <h3 class="blog-card__title"><a href="{{ Route('blog_detailsright',['id'=>$blogs->id])}}">{{$blogs->title}}</a></h3><!-- /.blog-card__title -->
-                            
-                        </div><!-- /.blog-card__content -->
-                    </div><!-- /.blog-card -->
-                </div>
+                @foreach ($data as $blogs)
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-card blog-card--three wow fadeInUp" data-wow-duration='1500ms'
+                            data-wow-delay='000ms'>
+                            <div class="blog-card__image">
+                                <img src="{{ asset('BlogImages/' . $blogs->image) }}" alt="">
+                                <a href="{{ Route('blog_detailsright', ['id' => $blogs->id]) }}"
+                                    class="blog-card__image__link"><span class="sr-only">{{ $blogs->title }}</span>
+                                    <!-- /.sr-only --></a>
+                            </div><!-- /.blog-card__image -->
+                            <div class="blog-card__date">
+                                <span class="blog-card__date__day">{{ $blogs->date }}</span>
+                                <span class="blog-card__date__month">{{ $blogs->month }}</span>
+                            </div><!-- /.blog-card__date -->
+                            <div class="blog-card__content">
+                                <h3 class="blog-card__title"><a
+                                        href="{{ Route('blog_detailsright', ['id' => $blogs->id]) }}">{{ $blogs->title }}</a>
+                                </h3><!-- /.blog-card__title -->
+
+                            </div><!-- /.blog-card__content -->
+                        </div><!-- /.blog-card -->
+                    </div>
                 @endforeach
             </div><!-- /.row -->
         </div><!-- /.container -->
@@ -1936,14 +1979,14 @@
                                 <h2 class="footer-widget__title">Get inTouch</h2><!-- /.footer-widget__title -->
                             </div><!-- /.footer-widget__top -->
                             <ul class="list-unstyled footer-widget__info">
-                                <li><span class="icon-location"></span><a href="https://www.google.com/maps">Rico
+                                <li><span class="icon-location"></span><a href="https://www.google.com/maps">Riico
                                         industrial area, kishangarh 305801</a>
                                 </li>
                                 <li><span class="icon-paper-plane"></span> <a
-                                        href="mailto:needhelp@company.com">mohitmarbleandgranites<p>@gmail.com</p></a>
+                                        href="mailto:mohitmarbleandgranites@gmail.com">mohitmarbleandgranites<br>@gmail.com
+                                        </p></a>
                                 </li>
-                                <li><span class="icon-phone-call"></span> <a
-                                        href="tel:+9156980036420">9145814566<br>
+                                <li><span class="icon-phone-call"></span> <a href="tel:+9156980036420">9145814566<br>
                                         7425824566</a></li>
                             </ul>
                         </div>
@@ -1978,7 +2021,9 @@
                         <div class="col-md-7 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
                             <div class="main-footer__bottom__copyright">
                                 <p class="main-footer__copyright">
-                                    &copy; Copyright <span class="dynamic-year"></span> by InTouch Software Solutions.
+                                    &copy; Copyright <span class="dynamic-year"></span> MMG Made with ❤️ by
+                                    <a href="https://www.intouchsoftware.co.in/">InTouch Software Solutions </a>All
+                                    rights reserved.
                                 </p>
                             </div><!-- /.main-footer__bottom__copyright -->
                         </div><!-- /.col-md-7 -->
@@ -1987,9 +2032,7 @@
             </div><!-- /.container -->
         </div><!-- /.main-footer__bottom -->
     </footer>
-
-    </div><!-- /.page-wrapper -->
-
+    </div>
     <div class="mobile-nav__wrapper">
         <div class="mobile-nav__overlay mobile-nav__toggler"></div>
         <!-- /.mobile-nav__overlay -->
@@ -2035,7 +2078,6 @@
         </div>
         <!-- /.mobile-nav__content -->
     </div>
-    <!-- /.mobile-nav__wrapper -->
     <div class="search-popup">
         <div class="search-popup__overlay search-toggler"></div>
         <!-- /.search-popup__overlay -->
@@ -2049,7 +2091,6 @@
         </div>
         <!-- /.search-popup__content -->
     </div>
-    <!-- /.search-popup -->
     <aside class="sidebar-one">
         <div class="sidebar-one__overlay sidebar-btn__toggler"></div><!-- /.siderbar-ovarlay -->
         <div class="sidebar-one__content">
@@ -2104,7 +2145,7 @@
                 <div class="mc-form__response"></div><!-- /.mc-form__response -->
             </div><!-- /.sidebar-one__form -->
         </div><!-- /.sidebar__content -->
-    </aside><!-- /.sidebar-one -->
+    </aside>
 
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
         <span class="scroll-to-top__text">back top</span>
