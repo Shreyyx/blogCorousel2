@@ -232,6 +232,99 @@ class AdminController extends Controller
            return response()->json(['success', true]);
        }
 
+       public function manage_blogs(Request $request)
+       {
+           $data = Blog::all();
+           // Log::info($data);
+           if($request->ajax()){
+               return Datatables::of($data)
+               ->addIndexColumn()
+               ->addColumn('image', function($row){
+                   $image = '<img src="' . asset("BlogImages/" . $row->image) . '" width="80px">';
+                   return $image;
+               } )
+               ->addColumn('action', function($row){
+                   $btn = ' <a data-bs-toggle="modal" href="#editModal' . $row->id . '">✏️</a>';
+                   $btn = $btn . '<a href="javascript:void(0);" id="' . $row->id . '" class="delete btn ml-3 btn">🗑️</a>';
+                   return $btn;
+               })
+               ->rawColumns(['action', 'image'])
+               ->make(true);
+           }
+           return view('admin.manage-blogs', compact('data'));
+          
+       }
+   
+       public function save_blogs(Request $request) 
+       {
+           // dd($request->all());// Validate the incoming request data
+           $request->validate([
+               'date' => 'required',
+               'month' => 'required',
+               'title' => 'required',
+               'image' => 'required',
+               'description' => 'required',
+           ]);
+   
+           // Create a new gallery instance and fill it with the validated data
+           $blogs = new Blog();
+           $blogs->date =  $request->input('date');
+           $blogs->month =  $request->input('month');
+           $blogs->title = $request->input('title');
+           $blogs->description = $request->input('description');
+           if ($request->hasFile('image')) {
+               $file1 = $request->file('image');
+               $ext1 = $file1->getClientOriginalExtension();
+               $filename1 = time() . '.' . $ext1;
+               $file1->move('BlogImages/', $filename1);
+               $blogs->image = $filename1;
+            
+             }
+
+            $blogs->save();
+   
+           return redirect()->back()->with('success', 'blog created successfully.');
+   
+       }
+   
+       public function update_blogs(Request $request ,$id)
+       {
+           //dd($request->all());
+           $request->validate([
+               'date' => 'required',
+               'month' => 'required',
+               'title' => 'required',
+               'image' => 'required',
+               'description' => 'required',
+           ]);
+   
+           // Create a new gallery instance and fill it with the validated data
+           $blogs = Blog::find($id);
+           $blogs->date =  $request->input('date');
+           $blogs->month =  $request->input('month');
+           $blogs->title = $request->input('title');
+           $blogs->description = $request->input('description');
+           if ($request->hasFile('image')) {
+               $file1 = $request->file('image');
+               $ext1 = $file1->getClientOriginalExtension();
+               $filename1 = time() . '.' . $ext1;
+               $file1->move('BlogImages/', $filename1);
+               $blogs->image = $filename1;
+            
+             }
+
+            $blogs->save();
+           
+           return redirect()->back()->with('success', 'blogs updated successfully.');
+       }
+   
+       public function delete_blogs(Request $request)
+       {
+           $blogs = Blog::find($request->id);
+           $blogs->delete();
+           return response()->json(['success', true]);
+       }
+
        public function manage_projects(Request $request)
        {
            $data = Project::all();
@@ -317,106 +410,6 @@ class AdminController extends Controller
        {
            $projects = Project::find($request->id);
            $projects->delete();
-           return response()->json(['success', true]);
-       }
-
-       public function manage_blogs(Request $request)
-       {
-           $data = Blog::all();
-           // Log::info($data);
-           if($request->ajax()){
-               return Datatables::of($data)
-               ->addIndexColumn()
-               ->addColumn('image', function($row){
-                   $image = '<img src="' . asset("BlogImages/" . $row->image) . '" width="80px">';
-                   return $image;
-               } )
-               ->addColumn('action', function($row){
-                   $btn = ' <a data-bs-toggle="modal" href="#editModal' . $row->id . '">✏️</a>';
-                   $btn = $btn . '<a href="javascript:void(0);" id="' . $row->id . '" class="delete btn ml-3 btn">🗑️</a>';
-                   return $btn;
-               })
-               ->rawColumns(['action', 'image'])
-               ->make(true);
-           }
-           return view('admin.manage-blogs', compact('data'));
-          
-       }
-   
-       public function save_blogs(Request $request) 
-       {
-           // dd($request->all());// Validate the incoming request data
-           $request->validate([
-               'date' => 'required',
-               'day' => 'required',
-               'month' => 'required',
-               'image' => 'required',
-               'title' => 'required',
-               'description' => 'required',
-           ]);
-   
-           // Create a new gallery instance and fill it with the validated data
-           $blogs = new Blog();
-           $blogs->date =  $request->input('date');
-           $blogs->day =  $request->input('day');
-           $blogs->month = $request->input('month');
-           $blogs->title = $request->input('title');
-           $blogs->description = $request->input('description');
-           if ($request->hasFile('image')) {
-               $file1 = $request->file('image');
-               $ext1 = $file1->getClientOriginalExtension();
-               $filename1 = time() . '.' . $ext1;
-               $file1->move('GalleryImages/', $filename1);
-               $blogs->image = $filename1;
-            
-             }
-
-            $blogs->save();
-   
-           
-           return redirect()->back()->with('success', 'team created successfully.');
-   
-       }
-   
-       public function update_blogs(Request $request ,$id)
-       {
-           //dd($request->all());
-           $request->validate([
-               'date' => 'required',
-               'day' => 'required',
-               'month' => 'required',
-               'image' => 'required',
-               'title' => 'required',
-               'description' => 'required',
-           ]);
-   
-           // Create a new gallery instance and fill it with the validated data
-           $blogs = Blog::find($id);
-           $blogs->date =  $request->input('date');
-           $blogs->day =  $request->input('day');
-           $blogs->month = $request->input('month');
-           $blogs->title = $request->input('title');
-           $blogs->description = $request->input('description');
-           if ($request->hasFile('image')) {
-               $file1 = $request->file('image');
-               $ext1 = $file1->getClientOriginalExtension();
-               $filename1 = time() . '.' . $ext1;
-               $file1->move('GalleryImages/', $filename1);
-               $blogs->image = $filename1;
-            
-             }
-
-            $blogs->save();
-   
-           
-           return redirect()->back()->with('success', 'teams updated successfully.');
-   
-       }
-   
-       public function delete_blogs(Request $request)
-       {
-           $blogs = Blog::find($request->id);
-           $blogs->delete();
            return response()->json(['success', true]);
        }
 

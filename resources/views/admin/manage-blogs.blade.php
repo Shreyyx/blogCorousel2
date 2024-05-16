@@ -23,11 +23,10 @@
                                 <thead>
                                     <tr>
                                         <th>id</th>
-                                        <th>day</th>
                                         <th>date</th>
                                         <th>month</th>
-                                        <th>image</th>
                                         <th>title</th>
+                                        <th>Image</th>
                                         <th>description</th>
                                         <th>Action</th>
 
@@ -60,6 +59,7 @@
                                     <!--Login Candidate Content-->
                                     <div class="tab-pane fade show active" id="login-candidate">
                                         <div class="row">
+
                                             <div class="col-lg-12">
                                                 <div class="form-group mb-3">
                                                     <label for="date"><b>date<span class="text-danger">
@@ -70,17 +70,17 @@
                                             </div>
                                             <div class="col-lg-12">
                                                 <div class="form-group mb-3">
-                                                    <label for="day"><b>day<span class="text-danger">
+                                                    <label for="month"><b>month<span class="text-danger">
                                                                 *</span></b></label>
-                                                    <input name="day" type="text" id="day" class="form-control"
-                                                        placeholder="Enter title" required>
+                                                    <input name="month" type="text" id="month" class="form-control"
+                                                        placeholder="Enter month" required>
                                                 </div>
                                             </div>
                                             <div class="col-lg-12">
                                                 <div class="form-group mb-3">
-                                                    <label for="month"><b>month<span class="text-danger">
+                                                    <label for="title"><b>title<span class="text-danger">
                                                                 *</span></b></label>
-                                                    <input name="month" type="text" id="month" class="form-control"
+                                                    <input name="title" type="text" id="title" class="form-control"
                                                         placeholder="Enter title" required>
                                                 </div>
                                             </div>
@@ -90,14 +90,6 @@
                                                                 *</span></b></label>
                                                     <input name="image" type="file" id="image"
                                                         class="form-control my-1" >
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12">
-                                                <div class="form-group mb-3">
-                                                    <label for="title"><b>title<span class="text-danger">
-                                                                *</span></b></label>
-                                                    <input name="title" type="text" id="title" class="form-control"
-                                                        placeholder="Enter title" required>
                                                 </div>
                                             </div>
                                             <div class="col-lg-12">
@@ -143,14 +135,6 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <div class="form-group mb-3">
-                                                <label for="day"><b>day<span class="text-danger">
-                                                            *</span></b></label>
-                                                <input name="day" type="text" id="day" class="form-control"
-                                                    value="{{ $blogs->day }}" required>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12">
-                                            <div class="form-group mb-3">
                                                 <label for="date"><b>date<span class="text-danger">
                                                             *</span></b></label>
                                                 <input name="date" type="text" id="date" class="form-control"
@@ -167,18 +151,18 @@
                                         </div>
                                         <div class="col-lg-12">
                                             <div class="form-group mb-3">
-                                                <label for="image"><b>Images<span class="text-danger">
-                                                            *</span></b></label>
-                                                <input name="image" type="file" id="image"
-                                                    class="form-control my-1">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12">
-                                            <div class="form-group mb-3">
                                                 <label for="title"><b>title<span class="text-danger">
                                                             *</span></b></label>
                                                 <input name="title" type="text" id="title" class="form-control"
                                                     value="{{ $blogs->title }}" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-group mb-3">
+                                                <label for="image"><b>Images<span class="text-danger">
+                                                            *</span></b></label>
+                                                <input name="image" type="file" id="image"
+                                                    class="form-control my-1">
                                             </div>
                                         </div>
                                         <div class="col-lg-12">
@@ -219,10 +203,6 @@
                         name: 'id'
                     },
                     {
-                        data: 'day',
-                        name: 'day'
-                    },
-                    {
                         data: 'date',
                         name: 'date'
                     },
@@ -231,12 +211,12 @@
                         name: 'month'
                     },
                     {
-                        data: 'image',
-                        name: 'image'
-                    },
-                    {
                         data: 'title',
                         name: 'title'
+                    },
+                    {
+                        data: 'image',
+                        name: 'image'
                     },
                     {
                         data: 'description',

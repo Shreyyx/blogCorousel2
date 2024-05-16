@@ -1790,7 +1790,7 @@
                         data-wow-delay='000ms'>
                         <div class="blog-card__image">
                             <img src="{{asset ('BlogImages/' . $blogs->image)}}" alt="">
-                            <a href="{{ Route('blog_detailsright') }}" class="blog-card__image__link"><span
+                            <a href="{{ Route('blog_detailsright',['id'=>$blogs->id])}}" class="blog-card__image__link"><span
                                     class="sr-only">{{$blogs->title}}</span>
                                 <!-- /.sr-only --></a>
                         </div><!-- /.blog-card__image -->
@@ -1799,7 +1799,7 @@
                             <span class="blog-card__date__month">{{$blogs->month}}</span>
                         </div><!-- /.blog-card__date -->
                         <div class="blog-card__content">
-                            <h3 class="blog-card__title"><a href="{{ Route('blog_detailsright') }}">{{$blogs->title}}</a></h3><!-- /.blog-card__title -->
+                            <h3 class="blog-card__title"><a href="{{ Route('blog_detailsright',['id'=>$blogs->id])}}">{{$blogs->title}}</a></h3><!-- /.blog-card__title -->
                             
                         </div><!-- /.blog-card__content -->
                     </div><!-- /.blog-card -->

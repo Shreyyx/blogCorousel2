@@ -63,7 +63,7 @@ Route::get('blog_carousel2',[HomeController::class,'blog_carousel2'])->name('blo
 Route::get('blog_carousel3',[HomeController::class,'blog_carousel3'])->name('blog_carousel3');
 Route::get('blog_details',[HomeController::class,'blog_details'])->name('blog_details');
 Route::get('blog_detailsleft',[HomeController::class,'blog_detailsleft'])->name('blog_detailsleft');
-Route::get('blog_detailsright',[HomeController::class,'blog_detailsright'])->name('blog_detailsright');
+Route::get('blog_detailsright/{id}',[HomeController::class,'blog_detailsright'])->name('blog_detailsright');
 Route::get('blog_grid',[HomeController::class,'blog_grid'])->name('blog_grid');
 Route::get('blog_gridleft',[HomeController::class,'blog_gridleft'])->name('blog_gridleft');
 Route::get('blog_gridright',[HomeController::class,'blog_gridright'])->name('blog_gridright');

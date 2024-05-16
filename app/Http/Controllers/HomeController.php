@@ -235,10 +235,11 @@ class HomeController extends Controller
         return view ('blog_detailsleft');
     }
 
-    public function blog_detailsright()
+    public function blog_detailsright($id)
     {
-        return view ('blog_detailsright');
-    }
+        $data =Blog::find($id);
+        return view ('blog_detailsright',compact('data','id'));
+   }
 
     public function blog_grid()
     {
