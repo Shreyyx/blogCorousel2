@@ -422,8 +422,8 @@ p {
 }
 
 .section-space-two {
-    padding-top: 111px;
-    padding-bottom: var(--section-space, 120px);
+    padding-top: 80px;
+    padding-bottom: var(--section-space, 100px);
 }
 @media (max-width: 767px) {
     .section-space-two {
@@ -2297,7 +2297,7 @@ p {
     }
 }
 .blog-card--three .blog-card__content {
-    padding: 23px 29px 30px 30px;
+    padding: 10px 30px 10px 30px;
     position: relative;
     position: absolute;
     right: 0;
@@ -2312,7 +2312,7 @@ p {
 }
 .blog-card--three .blog-card__title {
     position: relative;
-    margin-bottom: 24px;
+    margin-bottom: 15px;
 }
 @media (max-width: 375px) {
     .blog-card--three .blog-card__title {

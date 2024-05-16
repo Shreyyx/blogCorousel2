@@ -167,7 +167,7 @@
                 </div><!-- /.container -->
                 <img src="assets/images/contact/contact-1-2.jpg" alt="contact image"
                     class="contact-one__image-two wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="00ms">
-            </section><!-- /.contact-one section-space -->
+            </section>
             <br><br>
             <div class="container-fluid">
                 <section class="contact-map">

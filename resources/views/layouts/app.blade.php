@@ -83,6 +83,12 @@
                                     <a class="dropdown-item" href="{{ Route('manage-gallery') }}">
                                         Manage Gallery
                                     </a>
+                                    <a class="dropdown-item" href="{{ Route('manage-projects') }}">
+                                        Manage Projects
+                                    </a>
+                                    <a class="dropdown-item" href="{{ Route('manage-blogs') }}">
+                                        Manage Blogs
+                                    </a>
                                 </div>
                             </li>
                         @endguest

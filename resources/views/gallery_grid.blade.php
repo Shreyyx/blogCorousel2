@@ -19,7 +19,7 @@
                     style="background-image: url('assets/images/backgrounds/page-header-bg-1-1.png');"></div>
                 <!-- /.page-header__bg -->
                 <div class="container">
-                    <h2 class="page-header__title">Gallery grid</h2>
+                    <h2 class="page-header__title">Gallery</h2>
                     <ul class="floens-breadcrumb list-unstyled">
                         <li><i class="icon-home"></i> <a href="{{ Route('index_2') }}">Home</a></li>
                         <li><span>Gallery</span></li>

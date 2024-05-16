@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Blog;
 use App\Models\Gallery;
+use App\Models\Project;
 use App\Models\Team;
 use Illuminate\Http\Request;
 
@@ -29,10 +31,11 @@ class HomeController extends Controller
         return view ('index_3onepage');
     }
 
-    // public function index_4()
-    // {
-    //     return view ('index_4');
-    // }
+    public function index_4()
+    {
+        $data = Blog::all();
+        return view('index_4', compact('data'));
+    }
 
     public function index_main()
     {
@@ -183,7 +186,8 @@ class HomeController extends Controller
 
     public function work()
     {
-        return view ('work');
+        $data = Project::all();
+        return view('work', compact('data'));
     }
 
     public function work_carousel()
@@ -231,10 +235,11 @@ class HomeController extends Controller
         return view ('blog_detailsleft');
     }
 
-    public function blog_detailsright()
+    public function blog_detailsright($id)
     {
-        return view ('blog_detailsright');
-    }
+        $data =Blog::find($id);
+        return view ('blog_detailsright',compact('data','id'));
+   }
 
     public function blog_grid()
     {
