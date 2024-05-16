@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('index_4');
 });
 
 Route::get('index_2',[HomeController::class,'index_2'])->name('index_2');
@@ -96,6 +96,10 @@ Route::get('/manage-gallery', [AdminController::class, 'manage_gallery'])->name(
 Route::post('/save-gallery', [AdminController::class, 'save_gallery'])->name('save-gallery');
 Route::post('/update-gallery/{id}', [AdminController::class, 'update_gallery'])->name('update-gallery');
 Route::get('/delete-gallery', [AdminController::class, 'delete_gallery'])->name('delete-gallery');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

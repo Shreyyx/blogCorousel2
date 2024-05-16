@@ -56,7 +56,7 @@
     <div class="custom-cursor__cursor-two"></div>
 
     <div class="preloader">
-        <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
+        <div class="preloader__image" style="background-image: url(assets/images/about/favicon-logo.png);"></div>
     </div>
     <!-- /.preloader -->
     <div class="page-wrapper">

@@ -9,7 +9,7 @@
         <div class="custom-cursor__cursor-two"></div>
 
         <div class="preloader">
-            <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
+            <div class="preloader__image" style="background-image: url(assets/images/about/favicon-logo.png);"></div>
         </div>
         <!-- /.preloader -->
         <div class="page-wrapper">
@@ -95,7 +95,8 @@
                                     <hr>
                                 </div>
                                 <div class="service-details__inner-two">
-                                    <h3 class="service-details__sub-title">"OUR ITALIAN MARBLE COLLECTION CATERS TO EVERY STYLE AND PROJECT NEED."</h3>
+                                    <h3 class="service-details__sub-title">"OUR ITALIAN MARBLE COLLECTION CATERS TO EVERY
+                                        STYLE AND PROJECT NEED."</h3>
                                 </div>
                             </div>
                         </div>

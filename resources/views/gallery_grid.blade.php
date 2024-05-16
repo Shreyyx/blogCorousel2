@@ -9,7 +9,7 @@
         <div class="custom-cursor__cursor-two"></div>
 
         <div class="preloader">
-            <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
+            <div class="preloader__image" style="background-image: url(assets/images/about/favicon-logo.png);"></div>
         </div>
         <!-- /.preloader -->
         <div class="page-wrapper">
@@ -31,18 +31,17 @@
                 <div class="container-fluid">
 
                     <div class="row">
-                        @foreach($data as $gallery)
-                        <div class="col-xl-4 col-lg-4 col-sm-6">
-                            <div class="gallery-one__card">
-                                <img src="{{asset ('GalleryImages/' . $gallery->image)}}"
-                                alt="">
-                                <div class="gallery-one__card__hover">
-                                    <a href="{{asset ('GalleryImages/' . $gallery->image)}}" class="img-popup">
-                                        <span class="gallery-one__card__icon"></span>
-                                    </a>
-                                </div><!-- /.gallery-one__card__hover -->
-                            </div><!-- /.gallery-one__card -->
-                        </div>
+                        @foreach ($data as $gallery)
+                            <div class="col-xl-4 col-lg-4 col-sm-6">
+                                <div class="gallery-one__card">
+                                    <img src="{{ asset('GalleryImages/' . $gallery->image) }}" alt="">
+                                    <div class="gallery-one__card__hover">
+                                        <a href="{{ asset('GalleryImages/' . $gallery->image) }}" class="img-popup">
+                                            <span class="gallery-one__card__icon"></span>
+                                        </a>
+                                    </div><!-- /.gallery-one__card__hover -->
+                                </div><!-- /.gallery-one__card -->
+                            </div>
                         @endforeach
                     </div>
 

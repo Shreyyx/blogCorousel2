@@ -17,7 +17,7 @@
         <div class="custom-cursor__cursor-two"></div>
 
         <div class="preloader">
-            <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
+            <div class="preloader__image" style="background-image: url(assets/images/about/favicon-logo.png);"></div>
         </div>
         <!-- /.preloader -->
         <div class="page-wrapper">
@@ -150,7 +150,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    {{-- <div class="col">
                                         <div class="card">
                                             <img src="assets\images\Projects\Indian-Marble2.png" class="card-img-top"
                                                 alt="...">
@@ -185,7 +185,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
 
 

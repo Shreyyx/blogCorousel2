@@ -53,7 +53,7 @@
     <div class="custom-cursor__cursor-two"></div>
 
     <div class="preloader">
-        <div class="preloader__image" style="background-image: url(assets/images/about/favicon logo.png);"></div>
+        <div class="preloader__image" style="background-image: url(assets/images/about/favicon-logo.png);"></div>
     </div>
     <!-- /.preloader -->
     <div class="page-wrapper">
@@ -374,14 +374,13 @@
                                 exquisite craftsmanship ensures that every project is meticulously executed, resulting
                                 in breathtaking installations that stand the test of time.
                             </p>
-                            <br>
                             <ul>
-                                <li style="list-style-type: none"><i class="fas fa-check-double"
-                                        style="color: #f7c566"></i> Premium Selection of Materials.</li>
-                                <li style="list-style-type: none"><i class="fas fa-check-double"
+                                <li style="list-style-type: none;"><i class="fas fa-check-double"
+                                        style="color: #f7c566;"></i> Premium Selection of Materials.</li>
+                                <li style="list-style-type: none;"><i class="fas fa-check-double pb-1"
                                         style="color: #f7c566"></i> Competitive Pricing without Compromising Quality.
                                 </li>
-                                <li style="list-style-type: none"><i class="fas fa-check-double"
+                                <li style="list-style-type: none;"><i class="fas fa-check-double pb-1"
                                         style="color: #f7c566"></i> Timely Delivery for Your Convenience.</li>
                             </ul>
                             <p>
@@ -1420,9 +1419,9 @@
                         <div class="item">
                             <div class="testimonials-card-three">
                                 <div class="testimonials-card-three__info">
-                                    <h4 class="testimonials-card-three__name" style="white-space: nowrap">John Roth
+                                    <h4 class="testimonials-card-three__name" style="white-space: nowrap">Herry
                                     </h4>
-                                    <span class="testimonials-card-three__designation">Germany</span>
+                                    <span class="testimonials-card-three__designation">Austraila</span>
                                 </div>
                                 <style>
                                     .testimonials-card-three__container {
@@ -1505,11 +1504,10 @@
                                     <span class="icon-star"></span>
                                 </div>
                                 <p class="testimonials-card-three__text"><a href="{{ Route('about') }}"
-                                        class="testimonials-card-three__text__highlight"></a><i>I am
-                                        thrilled to share my extraordinary experience with Good Marble and Granite, a
-                                        company that truly,knows how to deliver excellence. My recent home renovation
-                                        project involved revamping my living spaces with the luxurious touch of marble
-                                        and granite, and I couldn't have chosen a better partner for this endeavor.</i>
+                                        class="testimonials-card-three__text__highlight"></a><i>Right from the start,
+                                        their expertise was evident. The variety of marble and granite they offered for
+                                        such a big project was impressive. The team was knowledgeable and helped us
+                                        choose the perfect materials to elevate the building's aesthetics. </i>
                                 </p>
                             </div>
                         </div>
@@ -1967,7 +1965,8 @@
                                 <li><span class="icon-location"></span><a href="https://www.google.com/maps">Rico
                                         industrial area, kishangarh 305801</a>
                                 </li>
-                                <li><span class="icon-paper-plane"></span> <a href="mailto:needhelp@company.com">mohitmarbleandgranites@gmail.com</a>
+                                <li><span class="icon-paper-plane"></span> <a
+                                        href="mailto:needhelp@company.com">mohitmarbleandgranites<p>@gmail.com</p></a>
                                 </li>
                                 <li><span class="icon-phone-call"></span> <a
                                         href="tel:+9156980036420">9145814566<br>
@@ -2093,11 +2092,12 @@
                 <h4 class="sidebar-one__title">Information</h4>
                 <ul class="sidebar-one__info__list">
                     <li><span class="icon-location-2"></span>
-                        <address>85 Ketch Harbour Road Bensal PA 19020</address>
+                        <address>Rico industrial area , kishangarh 305801</address>
                     </li>
                     <li><span class="icon-paper-plane"></span> <a
-                            href="mailto:needhelp@company.com">needhelp@company.com</a></li>
-                    <li><span class="icon-phone-call"></span> <a href="tel:+9156980036420">+91 5698 0036 420</a>
+                            href="mailto:needhelp@company.com">mohitmarbleandgranites@gmail.com</a></li>
+                    <li><span class="icon-phone-call"></span> <a href="tel:+9156980036420">9145814566,
+                            7425824566</a>
                     </li>
                 </ul><!-- /.sidebar-one__info__list -->
             </div><!-- /.sidebar-one__info -->

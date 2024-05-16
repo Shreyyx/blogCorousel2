@@ -9,7 +9,7 @@
         <div class="custom-cursor__cursor-two"></div>
 
         <div class="preloader">
-            <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
+            <div class="preloader__image" style="background-image: url(assets/images/about/favicon-logo.png);"></div>
         </div>
         <!-- /.preloader -->
         <div class="page-wrapper">
@@ -32,23 +32,24 @@
                     <div class="row gutter-y-30">
 
                         @foreach ($data as $teams)
-                        <div class="col-md-6 col-lg-4">
-                            <div class="team-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='000ms'>
-                                <div class="team-card__image">
-                                    <img src="{{asset ('TeamImages/' . $teams->image)}}"
-                                    alt="">
-                                    <div class="team-card__hover">
-                                        <div class="team-card__identity">
-                                            <div class="team-card__identity__inner">
-                                                <h3 class="team-card__name"><a href="{{ Route('team_details') }}">{{$teams->name}}</a>
-                                                </h3><!-- /.team-card__name -->
-                                                <span class="team-card__designation">{{$teams->title}}</span><!-- /.team-card__designation -->
-                                            </div><!-- /.team-card__identity__inner -->
-                                        </div><!-- /.team-card__identity -->
-                                    </div><!-- /.team-card__hover -->
-                                </div><!-- /.team-card__image -->
-                            </div><!-- /.team-card -->
-                        </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="team-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='000ms'>
+                                    <div class="team-card__image">
+                                        <img src="{{ asset('TeamImages/' . $teams->image) }}" alt="">
+                                        <div class="team-card__hover">
+                                            <div class="team-card__identity">
+                                                <div class="team-card__identity__inner">
+                                                    <h3 class="team-card__name"><a
+                                                            href="{{ Route('team_details') }}">{{ $teams->name }}</a>
+                                                    </h3><!-- /.team-card__name -->
+                                                    <span
+                                                        class="team-card__designation">{{ $teams->title }}</span><!-- /.team-card__designation -->
+                                                </div><!-- /.team-card__identity__inner -->
+                                            </div><!-- /.team-card__identity -->
+                                        </div><!-- /.team-card__hover -->
+                                    </div><!-- /.team-card__image -->
+                                </div><!-- /.team-card -->
+                            </div>
                         @endforeach
 
                     </div><!-- /.row -->

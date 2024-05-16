@@ -29,7 +29,7 @@
         <div class="custom-cursor__cursor-two"></div>
 
         <div class="preloader">
-            <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
+            <div class="preloader__image" style="background-image: url(assets/images/about/favicon-logo.png);"></div>
         </div>
         <!-- /.preloader -->
         <div class="page-wrapper">
@@ -110,7 +110,7 @@
                                                     <span class="icon-location"></span>
                                                 </div>
                                                 <address class="contact-one__info__text">Rico
-                                                        industrial area , kishangarh 305801</address>
+                                                    industrial area , kishangarh 305801</address>
                                             </div>
                                         </div>
                                     </div>

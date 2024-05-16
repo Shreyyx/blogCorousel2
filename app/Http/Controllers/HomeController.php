@@ -29,10 +29,10 @@ class HomeController extends Controller
         return view ('index_3onepage');
     }
 
-    public function index_4()
-    {
-        return view ('index_4');
-    }
+    // public function index_4()
+    // {
+    //     return view ('index_4');
+    // }
 
     public function index_main()
     {
