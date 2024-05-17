@@ -1,31 +1,31 @@
 @extends('index_main')
 @section('csscontent')
-<style>
-    .fixed-textarea {
-        width: 300px;
-        /* Set the desired width */
-        min-height: 150px;
-        /* Set the minimum height */
-        max-height: 300px;
-        /* Set the maximum height */
-        height: auto;
-        /* Allow automatic height adjustment based on content */
-        resize: none;
-        /* Disable resizing */
-        overflow-y: auto;
-        /* Add vertical scrollbar if content exceeds max-height */
-    }
+    <style>
+        .fixed-textarea {
+            width: 300px;
+            /* Set the desired width */
+            min-height: 150px;
+            /* Set the minimum height */
+            max-height: 300px;
+            /* Set the maximum height */
+            height: auto;
+            /* Allow automatic height adjustment based on content */
+            resize: none;
+            /* Disable resizing */
+            overflow-y: auto;
+            /* Add vertical scrollbar if content exceeds max-height */
+        }
 
-    .side-by-side {
-        display: inline-block;
-    }
-</style>
+        .side-by-side {
+            display: inline-block;
+        }
+    </style>
 @endsection
 @section('content')
 
     <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> --}}
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
@@ -93,7 +93,7 @@
                                         </div><!-- /.service-sidebar__contact__inner -->
                                     </div><!-- /.service-sidebar__contact -->
                                 </div><!-- /.service-sidebar__info service-sidebar__single -->
-                                <div class="service-sidebar__single wow fadeInLeft" data-wow-duration="1500ms"
+                                {{-- <div class="service-sidebar__single wow fadeInLeft" data-wow-duration="1500ms"
                                     data-wow-delay="200ms">
                                     <div class="service-sidebar__company">
                                         <a href="#" class="service-sidebar__company__btn">
@@ -109,7 +109,7 @@
                                         <h4 class="service-sidebar__company__title">company brochure</h4>
                                         <!-- /.service-sidebar__company__title -->
                                     </div><!-- /.service-sidebar__company -->
-                                </div><!-- /.service-sidebar__single -->
+                                </div><!-- /.service-sidebar__single --> --}}
                             </div><!-- /.sidebar -->
                         </div><!-- /.col-md-12 col-lg-4 -->
                         <div class="col-md-12 col-lg-8">
@@ -282,7 +282,7 @@
                                                     <span class="icon-location"></span>
                                                 </div>
                                                 <address class="contact-one__info__text">Rico
-                                                        industrial area , kishangarh 305801</address>
+                                                    industrial area , kishangarh 305801</address>
                                             </div>
                                         </div>
                                     </div>

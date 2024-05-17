@@ -150,7 +150,7 @@
                                 </li> --}}
 
                                 <li class="dropdown">
-                                    <a href="{{ Route('services_grid') }}">Services</a>
+                                    <a href="#">Services</a>
                                     <ul>
                                         <li><a href="{{ Route('serviced_industrial_flooring') }}">Indian Marble</a>
                                         </li>
@@ -1063,7 +1063,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    background-color: #fff;
+                    /* background-color: #fff; */
                     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
                 }
 

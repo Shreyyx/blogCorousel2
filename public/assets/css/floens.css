@@ -8774,7 +8774,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .gallery-one__card:hover img {
     transform: scale(1.05);
-    opacity: 0.9;
+    opacity: 1;
     mix-blend-mode: screen;
 }
 .gallery-one__card:hover .gallery-one__card__hover {

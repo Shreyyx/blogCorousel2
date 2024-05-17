@@ -95,7 +95,7 @@
             <div class="main-header__left">
                 <div class="main-header__logo">
                     <a href="{{ Route('index_2') }}">
-                        <img src="assets/images/Projects/Screenshot_2024-05-15_181714-removebg-preview.png" alt="Floens HTML" width="125">
+                        <img src="assets/images/Projects/Screenshot_2024-05-15_181714-removebg-preview.png" alt="Floens HTML" width="180">
                     </a>
                 </div><!-- /.main-header__logo -->
                 <nav class="main-header__nav main-menu">
@@ -270,7 +270,7 @@
                         </li>
 
                         <li class="dropdown">
-                            <a href="{{ Route('services_grid') }}">Services</a>
+                            <a href="#">Services</a>
                             <ul>
                                 <li><a href="{{ Route('serviced_industrial_flooring') }}">Indian Marble</a>
                                 </li>
