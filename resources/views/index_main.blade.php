@@ -63,7 +63,7 @@
                 </li>
                 <li class="topbar-one__info__item">
                     <span class="icon-location"></span>
-                    <address>Rico industrial area , kishangarh 305801</address>
+                    <address>Riico industrial area , kishangarh 305801</address>
                 </li>
             </ul><!-- /.list-unstyled topbar-one__info -->
             <div class="topbar-one__right">

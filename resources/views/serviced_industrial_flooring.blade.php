@@ -15,6 +15,21 @@
             overflow-y: auto;
             /* Add vertical scrollbar if content exceeds max-height */
         }
+    <style>
+        .fixed-textarea {
+            width: 300px;
+            /* Set the desired width */
+            min-height: 150px;
+            /* Set the minimum height */
+            max-height: 300px;
+            /* Set the maximum height */
+            height: auto;
+            /* Allow automatic height adjustment based on content */
+            resize: none;
+            /* Disable resizing */
+            overflow-y: auto;
+            /* Add vertical scrollbar if content exceeds max-height */
+        }
 
         .side-by-side {
             display: inline-block;
@@ -24,6 +39,8 @@
 @section('content')
 
     <head>
+        {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> --}}
         {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> --}}
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -125,94 +142,21 @@
                                 <div class="service-details__inner-two">
                                     <h3 class="service-details__sub-title">WE HAVE DIFFERENT VARITIES OF INDIAN MARBLE</h3>
                                 </div>
-
-                                <style>
-                                    <style>.card {
-                                        height: 100%;
-                                    }
-
-                                    .card-img-top {
-                                        height: 200px;
-                                        /* Set a fixed height for the images */
-                                        object-fit: cover;
-                                        /* Ensure the images cover the whole space */
-                                    }
-
-                                    .card-title {
-                                        font-size: 1.25rem;
-                                        /* Set a consistent font size for the titles */
-                                    }
-
-                                    .card-body {
-                                        display: flex;
-                                        flex-direction: column;
-                                        justify-content: space-between;
-                                    }
-
-                                    .card-body p {
-                                        margin-bottom: 0;
-                                        /* Remove default margin for paragraphs */
-                                    }
-                                </style>
-
-
-
                                 <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    @foreach($data as $indians)
                                     <div class="col">
                                         <div class="card">
-                                            <img src="assets\images\Projects\Indian-Marble1.png" class="card-img-top"
-                                                alt="...">
+                                            <img src="{{asset ('IndianImages/' . $indians->image)}}" class="card-img-top" alt="image">
                                             <div class="card-body">
-                                                <h5 class="card-title">Aagariya White Marble</h5>
+                                                <h5 class="card-title">{{$indians->name}}</h5>
                                                 <a href="{{ Route('contact') }}" style="text-decoration: none;">
                                                     <p>Contact us for more information</p>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- <div class="col">
-                                        <div class="card">
-                                            <img src="assets\images\Projects\Indian-Marble2.png" class="card-img-top"
-                                                alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Onyx Green Marble</h5>
-                                                <a href="{{ Route('contact') }}" style="text-decoration: none;">
-                                                    <p>Contact us for more information</p>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="card">
-                                            <img src="assets\images\Projects\Indian-Marble3.png" class="card-img-top"
-                                                alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Indo Italian Marble</h5>
-                                                <a href="{{ Route('contact') }}" style="text-decoration: none;">
-                                                    <p>Contact us for more information</p>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="card">
-                                            <img src="assets\images\Projects\Indian-Marble4.png" class="card-img-top"
-                                                alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Wonder White Marble</h5>
-                                                <a href="{{ Route('contact') }}" style="text-decoration: none;">
-                                                    <p>Contact us for more information</p>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div> --}}
+                                    @endforeach
                                 </div>
-
-
-
-
-
-
                             </div>
                         </div>
                     </div>
@@ -282,6 +226,7 @@
                                                     <span class="icon-location"></span>
                                                 </div>
                                                 <address class="contact-one__info__text">Rico
+                                                    industrial area , kishangarh 305801</address>
                                                     industrial area , kishangarh 305801</address>
                                             </div>
                                         </div>

@@ -281,6 +281,7 @@
                                                 <li><a href="{{ Route('blog_details') }}">No sidebar</a></li>
                                                 <li><a href="{{ Route('blog_detailsleft') }}">Left sidebar</a></li>
                                                 <li><a href="#">Right sidebar</a></li>
+                                                <li><a href="#">Right sidebar</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -1915,8 +1916,8 @@
                             <div class="blog-card__image">
                                 <img src="assets/images/blog/blog-1-1.jpg"
                                     alt="Talk About the Three Major Types of Floor Tiles">
-                                <a href="#" class="blog-card__image__link"><span class="sr-only">Talk About
-                                        the Three Major Types of Floor Tiles</span>
+                                <a href="#" class="blog-card__image__link"><span
+                                        class="sr-only">Talk About the Three Major Types of Floor Tiles</span>
                                     <!-- /.sr-only --></a>
                             </div><!-- /.blog-card__image -->
                             <div class="blog-card__date">
@@ -1924,6 +1925,7 @@
                                 <span class="blog-card__date__month">june</span>
                             </div><!-- /.blog-card__date -->
                             <div class="blog-card__content">
+                                <h3 class="blog-card__title"><a href="#">Talk About
                                 <h3 class="blog-card__title"><a href="#">Talk About
                                         the Three
                                         Major Types of Floor Tiles</a></h3><!-- /.blog-card__title -->
@@ -1941,8 +1943,8 @@
                             <div class="blog-card__image">
                                 <img src="assets/images/blog/blog-1-2.jpg"
                                     alt="Talk About the Three Major Types of Floor Tiles">
-                                <a href="#" class="blog-card__image__link"><span class="sr-only">Talk About
-                                        the Three Major Types of Floor Tiles</span>
+                                <a href="#" class="blog-card__image__link"><span
+                                        class="sr-only">Talk About the Three Major Types of Floor Tiles</span>
                                     <!-- /.sr-only --></a>
                             </div><!-- /.blog-card__image -->
                             <div class="blog-card__date">
@@ -1950,6 +1952,7 @@
                                 <span class="blog-card__date__month">june</span>
                             </div><!-- /.blog-card__date -->
                             <div class="blog-card__content">
+                                <h3 class="blog-card__title"><a href="#">Talk About
                                 <h3 class="blog-card__title"><a href="#">Talk About
                                         the Three
                                         Major Types of Floor Tiles</a></h3><!-- /.blog-card__title -->
@@ -1967,8 +1970,8 @@
                             <div class="blog-card__image">
                                 <img src="assets/images/blog/blog-1-3.jpg"
                                     alt="Talk About the Three Major Types of Floor Tiles">
-                                <a href="#" class="blog-card__image__link"><span class="sr-only">Talk About
-                                        the Three Major Types of Floor Tiles</span>
+                                <a href="#" class="blog-card__image__link"><span
+                                        class="sr-only">Talk About the Three Major Types of Floor Tiles</span>
                                     <!-- /.sr-only --></a>
                             </div><!-- /.blog-card__image -->
                             <div class="blog-card__date">
@@ -1976,6 +1979,7 @@
                                 <span class="blog-card__date__month">june</span>
                             </div><!-- /.blog-card__date -->
                             <div class="blog-card__content">
+                                <h3 class="blog-card__title"><a href="#">Talk About
                                 <h3 class="blog-card__title"><a href="#">Talk About
                                         the Three
                                         Major Types of Floor Tiles</a></h3><!-- /.blog-card__title -->
