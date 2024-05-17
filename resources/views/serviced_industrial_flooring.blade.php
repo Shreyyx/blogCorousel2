@@ -15,42 +15,32 @@
             overflow-y: auto;
             /* Add vertical scrollbar if content exceeds max-height */
         }
+    <style>
+        .fixed-textarea {
+            width: 300px;
+            /* Set the desired width */
+            min-height: 150px;
+            /* Set the minimum height */
+            max-height: 300px;
+            /* Set the maximum height */
+            height: auto;
+            /* Allow automatic height adjustment based on content */
+            resize: none;
+            /* Disable resizing */
+            overflow-y: auto;
+            /* Add vertical scrollbar if content exceeds max-height */
+        }
 
         .side-by-side {
             display: inline-block;
-        }
-
-        .card {
-            height: 100%;
-        }
-
-        .card-img-top {
-            height: 200px;
-            /* Set a fixed height for the images */
-            object-fit: cover;
-            /* Ensure the images cover the whole space */
-        }
-
-        .card-title {
-            font-size: 1.25rem;
-            /* Set a consistent font size for the titles */
-        }
-
-        .card-body {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-
-        .card-body p {
-            margin-bottom: 0;
-            /* Remove default margin for paragraphs */
         }
     </style>
 @endsection
 @section('content')
 
     <head>
+        {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> --}}
         {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> --}}
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -136,7 +126,7 @@
                                         <h4 class="service-sidebar__company__title">company brochure</h4>
                                         <!-- /.service-sidebar__company__title -->
                                     </div><!-- /.service-sidebar__company -->
-                                </div> --}}
+                                </div><!-- /.service-sidebar__single -->
                             </div><!-- /.sidebar -->
                         </div><!-- /.col-md-12 col-lg-4 -->
                         <div class="col-md-12 col-lg-8">
@@ -236,6 +226,7 @@
                                                     <span class="icon-location"></span>
                                                 </div>
                                                 <address class="contact-one__info__text">Rico
+                                                    industrial area , kishangarh 305801</address>
                                                     industrial area , kishangarh 305801</address>
                                             </div>
                                         </div>
