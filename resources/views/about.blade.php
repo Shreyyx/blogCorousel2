@@ -10,6 +10,30 @@
 
         <div class="preloader">
             <div class="preloader__image" style="background-image: url(assets/images/about/favicon-logo.png);"></div>
+            <div class="loading">
+                <div class="loading-text">
+                    <span class="loading-text-words">M</span>
+                    <span class="loading-text-words">O</span>
+                    <span class="loading-text-words">H</span>
+                    <span class="loading-text-words">I</span>
+                    <span class="loading-text-words">T</span>
+                    <span class="loading-text-words">M</span>
+                    <span class="loading-text-words">A</span>
+                    <span class="loading-text-words">R</span>
+                    <span class="loading-text-words">B</span>
+                    <span class="loading-text-words">L</span>
+                    <span class="loading-text-words">E</span>
+                    <span class="loading-text-words">&</span>
+                    <span class="loading-text-words">G</span>
+                    <span class="loading-text-words">R</span>
+                    <span class="loading-text-words">A</span>
+                    <span class="loading-text-words">N</span>
+                    <span class="loading-text-words">I</span>
+                    <span class="loading-text-words">T</span>
+                    <span class="loading-text-words">E</span>
+                    <span class="loading-text-words">S</span>
+                </div>
+            </div>
         </div>
         <!-- /.preloader -->
         <div class="page-wrapper">
@@ -21,7 +45,7 @@
                 <div class="container">
                     <h2 class="page-header__title">About us</h2>
                     <ul class="floens-breadcrumb list-unstyled">
-                        <li><i class="icon-home"></i> <a href="{{ Route('index_2') }}">Home</a></li>
+                        <li><i class="icon-home"></i> <a href="{{ Route('index_4') }}">Home</a></li>
                         <li><span>About us</span></li>
                     </ul><!-- /.thm-breadcrumb list-unstyled -->
                 </div><!-- /.container -->

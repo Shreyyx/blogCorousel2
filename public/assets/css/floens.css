@@ -524,14 +524,14 @@ p {
     font-size: 15px;
     font-weight: 700;
     font-family: var(--floens-font, "DM Sans", sans-serif);
-    padding: 20px 20.5px;
+    padding: 20px 10.5px;
     transition: 500ms;
     text-transform: uppercase;
     cursor: pointer;
     position: relative;
     overflow: hidden;
     text-align: center;
-    padding-right: 75px;
+    padding-right: 40px;
     line-height: 1;
     z-index: 1;
 }
@@ -951,35 +951,100 @@ p {
 .preloader {
     position: fixed;
     background-color: var(--floens-black, #000000);
-    background-position: center center;
-    background-repeat: no-repeat;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: 9991;
-    display: -webkit-box;
     display: flex;
-    -webkit-box-pack: center;
+    flex-direction: column;
     justify-content: center;
-    -webkit-box-align: center;
     align-items: center;
     text-align: center;
 }
+
 .preloader__image {
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    -webkit-animation-name: flipInY;
-    animation-name: flipInY;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
+    animation: flipInY 2s infinite both;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 60px auto;
-    width: 100%;
-    height: 100%;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans);
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loading-text {
+    animation: flipInY 2s infinite both;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    text-align: center;
+    line-height: 100px;
+    color: #f7c566;
+}
+
+.loading-text span {
+    display: inline-block;
+    margin: 0 5px;
+    color: #f7c566;
+    font-family: "Quattrocento Sans", sans-serif;
+    animation: blur-text 1.5s infinite linear alternate;
+}
+
+.loading-text span:nth-child(1) {
+    animation-delay: 0s;
+}
+.loading-text span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.loading-text span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+.loading-text span:nth-child(4) {
+    animation-delay: 0.6s;
+}
+.loading-text span:nth-child(5) {
+    animation-delay: 0.8s;
+}
+.loading-text span:nth-child(6) {
+    animation-delay: 1s;
+}
+.loading-text span:nth-child(7) {
+    animation-delay: 1.2s;
+}
+
+@keyframes flipInY {
+    0% {
+        transform: perspective(400px) rotateY(90deg);
+        opacity: 0;
+    }
+    40% {
+        transform: perspective(400px) rotateY(-10deg);
+    }
+    70% {
+        transform: perspective(400px) rotateY(10deg);
+    }
+    100% {
+        transform: perspective(400px) rotateY(0deg);
+        opacity: 1;
+    }
+}
+
+@keyframes blur-text {
+    0% {
+        filter: blur(0px);
+    }
+    100% {
+        filter: blur(4px);
+    }
 }
 
 /* scroll to top */
@@ -3009,7 +3074,7 @@ p {
 @media (min-width: 576px) {
     .main-header--three .container-fluid {
         padding-left: 61px;
-        padding-right: 61px;
+        padding-right: 51px;
     }
 }
 .main-header--three .main-header__logo__two {
@@ -3065,11 +3130,11 @@ p {
     color: var(--floens-base, #c7844f);
 }
 .main-header--three .main-header__btn {
-    margin-left: 60px;
+    margin-left: 10px;
 }
 @media (max-width: 1399px) {
     .main-header--three .main-header__btn {
-        margin-left: 30px;
+        margin-left: 10px;
     }
 }
 @media (max-width: 767px) {
@@ -3078,7 +3143,7 @@ p {
     }
 }
 .main-header--boxed .main-header__nav {
-    margin-right: 100px;
+    margin-right: 80px;
 }
 .main-header--boxed .main-header__sidebar-btn {
     margin-left: 60px;
@@ -6775,7 +6840,7 @@ body.megamenu-popup-active .mobile-nav__content {
     position: absolute;
     right: 30px;
     bottom: 0;
-    width: 71.4%;
+    width: 57.4%;
     z-index: 1;
 }
 .about-three__image__three {
@@ -8761,7 +8826,7 @@ body.megamenu-popup-active .mobile-nav__content {
     height: 100%;
     left: 0;
     bottom: 0;
-    background-color: rgba(var(--floens-black2-rgb, 43, 30, 22), 0.8);
+    background-color: rgba(var(--floens-black2-rgb, 43, 30, 22), 0.7);
     display: flex;
     justify-content: center;
     align-items: center;

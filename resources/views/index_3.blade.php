@@ -2,7 +2,7 @@
 <html lang="en">
 
 
-<!-- Mirrored from bracketweb.com/floens-html/{{ Route('index_2') }} by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 May 2024 07:04:59 GMT -->
+<!-- Mirrored from bracketweb.com/floens-html/{{ Route('index_4') }} by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 May 2024 07:04:59 GMT -->
 
 <head>
     <meta charset="UTF-8" />
@@ -54,6 +54,30 @@
 
     <div class="preloader">
         <div class="preloader__image" style="background-image: url(assets/images/about/favicon-logo.png);"></div>
+        <div class="loading">
+            <div class="loading-text">
+                <span class="loading-text-words">M</span>
+                <span class="loading-text-words">O</span>
+                <span class="loading-text-words">H</span>
+                <span class="loading-text-words">I</span>
+                <span class="loading-text-words">T</span>
+                <span class="loading-text-words">M</span>
+                <span class="loading-text-words">A</span>
+                <span class="loading-text-words">R</span>
+                <span class="loading-text-words">B</span>
+                <span class="loading-text-words">L</span>
+                <span class="loading-text-words">E</span>
+                <span class="loading-text-words">&</span>
+                <span class="loading-text-words">G</span>
+                <span class="loading-text-words">R</span>
+                <span class="loading-text-words">A</span>
+                <span class="loading-text-words">N</span>
+                <span class="loading-text-words">I</span>
+                <span class="loading-text-words">T</span>
+                <span class="loading-text-words">E</span>
+                <span class="loading-text-words">S</span>
+            </div>
+        </div>
     </div>
     <!-- /.preloader -->
     <div class="page-wrapper">
@@ -103,7 +127,7 @@
                 <div class="main-header__inner">
                     <div class="main-header__left">
                         <div class="main-header__logo">
-                            <a href="{{ Route('index_2') }}">
+                            <a href="{{ Route('index_4') }}">
                                 <img src="assets/images/logo-dark.png" alt="Floens HTML" width="125">
                             </a>
                         </div><!-- /.main-header__logo -->
@@ -111,7 +135,7 @@
                             <ul class="main-menu__list">
 
                                 <li class="dropdown megamenu">
-                                    <a href="{{ Route('index_2') }}">Home</a>
+                                    <a href="{{ Route('index_4') }}">Home</a>
                                     <ul>
                                         <li>
                                             <section class="home-showcase">
@@ -124,7 +148,7 @@
                                                                         <img src="assets/images/home-showcase/home-showcase-1.jpg"
                                                                             alt="">
                                                                         <div class="demo-one__btns">
-                                                                            <a href="{{ Route('index_2') }}"
+                                                                            <a href="{{ Route('index_4') }}"
                                                                                 class="floens-btn demo-one__btn">
                                                                                 <span>Multi Page</span>
                                                                             </a><!-- /.thm-btn demo-one__btn -->
@@ -136,7 +160,7 @@
                                                                     </div><!-- /.demo-one__image -->
                                                                     <div class="demo-one__content">
                                                                         <h3 class="demo-one__title">
-                                                                            <a href="{{ Route('index_2') }}">Home Page
+                                                                            <a href="{{ Route('index_4') }}">Home Page
                                                                                 01</a>
                                                                         </h3><!-- /.demo-one__title -->
                                                                     </div><!-- /.demo-one__content -->
@@ -152,7 +176,7 @@
                                                                                 class="floens-btn demo-one__btn">
                                                                                 <span>Multi Page</span>
                                                                             </a><!-- /.thm-btn demo-one__btn -->
-                                                                            <a href="{{ Route('index_2onepage') }}"
+                                                                            <a href="{{ Route('index_4onepage') }}"
                                                                                 class="floens-btn demo-one__btn">
                                                                                 <span>One Page</span>
                                                                             </a><!-- /.thm-btn demo-one__btn -->
@@ -1805,7 +1829,7 @@
                         <div class="col-xl-4 col-lg-6 wow fadeInUp" data-wow-duration="1500ms"
                             data-wow-delay="00ms">
                             <div class="footer-widget footer-widget--about">
-                                <a href="{{ Route('index_2') }}" class="footer-widget__logo">
+                                <a href="{{ Route('index_4') }}" class="footer-widget__logo">
                                     <img src="assets/images/logo-light.png" width="123"
                                         alt="Floens HTML Template">
                                 </a>
@@ -1920,7 +1944,7 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="{{ Route('index_2') }}" aria-label="logo image"><img src="assets/images/logo-light.png"
+                <a href="{{ Route('index_4') }}" aria-label="logo image"><img src="assets/images/logo-light.png"
                         width="155" alt="logo-light" /></a>
             </div>
             <!-- /.logo-box -->
@@ -1978,7 +2002,7 @@
         <div class="sidebar-one__content">
             <span class="sidebar-one__close sidebar-btn__toggler"><i class="fa fa-times"></i></span>
             <div class="sidebar-one__logo sidebar-one__item">
-                <a href="{{ Route('index_2') }}" aria-label="logo image"><img src="assets/images/logo-light.png"
+                <a href="{{ Route('index_4') }}" aria-label="logo image"><img src="assets/images/logo-light.png"
                         width="123" alt="logo-dark" /></a>
             </div><!-- /.sidebar-one__logo -->
             <div class="sidebar-one__about sidebar-one__item">
@@ -2060,6 +2084,6 @@
 </body>
 
 
-<!-- Mirrored from bracketweb.com/floens-html/{{ Route('index_2') }} by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 May 2024 07:05:14 GMT -->
+<!-- Mirrored from bracketweb.com/floens-html/{{ Route('index_4') }} by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 May 2024 07:05:14 GMT -->
 
 </html>

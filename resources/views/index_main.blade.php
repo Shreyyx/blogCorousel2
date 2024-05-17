@@ -94,8 +94,8 @@
         <div class="main-header__inner">
             <div class="main-header__left">
                 <div class="main-header__logo">
-                    <a href="{{ Route('index_2') }}">
-                        <img src="assets/images/Projects/Screenshot_2024-05-15_181714-removebg-preview.png" alt="Floens HTML" width="125">
+                    <a href="{{ Route('index_4') }}">
+                        <img src="{{ asset('assets/images/Projects/Screenshot_2024-05-15_181714-removebg-preview.png') }}" alt="Floens HTML" width="180">
                     </a>
                 </div><!-- /.main-header__logo -->
                 <nav class="main-header__nav main-menu">
@@ -103,7 +103,7 @@
 
 
                         <li class="megamenu megamenu-clickable megamenu-clickable--toggler">
-                            {{-- <a href="{{ Route('index_2') }}">Demos</a> --}}
+                            {{-- <a href="{{ Route('index_4') }}">Demos</a> --}}
                             <ul>
                                 <li>
                                     <div class="megamenu-popup">
@@ -117,10 +117,10 @@
                                                         <div class="col-md-6 col-lg-4">
                                                             <div class="demo-one__card">
                                                                 <div class="demo-one__image">
-                                                                    <img src="assets/images/landing/home-1.jpg"
+                                                                    <img src="{{ asset('assets/images/landing/home-1.jpg') }}"
                                                                         alt="">
                                                                     <div class="demo-one__btns">
-                                                                        <a href="{{ Route('index_2') }}"
+                                                                        <a href="{{ Route('index_4') }}"
                                                                             class="floens-btn demo-one__btn">
                                                                             <span>Multi Page</span>
                                                                         </a><!-- /.thm-btn demo-one__btn -->
@@ -132,7 +132,7 @@
                                                                 </div><!-- /.demo-one__image -->
                                                                 <div class="demo-one__content">
                                                                     <h3 class="demo-one__title">
-                                                                        <a href="{{ Route('index_2') }}">Home
+                                                                        <a href="{{ Route('index_4') }}">Home
                                                                             Page 01</a>
                                                                     </h3><!-- /.demo-one__title -->
                                                                 </div><!-- /.demo-one__content -->
@@ -141,14 +141,14 @@
                                                         <div class="col-md-6 col-lg-4">
                                                             <div class="demo-one__card">
                                                                 <div class="demo-one__image">
-                                                                    <img src="assets/images/landing/home-2.jpg"
+                                                                    <img src="{{ asset('assets/images/landing/home-2.jpg') }}"
                                                                         alt="">
                                                                     <div class="demo-one__btns">
                                                                         <a href="{{ Route('index_3') }}"
                                                                             class="floens-btn demo-one__btn">
                                                                             <span>Multi Page</span>
                                                                         </a><!-- /.thm-btn demo-one__btn -->
-                                                                        <a href="{{ Route('index_2onepage') }}"
+                                                                        <a href="{{ Route('index_4onepage') }}"
                                                                             class="floens-btn demo-one__btn">
                                                                             <span>One Page</span>
                                                                         </a><!-- /.thm-btn demo-one__btn -->
@@ -165,7 +165,7 @@
                                                         <div class="col-md-6 col-lg-4">
                                                             <div class="demo-one__card">
                                                                 <div class="demo-one__image">
-                                                                    <img src="assets/images/landing/home-3.jpg"
+                                                                    <img src="{{ asset('assets/images/landing/home-3.jpg') }}"
                                                                         alt="">
                                                                     <div class="demo-one__btns">
                                                                         <a href="{{ Route('index_4') }}"
@@ -189,7 +189,7 @@
                                                         <div class="col-md-6 col-lg-4">
                                                             <div class="demo-one__card">
                                                                 <div class="demo-one__image">
-                                                                    <img src="assets/images/landing/home-dark.jpg"
+                                                                    <img src="{{ asset('assets/images/landing/home-dark.jpg') }}"
                                                                         alt="">
                                                                     <div class="demo-one__btns">
                                                                         <a href="{{ Route('index_dark') }}"
@@ -209,7 +209,7 @@
                                                         <div class="col-md-6 col-lg-4">
                                                             <div class="demo-one__card">
                                                                 <div class="demo-one__image">
-                                                                    <img src="assets/images/landing/home-boxed.jpg"
+                                                                    <img src="{{ asset('assets/images/landing/home-boxed.jpg') }}"
                                                                         alt="">
                                                                     <div class="demo-one__btns">
                                                                         <a href="{{ Route('index_boxed') }}"
@@ -229,7 +229,7 @@
                                                         <div class="col-md-6 col-lg-4">
                                                             <div class="demo-one__card">
                                                                 <div class="demo-one__image">
-                                                                    <img src="assets/images/landing/home-rtl.jpg"
+                                                                    <img src="{{ asset('assets/images/landing/home-rtl.jpg') }}"
                                                                         alt="">
                                                                     <div class="demo-one__btns">
                                                                         <a href="{{ Route('index_rtl') }}"
@@ -240,7 +240,7 @@
                                                                 </div><!-- /.demo-one__image -->
                                                                 <div class="demo-one__content">
                                                                     <h3 class="demo-one__title">
-                                                                        <a href="{{ Route('index_2') }}">Home
+                                                                        <a href="{{ Route('index_4') }}">Home
                                                                             RTL</a>
                                                                     </h3><!-- /.demo-one__title -->
                                                                 </div><!-- /.demo-one__content -->
@@ -330,7 +330,7 @@
                 <div class="col-xl-4 col-lg-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
                     <div class="footer-widget footer-widget--about">
                         <a href="{{ Route('index_4') }}" class="footer-widget__logo">
-                            <img src="assets/images/Projects/Screenshot_2024-05-15_181714-removebg-preview.png"
+                            <img src="{{ asset('assets/images/Projects/Screenshot_2024-05-15_181714-removebg-preview.png') }}"
                                 width="200px" height="auto" alt="Floens HTML Template">
                         </a>
                         <p class="footer-widget__about-text">Our commitment to exquisite craftsmanship ensures
@@ -354,8 +354,8 @@
                         </div><!-- /.footer-widget__top -->
                         <ul class="list-unstyled footer-widget__links">
                             <li><a href="{{ Route('about') }}">About Us</a></li>
-                            <li><a href="{{ Route('services') }}">Services</a></li>
-                            <li><a href="{{ Route('team') }}">Our Projects</a></li>
+                            <li><a href="{{ Route('services_grid') }}">Services</a></li>
+                            <li><a href="{{ Route('work') }}">Our Projects</a></li>
                             {{-- <li><a href="{{ Route('blog_gridright') }}">Recent News</a></li> --}}
                             <li><a href="{{ Route('contact') }}">Contact</a></li>
                         </ul><!-- /.list-unstyled footer-widget__links -->
@@ -446,7 +446,7 @@
         <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
         <div class="logo-box">
-            <a href="{{ Route('index_2') }}" aria-label="logo image"><img src="assets/images/logo-light.png"
+            <a href="{{ Route('index_4') }}" aria-label="logo image"><img src="{{ asset('assets/images/Projects/Screenshot_2024-05-15_181714-removebg-preview.png') }}"
                     width="155" alt="logo-light" /></a>
         </div>
         <!-- /.logo-box -->
@@ -456,11 +456,12 @@
         <ul class="mobile-nav__contact list-unstyled">
             <li>
                 <i class="fa fa-envelope"></i>
-                <a href="mailto:needhelp@floens.com">needhelp@floens.com</a>
+                <a href="mailto:mohitmarbleandgranites@gmail.com">mohitmarbleandgranites@gmail.com</a>
             </li>
             <li>
                 <i class="fa fa-phone-alt"></i>
-                <a href="tel:+9156980036420">+91 5698 0036 420</a>
+                <a href="tel:9145814566,
+                7425824566">9145814566, 7425824566</a>
             </li>
         </ul><!-- /.mobile-nav__contact -->
         <div class="mobile-nav__social">
@@ -501,13 +502,12 @@
     <div class="sidebar-one__overlay sidebar-btn__toggler"></div><!-- /.siderbar-ovarlay -->
     <div class="sidebar-one__content">
         <span class="sidebar-one__close sidebar-btn__toggler"><i class="fa fa-times"></i></span>
-        <div class="sidebar-one__logo sidebar-one__item">
-            <a href="{{ Route('index_2') }}" aria-label="logo image"><img src="assets/images/logo-light.png"
+        <div class="sidebar-one__logo sidebar-one__item" style="margin-bottom: 20px;">
+            <a href="{{ Route('index_4') }}" aria-label="logo image"><img src="{{ asset('assets/images/Projects/Screenshot_2024-05-15_181714-removebg-preview.png') }}"
                     width="123" alt="logo-dark" /></a>
         </div><!-- /.sidebar-one__logo -->
         <div class="sidebar-one__about sidebar-one__item">
-            <p class="sidebar-one__about__text">Tiles company, also known as a tile manufacturer or distributor,
-                specializes in the production and distri</p>
+            <p class="sidebar-one__about__text"style="margin-bottom: 20px;" >Our commitment to exquisite craftsmanship ensures that every project is meticulously executed, resulting in breathtaking installations that stand the test of time.</p>
         </div><!-- /.sidebar-one__about -->
         <div class="sidebar-one__info sidebar-one__item">
             <h4 class="sidebar-one__title">Information</h4>
@@ -522,7 +522,7 @@
                 </li>
             </ul><!-- /.sidebar-one__info__list -->
         </div><!-- /.sidebar-one__info -->
-        <div class="sidebar-one__social floens-social sidebar-one__item">
+        <div class="sidebar-one__social floens-social sidebar-one__item" style="margin-top: 10px;">
             <a href="https://facebook.com/">
                 <i class="icon-facebook" aria-hidden="true"></i>
                 <span class="sr-only">Facebook</span>

@@ -40,7 +40,7 @@
                 <div class="container">
                     <h2 class="page-header__title">Export Service</h2>
                     <ul class="floens-breadcrumb list-unstyled">
-                        <li><i class="icon-home"></i> <a href="{{ Route('index_2') }}">Home</a></li>
+                        <li><i class="icon-home"></i> <a href="{{ Route('index_4') }}">Home</a></li>
                         <li><span>services</span></li>
                         <li><span>Export Service </span></li>
                     </ul>
@@ -85,7 +85,7 @@
                                         </div><!-- /.service-sidebar__contact__inner -->
                                     </div><!-- /.service-sidebar__contact -->
                                 </div><!-- /.service-sidebar__info service-sidebar__single -->
-                                <div class="service-sidebar__single wow fadeInLeft" data-wow-duration="1500ms"
+                                {{-- <div class="service-sidebar__single wow fadeInLeft" data-wow-duration="1500ms"
                                     data-wow-delay="200ms">
                                     <div class="service-sidebar__company">
                                         <a href="#" class="service-sidebar__company__btn">
@@ -101,7 +101,7 @@
                                         <h4 class="service-sidebar__company__title">company brochure</h4>
                                         <!-- /.service-sidebar__company__title -->
                                     </div><!-- /.service-sidebar__company -->
-                                </div><!-- /.service-sidebar__single -->
+                                </div> --}}
                             </div><!-- /.sidebar -->
                         </div><!-- /.col-md-12 col-lg-4 -->
                         <div class="col-md-12 col-lg-8">

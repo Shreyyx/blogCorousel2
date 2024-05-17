@@ -8,43 +8,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog Details/title>
-    <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
-    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-    <meta name="description"
-        content="Floens is a modern HTML Template for Beauty, Spa Centers, Hair, Nail, Spa Salons & Cosmetic shops. The template perfectly fits Beauty Spa, Salon, and Wellness Treatments websites and businesses." />
+        <!-- favicons Icons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+        <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
+        <meta name="description"
+            content="Floens is a modern HTML Template for Beauty, Spa Centers, Hair, Nail, Spa Salons & Cosmetic shops. The template perfectly fits Beauty Spa, Salon, and Wellness Treatments websites and businesses." />
 
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,900;9..40,1000&amp;display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500&amp;display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&amp;display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&amp;display=swap" rel="stylesheet">
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com/">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,900;9..40,1000&amp;display=swap"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500&amp;display=swap"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&amp;display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css" />
-    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
-    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
-    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
-    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css" />
-    <link rel="stylesheet" href="assets/vendors/floens-icons/style.css" />
-    <link rel="stylesheet" href="assets/vendors/swiper/css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="assets/vendors/slick/slick.css" />
+        <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css" />
+        <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+        <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+        <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+        <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
+        <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+        <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
+        <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
+        <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css" />
+        <link rel="stylesheet" href="assets/vendors/floens-icons/style.css" />
+        <link rel="stylesheet" href="assets/vendors/swiper/css/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css" />
+        <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css" />
+        <link rel="stylesheet" href="assets/vendors/slick/slick.css" />
 
-    <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/floens.css" />
+        <!-- template styles -->
+        <link rel="stylesheet" href="assets/css/floens.css" />
 </head>
 
 <body class="custom-cursor">
@@ -54,6 +54,30 @@
 
     <div class="preloader">
         <div class="preloader__image" style="background-image: url(assets/images/about/favicon-logo.png);"></div>
+        <div class="loading">
+            <div class="loading-text">
+                <span class="loading-text-words">M</span>
+                <span class="loading-text-words">O</span>
+                <span class="loading-text-words">H</span>
+                <span class="loading-text-words">I</span>
+                <span class="loading-text-words">T</span>
+                <span class="loading-text-words">M</span>
+                <span class="loading-text-words">A</span>
+                <span class="loading-text-words">R</span>
+                <span class="loading-text-words">B</span>
+                <span class="loading-text-words">L</span>
+                <span class="loading-text-words">E</span>
+                <span class="loading-text-words">&</span>
+                <span class="loading-text-words">G</span>
+                <span class="loading-text-words">R</span>
+                <span class="loading-text-words">A</span>
+                <span class="loading-text-words">N</span>
+                <span class="loading-text-words">I</span>
+                <span class="loading-text-words">T</span>
+                <span class="loading-text-words">E</span>
+                <span class="loading-text-words">S</span>
+            </div>
+        </div>
     </div>
     <!-- /.preloader -->
     <div class="page-wrapper">
@@ -103,7 +127,7 @@
                 <div class="main-header__inner">
                     <div class="main-header__left">
                         <div class="main-header__logo">
-                            <a href="{{ Route('index_2') }}">
+                            <a href="{{ Route('index_4') }}">
                                 <img src="assets/images/logo-dark.png" alt="Floens HTML" width="125">
                             </a>
                         </div><!-- /.main-header__logo -->
@@ -112,7 +136,7 @@
 
 
                                 <li class="megamenu megamenu-clickable megamenu-clickable--toggler">
-                                    <a href="{{ Route('index_2') }}">Demos</a>
+                                    <a href="{{ Route('index_4') }}">Demos</a>
                                     <ul>
                                         <li>
                                             <div class="megamenu-popup">
@@ -129,7 +153,7 @@
                                                                             <img src="assets/images/landing/home-1.jpg"
                                                                                 alt="">
                                                                             <div class="demo-one__btns">
-                                                                                <a href="{{ Route('index_2') }}"
+                                                                                <a href="{{ Route('index_4') }}"
                                                                                     class="floens-btn demo-one__btn">
                                                                                     <span>Multi Page</span>
                                                                                 </a><!-- /.thm-btn demo-one__btn -->
@@ -141,7 +165,7 @@
                                                                         </div><!-- /.demo-one__image -->
                                                                         <div class="demo-one__content">
                                                                             <h3 class="demo-one__title">
-                                                                                <a href="{{ Route('index_2') }}">Home
+                                                                                <a href="{{ Route('index_4') }}">Home
                                                                                     Page 01</a>
                                                                             </h3><!-- /.demo-one__title -->
                                                                         </div><!-- /.demo-one__content -->
@@ -157,7 +181,7 @@
                                                                                     class="floens-btn demo-one__btn">
                                                                                     <span>Multi Page</span>
                                                                                 </a><!-- /.thm-btn demo-one__btn -->
-                                                                                <a href="{{ Route('index_2onepage') }}"
+                                                                                <a href="{{ Route('index_4onepage') }}"
                                                                                     class="floens-btn demo-one__btn">
                                                                                     <span>One Page</span>
                                                                                 </a><!-- /.thm-btn demo-one__btn -->
@@ -249,7 +273,7 @@
                                                                         </div><!-- /.demo-one__image -->
                                                                         <div class="demo-one__content">
                                                                             <h3 class="demo-one__title">
-                                                                                <a href="{{ Route('index_2') }}">Home
+                                                                                <a href="{{ Route('index_4') }}">Home
                                                                                     RTL</a>
                                                                             </h3><!-- /.demo-one__title -->
                                                                         </div><!-- /.demo-one__content -->
@@ -409,7 +433,7 @@
             <div class="container">
                 <h2 class="page-header__title">there are many variations of passage</h2>
                 <ul class="floens-breadcrumb list-unstyled">
-                    <li><i class="icon-home"></i> <a href="{{ Route('index_2') }}">Home</a></li>
+                    <li><i class="icon-home"></i> <a href="{{ Route('index_4') }}">Home</a></li>
                     <li><span>classic blog</span></li>
                     <li><span>Porcelain or ceramic tiles that mimic the appearance. . .</span></li>
                 </ul><!-- /.thm-breadcrumb list-unstyled -->
@@ -745,7 +769,7 @@
                     <div class="row">
                         <div class="col-xl-4 col-lg-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
                             <div class="footer-widget footer-widget--about">
-                                <a href="{{ Route('index_2') }}" class="footer-widget__logo">
+                                <a href="{{ Route('index_4') }}" class="footer-widget__logo">
                                     <img src="assets/images/logo-light.png" width="123"
                                         alt="Floens HTML Template">
                                 </a>
@@ -860,7 +884,7 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="{{ Route('index_2') }}" aria-label="logo image"><img src="assets/images/logo-light.png"
+                <a href="{{ Route('index_4') }}" aria-label="logo image"><img src="assets/images/logo-light.png"
                         width="155" alt="logo-light" /></a>
             </div>
             <!-- /.logo-box -->
@@ -918,7 +942,7 @@
         <div class="sidebar-one__content">
             <span class="sidebar-one__close sidebar-btn__toggler"><i class="fa fa-times"></i></span>
             <div class="sidebar-one__logo sidebar-one__item">
-                <a href="{{ Route('index_2') }}" aria-label="logo image"><img src="assets/images/logo-light.png"
+                <a href="{{ Route('index_4') }}" aria-label="logo image"><img src="assets/images/logo-light.png"
                         width="123" alt="logo-dark" /></a>
             </div><!-- /.sidebar-one__logo -->
             <div class="sidebar-one__about sidebar-one__item">

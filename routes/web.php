@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
+use App\Models\Blog;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,16 +16,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+// Route::get('/', function () {
+//     $data = Blog::all();
+//     return view('index_4', compact('data'));
+// });
 
-Route::get('index_2',[HomeController::class,'index_2'])->name('index_2');
+
 Route::get('index_main',[HomeController::class,'index_main'])->name('index_main');
-Route::get('index_2onepage',[HomeController::class,'index_2onepage'])->name('index_2onepage');
+Route::get('index_4onepage',[HomeController::class,'index_4onepage'])->name('index_4onepage');
 Route::get('index_3',[HomeController::class,'index_3'])->name('index_3');
 Route::get('index_3onepage',[HomeController::class,'index_3onepage'])->name('index_3onepage');
-Route::get('index_4',[HomeController::class,'index_4'])->name('index_4');
+Route::get('/',[HomeController::class,'index_4'])->name('index_4');
 Route::get('index_boxed',[HomeController::class,'index_boxed'])->name('index_boxed');
 Route::get('index_dark',[HomeController::class,'index_dark'])->name('index_dark');
 Route::get('index_onepage',[HomeController::class,'index_onepage'])->name('index_onepage');

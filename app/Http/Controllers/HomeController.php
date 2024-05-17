@@ -12,11 +12,6 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
 
-    public function index_2()
-    {
-        return view ('index_2');
-    }
-
     public function index_2onepage()
     {
         return view ('index_2onepage');
@@ -35,7 +30,7 @@ class HomeController extends Controller
     public function index_4()
     {
         $data = Blog::all();
-        return view('index_4', compact('data'));
+        return view('index', compact('data'));
     }
 
     public function index_main()

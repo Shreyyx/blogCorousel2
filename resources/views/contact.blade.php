@@ -41,7 +41,7 @@
                 <div class="container">
                     <h2 class="page-header__title">Contact Us</h2>
                     <ul class="floens-breadcrumb list-unstyled">
-                        <li><i class="icon-home"></i> <a href="{{ Route('index_2') }}">Home</a></li>
+                        <li><i class="icon-home"></i> <a href="{{ Route('index_4') }}">Home</a></li>
                         <li><span>Contact Us</span></li>
                     </ul><!-- /.thm-breadcrumb list-unstyled -->
                 </div><!-- /.container -->
